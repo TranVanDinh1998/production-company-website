@@ -15,11 +15,11 @@
                     <a href="<?php echo base_url("aboutus/contact") ?>" target="_blank" class="info__more info__more--primary">Liên hệ</a>
                 </div>
             </div>
-            <ul class="decoration__list">
-                <li class="decoration__item">
+            <div class="decoration__list">
+                <div class="decoration__item">
                     <img src="<?php echo base_url("public/assets/images/banner/service/topup/element-banner-topup.png") ?>" class="hand-holding-phone" alt="">
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
 
     </div>

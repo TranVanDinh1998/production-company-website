@@ -21,11 +21,11 @@ Ví điện tử B2B2E mang đến kênh giao tiếp giữa Doanh nghiệp và N
                 </div>
                 <!-- Banner info ends -->
                 <!-- Decoration -->
-                <ul class="decoration__list">
-                    <li class="decoration__item">
+                <div class="decoration__list">
+                    <div class="decoration__item">
                         <img src="<?php echo base_url("public/assets/images/service/ewallet/phone.png")?>" id="decoration__ewallet" alt="">
-                    </li>
-                </ul>
+                    </div>
+                </div>
                 <!-- Decoration ends-->
             </div>
         </section>

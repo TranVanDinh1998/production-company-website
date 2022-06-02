@@ -1398,7 +1398,7 @@
 .topup.banner__content img {
     bottom: 0;
     width: 25%;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .helper.banner__content {
@@ -5057,7 +5057,7 @@
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
-    max-width: 68.4210%;
+    max-width: 80%;
 }
 
 .order__item {

@@ -1,11 +1,11 @@
         <!-- Banner -->
         <section class="banner esan">
             <div class="esan banner__content" style="background-image: url('<?php echo base_url("public/assets/images/banner/service/megapay/background-1.png")?>'); ">
-                <ul class="decoration__list">
-                    <li class="decoration__item">
+                <div class="decoration__list">
+                    <div class="decoration__item">
                         <img src="<?php echo base_url("public/assets/images/banner/service/esan/payment_online1000.png")?>" class="hand-holding-phone" alt="">
-                    </li>
-                </ul>
+                    </div>
+                </div>
                 <div class="banner__info">
                     <div class="info animate__animated animate__fadeInRight">
                         <h2 class="info__title info__title--primary">
@@ -14,9 +14,7 @@
                         <div class="info__content">
                             <p class="info__summary">
                                 Là nhà cung cấp lớn nhất trên thị trường Topup, Esan là website cung cấp Dịch vụ Topup Thẻ game, Thẻ điện thoại, Thẻ data và Dịch vụ thanh toán hóa đơn cho người dùng cuối. 
-
 Người dùng Esan nhận được nhiều ưu đãi và chiết khấu quanh năm, đồng thời dễ dàng hơn thanh toán với phương thức đa dạng và đơn giản (Tokenization).
-
                             </p>
                         </div>
                         <div class="info__content">

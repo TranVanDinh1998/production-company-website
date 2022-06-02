@@ -2313,8 +2313,6 @@
         height: 650px;
     }
     .timeline__info {
-        min-width: 200px;
-        max-width: 240px;
     }
     .timeline__item:before {
         width: 60px;

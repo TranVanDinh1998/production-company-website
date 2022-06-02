@@ -49,16 +49,16 @@
         <h2 class="info__title">Mạng lưới nhà cung cấp</h2>
         <div class="info__content">
             <div class="d-flex justify-content-center">
-                <div class="box box--full">
+                <div class="box box--full d-flex align-items-center justify-content-center">
                     <img src="<?php echo base_url("public/assets/images/service/shipantoan/viettel.png") ?>" alt="">
                 </div>
-                <div class="box box--full">
+                <div class="box box--full d-flex align-items-center justify-content-center"">
                     <img src="<?php echo base_url("public/assets/images/service/shipantoan/vnpost.png") ?>" alt="">
                 </div>
-                <div class="box box--full">
+                <div class="box box--full d-flex align-items-center justify-content-center"">
                     <img src="<?php echo base_url("public/assets/images/service/shipantoan/kerry.png") ?>" alt="">
                 </div>
-                <div class="box box--full">
+                <div class="box box--full d-flex align-items-center justify-content-center"">
                     <img src="<?php echo base_url("public/assets/images/service/shipantoan/giaohangtietkiem.png") ?>" alt="">
                 </div>
             </div>
@@ -164,34 +164,3 @@
     </div>
 </section>
 <!-- Advantage ends -->
-
-<!-- Addition -->
-<section class="section shipantoan addition addition--t-r">
-    <div class="info">
-        <h2 class="info__title">Đăng ký sử dụng dịch vụ</h2>
-        <div class="info__content">
-            <div class="addition__content">
-                <div class="addition__info">
-                    <ul class="order__list order__list--bar">
-                        <li class="order__item">
-                            <p class="txt-title txt-weight-500">HỢP ĐỒNG THU HỘ</p>
-                        </li>
-                        <li class="order__item">
-                            <p class="txt-title txt-weight-500">TÀI KHOẢN DOANH NGHIỆP</p>
-                        </li>
-                        <li class="order__item">
-                            <p class="txt-title txt-weight-500">BẢN SAO ĐĂNG KÝ KINH DOANH
-                                (CÓ CÔNG CHỨNG)</p>
-                        </li>
-                        <li class="order__item">
-                            <p class="txt-title txt-weight-500">BẢN SAO CMT/ HỘ CHIẾU CỦA
-                                NGƯỜI KÝ HỢP ĐỒNG</p>
-                        </li>
-                    </ul>
-                </div>
-                <img src="<?php echo base_url("public/assets/images/service/deposit-code/background-6.png") ?>" alt="">
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Addition ends -->

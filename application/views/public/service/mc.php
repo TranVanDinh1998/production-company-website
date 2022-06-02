@@ -17,11 +17,11 @@
                         </div>
                     </div>
                 </div>
-                <ul class="decoration__list">
-                <li class="decoration__item">
+                <div class="decoration__list">
+                <div class="decoration__item">
                     <img src="<?php echo base_url("public/assets/images/service/mc-md/banner-mc.png") ?>" class="hand-holding-phone" alt="">
-                </li>
-            </ul>
+                </div>
+            </div>
             </div>
         </section>
         <!-- Banner ends -->
@@ -43,7 +43,7 @@
                                                 <img src="<?php echo base_url("public/assets/images/service/megapay/feature_quick.png")?>" alt="">
                                             </div>
                                             <div class="feature__info">
-                                                <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">100 ĐIỂM THU TẠI 63 TỈNH THÀNH
+                                                <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">10,000 ĐIỂM THU TẠI 63 TỈNH THÀNH
                                                 </h3>
                                                 <p class="feature__summary txt-justify txt-default">
                                                 Chuỗi kênh thu hộ có độ phủ rộng và khả năng nhận diện cao với trên 10,000 điểm trải dài khắp 63 tỉnh thành phố.
@@ -87,7 +87,7 @@
                                                 <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">HỖ TRỢ CHUYÊN NGHIỆP
                                                     </h3>
                                                 <p class="feature__summary txt-justify txt-default">
-                                                Hỗ trợ khách hàng chuyên nghiệp: Hỗ trợ khách hàng từ 8h đến 22h tất cả các ngày trong tuần và các ngày nghỉ lễ.
+                                                Hỗ trợ khách hàng từ 8h đến 22h tất cả các ngày trong tuần và các ngày nghỉ lễ.
                                                 </p>
                                             </div>
                                         </li>
