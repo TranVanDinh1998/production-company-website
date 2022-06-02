@@ -1,11 +1,12 @@
         <!-- Banner -->
         <section class="banner">
-            <div class="mc-md banner__content" style="background-image: url('<?php echo base_url("public/assets/images/banner/service/mc-md/banner-1.png")?>'); ">
+            <div class="mc-md banner__content animate__animated animate__fadeInRight" style="background-image: url('<?php echo base_url("public/assets/images/banner/service/mc-md/banner-1.png")?>'); ">
                 <div class="banner__info">
                     <div class="info info--blue animate__animated animate__fadeInLeft">
                         <h2 class="info__title">
-                            Dịch vụ thu hộ và Thanh toán hóa đơn
+                            Dịch vụ thu hộ và Thanh toán hoá đơn
                         </h2>
+                        
                         <div class="info__content">
                             <p class="info__summary">
                                 Dịch vụ cho phép quý khách thanh toán các hóa đơn dịch vụ của các nhà cung cấp Tài chính, bảo hiểm, viễn thông, điện lực, truyền hình, Internet,...tại bất kỳ thời điểm nào trong ngày kể cả ngày nghỉ và ngày lễ. 
@@ -16,6 +17,11 @@
                         </div>
                     </div>
                 </div>
+                <ul class="decoration__list">
+                <li class="decoration__item">
+                    <img src="<?php echo base_url("public/assets/images/service/mc-md/banner-mc.png") ?>" class="hand-holding-phone" alt="">
+                </li>
+            </ul>
             </div>
         </section>
         <!-- Banner ends -->

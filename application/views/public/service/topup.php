@@ -27,7 +27,7 @@
 <!-- Banner ends -->
 
 <!-- General info -->
-<section class="section topup general">
+<section class="topup general">
     <div class="content">
         <div class="general__content general__content--vertical">
             <div class="info">

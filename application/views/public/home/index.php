@@ -60,12 +60,14 @@
         </div>
         <!-- Achievement ends -->
         <!-- Decoration -->
-        <ul class="decoration__list ">
-            <li class="decoration__item">
-                <div id="decoration__mgp" class="animate__animated animate__fadeInRight"></div>
-            </li>
+        <div class="decoration__list ">
+            <div class="decoration__item">
+                <div id="decoration__mgp" class="animate__animated animate__fadeInRight delay-04">
+                    <!-- <img src="<?php echo base_url("public/assets/images/home/iphone-2.gif")?>" > -->
+                </div>
+            </div>
 
-        </ul>
+        </div>
         <!-- Decoration ends-->
     </div>
 </section>
@@ -73,6 +75,7 @@
 
 <!-- Introduction -->
 <section class="section intro">
+<div class="intro bg-fit" id="particles" style="background-image: url('<?php echo base_url("public/assets/images/home/bg-home.png") ?>');">
     <div class="intro__wrap">
         <video class="intro__video" controls muted autoplay>
             <source src="<?php echo base_url("public/assets/images/home/homepage-video.mp4") ?>" type="video/mp4">
@@ -91,6 +94,7 @@
             </div>
         </div>
     </div>
+</div>    
 </section>
 <!-- Introduction ends -->
 
@@ -116,7 +120,7 @@
                             <h3 class="service__title">Dịch vụ PG</h3>
                             <ul class="service__list">
                                 <li class="service__item">
-                                    <a href="<?php echo base_url("service/megapay") ?>" class="service__link">Cổng thanh toán trực tuyến
+                                    <a href="<?php echo base_url("service/index") ?>" class="service__link">Cổng thanh toán trực tuyến
                                         (MegaPay)</a>
                                 </li>
                                 <li class="service__item">
@@ -384,6 +388,7 @@
 </section>
 <!-- Partner ends -->
 
+
 <!-- News -->
 <section class="section news">
     <div class="container-80">
@@ -392,93 +397,36 @@
             <div class="info__content">
                 <div class="custom-grid">
                     <div class="news__list row">
-                        <div class="news__item col l-4 m-4 c-12">
-                            <div class="news__content">
-                                <a href="<?php echo base_url("news/detail") ?>" class="news__link" style="background-image: url('<?php echo base_url("public/assets/images/news_img_1.png") ?>')">
-                                    <p class="news__title txt-title txt-weight-500">Coway hợp tác cùng VNPT Epay tăng tiện tích, mở rộng thị trường
-                                    </p>
-                                </a>
-                                <div class="news__info">
-                                    <p class="news__summary txt-default">Coway bắt tay với VNPT Epay triển khai dịch vụ mua bán, cho thuê sản phẩm qua cổng thanh toán Megapay giúp khách hàng dùng sản phẩm với chi phí thấp.</p>
-                                    <div class="news__origin">
-                                        <p class="news__time">01/03/2022</p>
-                                        <p class="news__author">By VNPT EPAY</p>
+                        <?php if (!empty($data['post_list'])) {
+                            foreach ($data['post_list'] as $post) {
+                        ?>
+                                <div class="news__item col l-4 m-4 c-12">
+                                    <div class="news__content">
+                                        <a href="<?php echo base_url("news/detail/" . $post->pos_id . "-" . $post->pos_alias) ?>" class="news__link">
+                                            <img class="news__img image-contain" src="<?php echo ORIGIN_IMG_URL . $post->pos_image; ?>" alt="">
+                                            <p class="news__title txt-title txt-weight-500"><?php echo $post->pos_title; ?>
+                                            </p>
+                                        </a>
+                                        <div class="news__info">
+                                            <p class="news__summary txt-default"><?php echo $post->pos_summary; ?></p>
+                                            <div class="news__origin">
+                                                <p class="news__time"><?php echo date('d/m/Y', $post->pos_date) ?></p>
+                                                <p class="news__author">By VNPT EPAY</p>
+                                            </div>
+                                        </div>
+                                        <a href="<?php echo base_url("news/detail/" . $post->pos_id . "-" . $post->pos_alias) ?>" class="news__more">
+                                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                        </a>
                                     </div>
                                 </div>
-                                <a href="<?php echo base_url("news/detail") ?>" class="news__more">
-                                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="news__item col l-4 m-4 c-12">
-                            <div class="news__content">
-                                <a href="<?php echo base_url("news/detail") ?>" class="news__link" style="background-image: url('<?php echo base_url("public/assets/images/news_img_2.png") ?>')">
-                                    <p class="news__title txt-title txt-weight-500">VNPT EPAY tăng trưởng ấn tượng với công nghệ thanh toán Hàn Quốc
-                                    </p>
-                                </a>
-                                <div class="news__info">
-                                    <p class="news__summary txt-default">Nhờ vào việc phát huy ưu điểm của công nghệ thanh toán Hàn Quốc tại thị trường Việt Nam, VNPT EPAY đã có mức sản lượng giao dịch tăng trưởng ấn tượng với 68.000 tỷ đồng (năm 2020), đạt xấp xỉ 200% so với năm
-                                        2019.
-                                    </p>
-                                    <div class="news__origin">
-                                        <p class="news__time">05/03/2022</p>
-                                        <p class="news__author">By VNPT EPAY</p>
-                                    </div>
-                                </div>
-                                <a href="<?php echo base_url("news/detail") ?>" class="news__more">
-                                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="news__item col l-4 m-4 c-12">
-                            <div class="news__content">
-                                <a href="<?php echo base_url("news/detail") ?>" class="news__link" style="background-image: url('<?php echo base_url("public/assets/images/news_img_3.png") ?>')">
-                                    <p class="news__title txt-title txt-weight-500">Đăng kí hội viên để hưởng ưu đãi tối đa trên Esan.vn.
-                                    </p>
-                                </a>
-                                <div class="news__info">
-                                    <p class="news__summary txt-default">Chiết khấu quanh năm. Miễn phí thanh toán. Tra cứu dễ dàng. Thanh toán giản tiện</p>
-                                    <div class="news__origin">
-                                        <p class="news__time">10/03/2022</p>
-                                        <p class="news__author">By VNPT EPAY</p>
-                                    </div>
-                                </div>
-                                <a href="<?php echo base_url("news/detail") ?>" class="news__more">
-                                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
-                                </a>
-                            </div>
-                        </div>
+                        <?php
+                            }
+                        }
+                        ?>
                     </div>
-                    <div class="pagination">
-                        <ul class="pagination__list">
-                            <li class="pagination__item">
-                                <a href="<?php echo base_url("#") ?>" class="pagination__link"><i class="fa-solid fa-arrow-left-long"></i></a>
-                            </li>
-                            <li class="pagination__item"><a href="<?php echo base_url("#") ?>" class="pagination__link">1</a></li>
-                            <li class="pagination__item"><a href="<?php echo base_url("#") ?>" class="pagination__link">2</a></li>
-                            <li class="pagination__item active"><a href="<?php echo base_url("#") ?>" class="pagination__link">3</a>
-                            </li>
-                            <li class="pagination__item"><a href="<?php echo base_url("#") ?>" class="pagination__link">4</a></li>
-                            <li class="pagination__item"><a href="<?php echo base_url("#") ?>" class="pagination__link">5</a></li>
-                            <li class="pagination__item">
-                                <label for="pagination-checkbox" class="pagination__link">...</label>
-                                <input type="checkbox" class="pagination__checkbox hidden" name="pagination-checkbox" id="pagination-checkbox">
-                                <form action="" class="pagination__form">
-                                    <label for="" class="pagination__label">Go to page</label>
-                                    <div class="pagination__group">
-                                        <input type="number" class="pagination__input">
-                                        <button type="submit" class="pagination__submit">Go</button>
-                                    </div>
-                                </form>
-                            </li>
-                            <li class="pagination__item"><a href="<?php echo base_url("#") ?>" class="pagination__link">20</a></li>
-                            <li class="pagination__item"><a href="<?php echo base_url("#") ?>" class="pagination__link">21</a></li>
-                            <li class="pagination__item"><a href="<?php echo base_url("#") ?>" class="pagination__link">22</a></li>
-                            <li class="pagination__item">
-                                <a href="<?php echo base_url("#") ?>" class="pagination__link"><i class="fa-solid fa-arrow-right-long"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php
+                         echo $this->pagination->create_links();
+                    ?>
                 </div>
             </div>
         </div>

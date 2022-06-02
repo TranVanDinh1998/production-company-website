@@ -61,7 +61,6 @@
     .pagination__item.active,
     .goal__heading,
     .goal__description,
-    .timeline__summary,
     .order__list p,
     .order__list--square p,
     .order__list--circle .order__info,
@@ -157,7 +156,6 @@
     .order__list--dot .order__title,
     .order__list--parallel .order__info::before,
     .unorder__title,
-    .timeline__year,
     .flex__title,
     .contact__title {
         font-size: 2.8rem;
@@ -177,8 +175,6 @@
     }
     .txt-55,
     .goal__vision p {
-        font-size: 4.8rem;
-        line-height: 5.6rem;
     }
     .txt-60,
     .info__title.info__title--quote {
@@ -224,7 +220,6 @@
     }
     /* ===========================NavBar============================== */
     .navbar__item+.navbar__item {
-        margin-left: 60px;
     }
     .navbar__link {
         font-size: 2.0rem;
@@ -343,8 +338,6 @@
         padding-bottom: 100px;
     }
     .method {
-        width: 600px;
-        height: 600px;
     }
     .method__img {
         width: 80px;
@@ -996,21 +989,14 @@
     /* =========================Goal ends========================= */
     /* =========================Timeline========================= */
     .timeline {
-        height: 750px;
     }
     .timeline__info {}
     .timeline__item:before {
-        width: 80px;
-        height: 80px;
     }
     .timeline__item:after {
         height: 62px;
     }
-    .timeline__year {}
-    .timeline__goal {}
-    .timeline__summary {
-        margin-top: 10px;
-    }
+  
     /* =========================Timeline ends========================= */
     /* =========================Question========================= */
     .question {
@@ -1207,6 +1193,11 @@
 
 
 /* Laptop: 1024px <= width <= 1439px */
+/* General */
+.timeline {
+    height: 800px;
+}
+
 
 @media screen and (min-width: 1025px) and (max-width:1440px) {
     .section {
@@ -1272,7 +1263,6 @@
     .pagination__item.active,
     .goal__heading,
     .goal__description,
-    .timeline__summary,
     .order__list--square p,
     .order__list--circle .order__info,
     .unorder__item p,
@@ -1291,7 +1281,7 @@
         font-size: 1.8rem;
         line-height: 2.2rem;
     }
-    .txt-24,
+    .txt-18,
     .info__summary,
     .service__title,
     .megapay .feature__name,
@@ -1331,14 +1321,20 @@
         font-size: 1.8rem;
         line-height: 2.2rem;
     }
-    .txt-20,
+    .txt-16,
     .info__more,
     .news__title,
     .achievement--box .achievement__description {
         font-size: 1.6rem;
         line-height: 2.0rem;
     }
-    .txt-24,
+    .txt-20,
+    .goal__vision p {
+        font-size: 2.0rem;
+        line-height: 2.4rem;
+    }
+
+    .txt-18,
     .info__summary,
     .service__title,
     .megapay .feature__name,
@@ -1354,7 +1350,6 @@
     .share__label,
     .share__item,
     .goal__title,
-    .timeline__goal,
     .tab__link,
     .order__list--classic .order__item::before,
     .order__list--box p,
@@ -1377,17 +1372,17 @@
         font-size: 1.8rem;
         line-height: 2.2rem;
     }
-    .txt-25,
+    .txt-19,
     .blog blockquote {
         font-size: 1.9rem;
         line-height: 2.3rem;
     }
-    .txt-30,
+    .txt-18,
     .deposit .advantage__sub {
         font-size: 1.8rem;
         line-height: 2.2rem;
     }
-    .txt-36,
+    .txt-24,
     .megapay .feature__sub-title,
     .news__heading,
     .news__title.news__title--primary,
@@ -1408,12 +1403,12 @@
         font-size: 3.2rem;
         line-height: 3.8rem;
     }
-    .txt-50,
+    .txt-18,
     .deposit .advantage__title {
         font-size: 1.8rem;
         line-height: 2.2rem;
     }
-    .txt-55,
+    .txt-32,
     .goal__vision p {
         font-size: 3.2rem;
         line-height: 3.8rem;
@@ -1423,25 +1418,24 @@
         font-size: 3.2rem;
         line-height: 3.8rem;
     }
-    .txt-64,
+    .txt-32,
     .achievement__number {
         font-size: 3.2rem;
         line-height: 3.8rem;
     }
-    .txt-70,
+    .txt-32,
     .order__list--bg .order__item::after {
         font-size: 3.2rem;
         line-height: 3.8rem;
     }
-    .txt-78,
+    .txt-32,
     .megapay .feature__title,
     .news__day,
-    .timeline__year,
     .question__heading {
         font-size: 3.2rem;
         line-height: 3.8rem;
     }
-    .txt-80,
+    .txt-32,
     .order__list--square .order__item::before {
         font-size: 3.2rem;
         line-height: 3.8rem;
@@ -1463,7 +1457,7 @@
     }
     /* ===========================NavBar============================== */
     .navbar__item+.navbar__item {
-        margin-left: 50px;
+        margin-left: 30px;
     }
     .navbar__link {
         font-size: 1.4rem;
@@ -2279,7 +2273,7 @@
         padding-right: 50px;
     }
     .achievement--box ul li {
-        max-width: 15%;
+        max-width: 30%;
         height: 98px;
         padding: 12px 12px;
         margin-bottom: 18px;
@@ -2552,8 +2546,8 @@
         font-size: 3.0rem;
     }
     .section {
-        margin-bottom: 30px;
-        margin-top: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
     .container-1210px {
         max-width: 810px;
@@ -2570,30 +2564,25 @@
         max-width: 90%;
     }
     .megapay.banner__content {
-        padding-top: 40%;
+        padding-top: 15%;
     }
     .firmbanking.banner__content {
-        padding-top: 35%;
-    }
-    .firmbanking.banner__content .banner__info {
-        max-width: 100%;
-        width: 100%;
+        padding-top: 15%;
     }
     .firmbanking.banner__content .info__content {
         margin-top: 5px;
     }
+
     .deposit.banner__content {
-        padding-top: 35%;
+        padding-top: 15%;
     }
     .deposit.banner__content .banner__info {
-        max-width: 100%;
-        width: 100%;
     }
     .deposit.banner__content .info__content {
         margin-top: 5px;
     }
     .epaypos.banner__content {
-        padding-top: 35%;
+        padding-top: 15%;
     }
     .epaypos.banner__content .banner__info {
         max-width: 100%;
@@ -2612,7 +2601,7 @@
         bottom: 0;
     }
     .shipantoan.banner__content {
-        padding-top: 35%;
+        padding-top: 15%;
     }
     .shipantoan.banner__content .banner__info {
         left: 0;
@@ -2621,14 +2610,13 @@
         top: 35%;
     }
     .mc-md.banner__content {
-        padding-top: 45%;
+        padding-top: 15%;
     }
     .mc-md.banner__content .banner__info {
-        width: 50%;
         top: 15%;
     }
     .ewallet.banner .banner__content {
-        padding-top: 50%;
+        padding-top: 15%;
     }
     .ewallet.banner .banner__info {
         top: 0;
@@ -2746,7 +2734,9 @@
     .menu__title {
         padding-bottom: 6px;
     }
-    .menu__list {}
+    .menu__list {
+        width: 100%;
+    }
     .menu__link {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -2758,24 +2748,22 @@
     }
     /* ===========================NavBar ends============================== */
     /* =========================Home========================= */
+    .home.banner .banner__info {
+        max-width: 90%;
+    }
     .home.banner__content {}
     .home.banner .home.banner__content .banner__info {
         top: 15%;
     }
-    .home .achievement {}
-    .achievement ul {
-        flex: 1 1 40%;
+    .home .achievement { 
+        margin-left: 5%;
     }
     .achievement--box ul li {
-        flex: 1 1 25%;
-        -webkit-flex: 1 1 25%;
-        -ms-flex: 1 1 25%;
-        -moz-flex: 1 1 25%;
-        max-width: 300px;
-        height: 118px;
-        padding: 15px 4px 0px 16px;
-        margin-bottom: 21px;
-        margin-right: 25px;
+        min-width: 80px;
+        height: 100px;
+        padding: 5px 5px 0px 5px;
+        margin-bottom: 15px;
+        margin-right: 15px;
     }
     .achievement--box .achievement__description {
         margin-top: 0;
@@ -2785,7 +2773,7 @@
         width: 40%;
     }
     .intro .intro__wrap {
-        padding: 5% 5.5%;
+        padding: 0 5%;
     }
     .section.service {
         padding-top: 0;
@@ -2819,13 +2807,17 @@
     .timeline {
         height: 800px;
     }
+    .timeline__item:before {
+        width: 80px;
+        height: 80px;
+    }
     /* =========================About us ends========================= */
     /* =========================MGP========================= */
     .megapay.banner__content .banner__info {
-        width: 60%;
     }
     .megapay.banner__content .decoration__list .decoration__item .decoration__staff {
-        right: 2%;
+        right: 0;
+        height: 80%;
     }
     .megapay.feature {
         min-height: 800px;
@@ -2859,16 +2851,6 @@
     }
     /* =========================MGP ends========================= */
     /* =========================Firmbanking========================= */
-    .firmbanking.banner__content {
-        padding-top: 35%;
-    }
-    .firmbanking.banner__content .banner__info {
-        max-width: 100%;
-        width: 100%;
-    }
-    .firmbanking.banner__content .info__content {
-        margin-top: 5px;
-    }
     .firmbanking.definition .define {
         padding-top: 50%;
     }
@@ -3014,8 +2996,7 @@
     /* =========================Topup ends========================= */
     /* =========================Question========================= */
     .shipantoan.general .general__content {
-        width: 100%;
-        margin-left: 0;
+        width: 90%;
     }
     /* =========================MC========================= */
     .mc.addition .order__list--bar .order__item {
@@ -3084,8 +3065,6 @@
     /* ============================== Buttons and Banner ===========================*/
     .contain {}
     .section {
-        margin-top: 0;
-        margin-bottom: 20px;
     }
     .info__more {
         width: 90px;
@@ -3134,7 +3113,7 @@
         margin-left: 5%;
     }
     .home .achievement {
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 8%;
     }
     .home.banner__content {
@@ -3185,8 +3164,11 @@
     }
     .megapay.banner__content .decoration__list .decoration__item .decoration__staff {
         right: 2%;
-        top: 50%;
+        top: 40%;
         width: 80%;
+    }
+    .banner.megapay .info__content p {
+        max-width: 100%;
     }
     .esan.banner__content {
         height: 600px;
@@ -4050,7 +4032,6 @@
         width: 80%;
     }
     .mc.advantage .info__title {
-        margin-left: 5%;
     }
     .mc.advantage .advantage__item {
         margin-left: 20px;
@@ -4468,6 +4449,11 @@
 }
 
 @media screen and (max-width:1024px) {
+    .header__pc--white .navbar__link {
+        color: var(--header-txt-color);
+    }
+    .menu__list {
+    }
     /* ===========================Header============================== */
     .header__pc {
         padding-top: 16px;

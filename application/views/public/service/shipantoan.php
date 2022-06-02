@@ -1,6 +1,6 @@
 <!-- Banner -->
 <section class="shipantoan banner">
-    <div class="shipantoan banner__content" style="background-image: linear-gradient(0deg, rgba(6, 10, 18, 0.62), rgba(6, 10, 18, 0.62)), url('<?php echo base_url("public/assets/images/service/shipantoan/woman-using-a-credit-card-for-online-payments-the-2021-08-26-16-25-13-utc.png") ?>');">
+    <div class="shipantoan banner__content" style="background-image: linear-gradient(0deg, rgba(6, 10, 18, 0.62), rgba(6, 10, 18, 0.62)), url('<?php echo base_url("public/assets/images/service/shipantoan/banner-shipantoan.png") ?>');">
         <div class="banner__info">
             <div class="info info--white animate__animated animate__fadeInLeft">
                 <h2 class="info__title info__title--primary">

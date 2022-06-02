@@ -1,4 +1,4 @@
-        <section class="sectio md introduction">
+        <section class="section md introduction">
             <div class="md__info">
                 <div class="info animate__animated animate__fadeInRight">
                     <h2 class="info__title">
