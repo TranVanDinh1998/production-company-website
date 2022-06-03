@@ -160,6 +160,13 @@
                     </div>
                 </div>
             </div>
+                <div class="general__img">
+                    <img src="<?php echo base_url("public/assets/images/service/shipantoan/shipantoan.png")?>" alt="" class="image-contain">
+                </div> 
+            </div>
+            <p class="info__description" style="text-align: center;">
+                    Website đăng ký sử dụng dịch vụ Shipantoan
+                </p>
         </div>
     </div>
 </section>

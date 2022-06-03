@@ -152,6 +152,18 @@
                             <img src="<?php echo base_url("public/assets/images/service/mc-md/partner-6.png")?>" alt="" class="partner__img">
                         </div>
                         <div class="partner__item">
+                            <img src="<?php echo base_url("public/assets/images/service/mc-md/partner-9.jpg")?>" alt="" class="partner__img">
+                        </div>
+                        <div class="partner__item">
+                            <img src="<?php echo base_url("public/assets/images/service/mc-md/partner-7.png")?>" alt="" class="partner__img">
+                        </div>
+                        <div class="partner__item">
+                            <img src="<?php echo base_url("public/assets/images/service/mc-md/partner-8.png")?>" alt="" class="partner__img">
+                        </div>
+                        <div class="partner__item">
+                            <img src="<?php echo base_url("public/assets/images/service/mc-md/partner-10.png")?>" alt="" class="partner__img">
+                        </div>
+                        <div class="partner__item">
                             <img src="<?php echo base_url("public/assets/images/service/mc-md/partner-5.png")?>" alt="" class="partner__img">
                         </div>
                        

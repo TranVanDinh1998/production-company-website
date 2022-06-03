@@ -128,7 +128,7 @@ Người dùng Esan nhận được nhiều ưu đãi và chiết khấu quanh n
                                             <div class="feature__info">
                                                 <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">HỆ THỐNG THẺ ĐA DẠNG
                                                 </h3>
-                                                <p class="feature__summary txt-justify txt-default">
+                                                <p class="feature__summary txt-default">
                                                     Hệ thống thẻ game, thẻ điện thoại đa dạng. 
                                                     Thẻ game: Garena, Zing xu, Appota, Funcard, VCoin, GATE, Sohacoin, BIT, Scoin, Gosu
                                                     Thẻ điện thoại: Viettel, Vinaphone, Mobifone, Gmobile, Vietnamobile.
@@ -142,7 +142,7 @@ Người dùng Esan nhận được nhiều ưu đãi và chiết khấu quanh n
                                             <div class="feature__info">
                                                 <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">MỨC CHIẾT KHẤU HẤP DẪN
                                                 </h3>
-                                                <p class="feature__summary txt-justify txt-default">
+                                                <p class="feature__summary txt-default">
                                                     Mức chiết khấu hấp dẫn cùng nhiều ưu đãi cho người dùng cạnh tranh nhất thị trường.
                                                 </p>
                                             </div>
@@ -154,7 +154,7 @@ Người dùng Esan nhận được nhiều ưu đãi và chiết khấu quanh n
                                             <div class="feature__info">
                                                 <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">PHƯƠNG THỨC THANH TOÁN 
                                                     ĐA DẠNG</h3>
-                                                <p class="feature__summary txt-justify txt-default">
+                                                <p class="feature__summary txt-default">
                                                     Tích hợp Cổng thanh toán MGP với nhiều phương thức thanh toán đa dạng: NAPAS, Thẻ quốc tế Visa/Master/JCB, ZaloPay, Moca.
                                                 </p>
                                             </div>
@@ -171,7 +171,7 @@ Người dùng Esan nhận được nhiều ưu đãi và chiết khấu quanh n
                                                 <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">THANH TOÁN HÓA ĐƠN
                                                     ĐIỆN NƯỚC
                                                 </h3>
-                                                <p class="feature__summary txt-justify txt-default">
+                                                <p class="feature__summary txt-default">
                                                     Thanh toán hóa đơn điện, nước, truyền hình dễ dàng cùng tính năng nhắc nợ tự động giúp người dùng thanh toán hóa đơn đúng hạn.
                                                 </p>
                                             </div>
@@ -184,7 +184,7 @@ Người dùng Esan nhận được nhiều ưu đãi và chiết khấu quanh n
                                                 <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">WEBSITE ĐA NGÔN NGỮ
                                                     
                                                 </h3>
-                                                <p class="feature__summary txt-justify txt-default">
+                                                <p class="feature__summary txt-default">
                                                     Website chuẩn quốc tế hỗ trợ 3 ngôn ngữ Tiếng Anh, Tiếng Hàn, Tiếng Việt.
                                                 </p>
                                             </div>
@@ -197,7 +197,7 @@ Người dùng Esan nhận được nhiều ưu đãi và chiết khấu quanh n
                                                 <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">ƯU ĐÃI QUANH NĂM
 
                                                 </h3>
-                                                <p class="feature__summary txt-justify txt-default">
+                                                <p class="feature__summary txt-default">
                                                     Giá Topup luôn luôn rẻ. Các chương trình khuyến mãi quanh năm
                                                 </p>
                                             </div>

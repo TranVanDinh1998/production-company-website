@@ -1344,7 +1344,6 @@
     width: 35%;
     margin-left: 10%;
 }
-
 .esan.banner__content {
     padding-top: 20%;
     background-position: top center;
@@ -1398,7 +1397,7 @@
 .topup.banner__content img {
     bottom: 0;
     width: 25%;
-    margin-left: 10%;
+    margin-left: 17%;
 }
 
 .helper.banner__content {
@@ -1952,9 +1951,9 @@
     width: 100%;
     min-height: 68px;
     background: #FFFFFF;
-    box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
-    -webkit-box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -webkit-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -moz-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1973,9 +1972,9 @@
 .service__link:hover {
     color: var(--white-color);
     background: var(--primary-color);
-    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
 .service__title {
@@ -2388,7 +2387,6 @@
 }
 
 .general__content--vertical .info {
-    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-right: 0;
@@ -2410,7 +2408,6 @@
 
 .general__content--vertical .info__content {
     display: block;
-    max-width: 500px;
 }
 
 .general__img {
@@ -3238,6 +3235,10 @@
     max-width: 500px;
 }
 
+.section.shipantoan.advantage .general__img::before{
+    display: none;
+}
+
 .shipantoan .feature__list--center {
     margin-left: auto;
     margin-right: auto;
@@ -3305,7 +3306,9 @@
 
 /* ====================Esan==================== */
 
-.esan.section {}
+.esan.section {
+    padding-bottom: 10px;
+}
 
 .esan.feature__esan {
     min-height: unset;
@@ -3315,16 +3318,18 @@
     color: var(--white-color) !important;
 }
 
-.esan.feature__esan .feature__list__esan {}
+.esan.feature__esan .feature__list__esan {
+    margin-top: 10px;
+}
 
 .esan.feature__esan .feature__item__esan {
     padding: 10px 20px;
     max-width: 500px;
-    height: 360px;
+    height: 280px;
     background: #FFFFFF;
-    box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
-    -webkit-box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -webkit-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -moz-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -3358,13 +3363,14 @@
 /* ===========================Esan ends==================== */
 
 
-/* ===========================Popup==================== */
-
+/* ===========================Topup==================== */
+.topup.general .general__img {
+    display: none;
+}
 .topup.procedure .info img {
     width: 100%;
 }
 .topup.general .general__content--vertical .info{
-    max-width: 100%;
 }
 
 .topup.procedure {
@@ -3423,7 +3429,9 @@
     flex-direction: column;
     height: 200px;
 }
-
+.ewallet.feature {
+    background: unset;
+}
 .ewallet.feature .row {}
 
 .ewallet.feature .feature__item {
@@ -6090,12 +6098,12 @@
 .custom-form {
     display: block;
     background: var(--white-color);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -webkit-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -moz-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    border-radius: 3px;
     padding: 20px 25px;
     margin-bottom: 20px;
-    border: 1px solid #E1E1E1;
 }
 
 .form__group {
@@ -6327,7 +6335,9 @@ textarea.form__control {
 
 /* ========================Contact================ */
 
-.contact {}
+.section.contact {
+    padding-top: 10px;
+}
 
 .contact__title {
     /* font-size: 3.6rem;

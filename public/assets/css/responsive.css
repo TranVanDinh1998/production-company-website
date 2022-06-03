@@ -505,7 +505,6 @@
         max-width: 100%;
     }
     .general__content--vertical .info__content {
-        max-width: 500px;
     }
     .firmbanking.definition {}
     .define__item:nth-child(1) {
@@ -1194,9 +1193,6 @@
 
 /* Laptop: 1024px <= width <= 1439px */
 /* General */
-.timeline {
-    height: 800px;
-}
 
 
 @media screen and (min-width: 1025px) and (max-width:1440px) {
@@ -1750,7 +1746,6 @@
         max-width: 100%;
     }
     .general__content--vertical .info__content {
-        max-width: 500px;
     }
     .epaypos .general__content--vertical .info {}
     .firmbanking.banner__content .banner__info {}
@@ -2685,8 +2680,7 @@
         line-height: 2.8rem;
     }
     .txt-32,
-    .info__title,
-    .esan .feature__name {
+    .info__title {
         font-size: 3.2rem;
         line-height: 3.8rem;
     }
@@ -2746,6 +2740,9 @@
     }
     /* ===========================NavBar ends============================== */
     /* =========================Home========================= */
+    .home.banner__content .decoration__list .decoration__item #decoration__mgp {
+        height: 600px;
+    }
     .home.banner .banner__info {
         max-width: 90%;
     }
@@ -2771,7 +2768,6 @@
         width: 40%;
     }
     .intro .intro__wrap {
-        padding: 0 5%;
     }
     .section.service {
         padding-top: 0;
@@ -2982,7 +2978,6 @@
         width: 90%;
     }
     .topup.general .general__content--vertical .info {
-        margin-left: 10%;
     }
     .topup.procedure .general__content--vertical {
         max-width: 100%;
@@ -3063,6 +3058,8 @@
     /* ============================== Buttons and Banner ===========================*/
     .contain {}
     .section {
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     .info__more {
         width: 90px;
@@ -3348,6 +3345,9 @@
     }
     /* ==============================Text ends============================== */
     /* ==============================Homepage ============================== */
+    .home.banner__content .decoration__list .decoration__item #decoration__mgp {
+        top:40%;
+    }
     .achievement--box ul li {
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -4185,16 +4185,16 @@
         width: auto;
         height: 50px;
     }
-    .megapay .info {
-        margin-bottom: 30px;
-        max-width: 100%;
+    .esan.feature__esan .feature__item__esan {
+        max-width: unset;
+        height: 150px;
+        padding: 10px 10px;
     }
-    .megapay__info {
-        max-width: 100%;
+    .esan.feature__esan .feature__item__esan .feature__icon__esan img {
+        width: 80px;
+        min-height: 50px;
     }
-    .megapay.advantage--with-bg .info {
-        max-width: 100%;
-    }
+  
     /* ==============================Esan ends============================== */
     /* ==============================Topup============================== */
     .topup.banner__content {
@@ -4233,7 +4233,6 @@
         margin-top: 0;
     }
     .ewallet.banner .banner__info h2 {
-        margin-left: 10%;
     }
     .ewallet.banner p {
         max-width: 100%;
@@ -4245,16 +4244,15 @@
         justify-content: left;
     }
     .home.banner__content .decoration__list .decoration__item #decoration__ewallet {
-        top: 55%;
-        width: 46%;
-        left: 46%;
-        height: unset;
+        position: unset;
+        margin-left: auto;
+        margin-right: auto;
     }
     .ewallet__content .illustration img {
         max-width: 300px;
     }
     .ewallet.feature {
-        height: 1000px;
+        background: unset;
     }
     .ewallet.feature .feature__item {
         padding: 50px 30px;
