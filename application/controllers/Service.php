@@ -24,41 +24,48 @@ class Service extends Public_Controller {
 	{
 		$data = [];
 		$content = 'service/megapay';
-		$this->setData($data)->setContent($content)->render();
+		$title = 'Service MegaPay';
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
 	}
 	public function depositcode()
 	{
         $data = [];
         $data['header_class'] = "header__pc--white";
+		$title = 'Service Deposit Code';
 		$content = 'service/depositcode';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
 	}
     public function epaypos() {
         $data = [];
         $data['header_class'] = "header__pc--white";
+		$title = 'Service EpayPos';
 		$content = 'service/epaypos';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
     public function esan() {
         $data = [];
+		$title = 'Service Esan';
 		$content = 'service/esan';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
     public function ewallet() {
         $data = [];
+		$title = 'Service E-wallet';
 		$content = 'service/ewallet';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
     public function firmbanking() {
         $data = [];
         $data['header_class'] = "header__pc--white";
+		$title = 'Service Firmbanking';
 		$content = 'service/firmbanking';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
 	}
     public function mc() {
         $data = [];
+		$title = 'Service Money collector';
 		$content = 'service/mc';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
     public function md() {
         $data = [];
@@ -68,18 +75,21 @@ class Service extends Public_Controller {
     public function portal() {
         $data = [];
         $data['header_class'] = "header__pc--white";
+		$title = 'Service School Portal';
 		$content = 'service/portal';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
     public function shipantoan() {
         $data = [];
         $data['header_class'] = "header__pc--white";
+		$title = 'Service Logistic';
 		$content = 'service/shipantoan';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
     public function topup() {
         $data = [];
+		$title = 'Service Topup';
 		$content = 'service/topup';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
 }

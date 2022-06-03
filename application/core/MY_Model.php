@@ -55,7 +55,7 @@ class MY_Model extends CI_Model
 		if (!empty($limit)) $this->db->limit($limit);
 		if (!empty($offset)) $this->db->offset($offset);
 		$list = $this->db->get()->result();
-		log_message('error',$this->db->last_query());
+		// log_message('error',$this->db->last_query());
 		return $list;
 	}
 	/**

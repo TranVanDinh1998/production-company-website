@@ -1,70 +1,70 @@
-        <!-- Banner -->
-        <section class="banner">
-            <div class="about-us banner__content">
-                <ul class="decoration__list">
-                    <li class="decoration__item">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/cloud.png")?>" alt="" class="decoration__cloud-1">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/cloud.png")?>" alt="" class="decoration__cloud-2">
-                    </li>
-                    <li class="decoration__item">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_1.png")?>" class="decoration__gear-1" alt="">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_2.png")?>" class="decoration__gear-2" alt="">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_3.png")?>" class="decoration__gear-3" alt="">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_4.png")?>" class="decoration__gear-4" alt="">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_5.png")?>" class="decoration__gear-5" alt="">
-                    </li>
-                    <li class="decoration__item">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/tree_1.png")?>" class="decoration__tree-1" alt="">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/tree_2.png")?>" class="decoration__tree-2" alt="">
-                    </li>
-                    <li class="decoration__item">
-                        <img src="<?php echo base_url("public/assets/images/banner/about-us/moon.png")?>" class="decoration__moon" alt="">
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Banner ends -->
+<!-- Banner -->
+<section class="banner">
+    <div class="about-us banner__content">
+        <ul class="decoration__list">
+            <li class="decoration__item">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/cloud.png") ?>" alt="" class="decoration__cloud-1">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/cloud.png") ?>" alt="" class="decoration__cloud-2">
+            </li>
+            <li class="decoration__item">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_1.png") ?>" class="decoration__gear-1" alt="">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_2.png") ?>" class="decoration__gear-2" alt="">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_3.png") ?>" class="decoration__gear-3" alt="">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_4.png") ?>" class="decoration__gear-4" alt="">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/gear_5.png") ?>" class="decoration__gear-5" alt="">
+            </li>
+            <li class="decoration__item">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/tree_1.png") ?>" class="decoration__tree-1" alt="">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/tree_2.png") ?>" class="decoration__tree-2" alt="">
+            </li>
+            <li class="decoration__item">
+                <img src="<?php echo base_url("public/assets/images/banner/about-us/moon.png") ?>" class="decoration__moon" alt="">
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Banner ends -->
 
-        <!-- Achievement -->
-        <section class="section about-us achievement counter-section">
-            <div class="container-80">
-                <div class="achievement achievement--box">
-                    <ul>
-                        <li>
-                            <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-number="40"></span></span>
-                            </h3>
-                            <p class="achievement__description">Ngân hàng đối tác</p>
-                        </li>
-                        <li>
-                            <h3 class="achievement__record txt-primary">+<span class="achievement__number"><span class="number" data-number="10000"></span></span>
-                            </h3>
-                            <p class="achievement__description">Điểm liên kết tại 63 tỉnh thành</p>
-                        </li>
-                        <li>
-                            <h3 class="achievement__record txt-primary">+<span class="achievement__number"><span class="number" data-number="30000"></span></span>
-                            </h3>
-                            <p class="achievement__description">Khách hàng</p>
-                        </li>
-                        <li>
-                            <h3 class="achievement__record txt-primary"><span class="achievement__number"><span class="number" data-number="70"></span></span> nghìn tỉ
-                            </h3>
-                            <p class="achievement__description">Sản lượng giao dịch</p>
-                        </li>
-                        <li>
-                            <h3 class="achievement__record txt-primary">Top <span class="achievement__number"><span class="number" data-number="334"></span></span>
-                            </h3>
-                            <p class="achievement__description">Top 500 công ty VNR500</p>
-                        </li>
-                        <li>
-                            <h3 class="achievement__record txt-primary"><span class="achievement__number"><span class="number" data-number="100"></span></span> triệu
-                            </h3>
-                            <p class="achievement__description">Giao dịch xử lý hằng năm</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!-- Achievement ends -->
+<!-- Achievement -->
+<section class="section about-us achievement counter-section">
+    <div class="container-80">
+        <div class="achievement achievement--box">
+            <ul>
+                <li>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-number="40"></span></span>
+                    </h3>
+                    <p class="achievement__description">Ngân hàng đối tác</p>
+                </li>
+                <li>
+                    <h3 class="achievement__record txt-primary">+<span class="achievement__number"><span class="number" data-number="10000"></span></span>
+                    </h3>
+                    <p class="achievement__description">Điểm liên kết tại 63 tỉnh thành</p>
+                </li>
+                <li>
+                    <h3 class="achievement__record txt-primary">+<span class="achievement__number"><span class="number" data-number="30000"></span></span>
+                    </h3>
+                    <p class="achievement__description">Khách hàng</p>
+                </li>
+                <li>
+                    <h3 class="achievement__record txt-primary"><span class="achievement__number"><span class="number" data-number="70"></span></span> nghìn tỉ
+                    </h3>
+                    <p class="achievement__description">Sản lượng giao dịch</p>
+                </li>
+                <li>
+                    <h3 class="achievement__record txt-primary">Top <span class="achievement__number"><span class="number" data-number="334"></span></span>
+                    </h3>
+                    <p class="achievement__description">Top 500 công ty VNR500</p>
+                </li>
+                <li>
+                    <h3 class="achievement__record txt-primary"><span class="achievement__number"><span class="number" data-number="100"></span></span> triệu
+                    </h3>
+                    <p class="achievement__description">Giao dịch xử lý hằng năm</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- Achievement ends -->
 
         <!-- Goal -->
         <section class="section aboutus goal">
@@ -110,7 +110,7 @@
                 </div>
             </div>
         </section>
-        <!-- Goal ends -->
+
 
         <!-- Timeline -->
         <section class="section timeline">
@@ -250,152 +250,185 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-6 m-12 c-12" data-trigger="animation" data-animation="fadeInRight">
-                            <div class="intro__slider owl-carousel">
-                                <div class="intro__illustration" style="background-image: url('<?php echo base_url("public/assets/images/giai\ thuong\ 1.jpg")?>')">
-                                </div>
-                                <div class="intro__illustration" style="background-image: url('<?php echo base_url("public/assets/images/giai\ thuong\ 2.jpg")?>')">
-                                </div>
-                                <div class="intro__illustration" style="background-image: url('<?php echo base_url("public/assets/images/giai\ thuong\ 3.png")?>')">
-                                </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+</section>
+<!-- Timeline ends-->
+
+<!-- Introduction -->
+<section class="section intro">
+    <div class="container-80">
+        <div class="custom-grid">
+            <div class="row">
+                <div class="col l-6 m-12 c-12">
+                    <div class="intro__content intro__content--left owl-carousel">
+                        <div class="info" data-trigger="animation" data-animation="fadeInLeft">
+                            <h3 class="info__title">Nhận giải thưởng “Top 20 Dịch vụ hoàn hảo vì quyền lợi của người tiêu dùng" năm 2021 và 2022.</h3>
+                            <div class="info__content">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3 class="info__title">VNPT EPAY lọt Top 500 doanh nghiệp lớn nhất Việt Nam (Vị trí 334 - Nguồn: https://vnr500.com.vn)</h3>
+                            <div class="info__content">
+
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3 class="info__title">Chiếm thị phần số 1 trong dịch vụ Topup cung cấp tính năng nạp thẻ điện thoại và mua bán thẻ game</h3>
+                            <div class="info__content">
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Introduction ends -->
-
-        <!-- Partner -->
-        <section class="section partner">
-            <div class="container-70 " data-trigger="animation" data-animation="fadeInUp">
-                <div class="partner__slider partner__slider--fixed-height owlcarousel">
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_abbank.png")?>" alt="" class="partner__img">
+                <div class="col l-6 m-12 c-12" data-trigger="animation" data-animation="fadeInRight">
+                    <div class="intro__slider owl-carousel">
+                        <div class="intro__illustration" style="background-image: url('<?php echo base_url("public/assets/images/giai\ thuong\ 1.jpg") ?>')">
+                        </div>
+                        <div class="intro__illustration" style="background-image: url('<?php echo base_url("public/assets/images/giai\ thuong\ 2.jpg") ?>')">
+                        </div>
+                        <div class="intro__illustration" style="background-image: url('<?php echo base_url("public/assets/images/giai\ thuong\ 3.png") ?>')">
+                        </div>
                     </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_acb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_agribank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_bacabank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_baovietbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_bidv.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_dongabank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_eximbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_gpbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_hdbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_industrialbankofkorean.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_ivb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_kienlongbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_lienvietpostbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_mb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_msb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_namabank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_ncb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_nganhangbanviet.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_ocb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_oceanbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_pgb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_publicbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_pvcombank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_sacombank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_saigonbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_scb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_seabank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_shb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_shinhanbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_standardchartered.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_techcombank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_tpbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_uob.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_vib.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_vietabank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_vietcombank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_vietinbank.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_vpbank.png")?>" alt="" class="partner__img">
-
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_vrb.png")?>" alt="" class="partner__img">
-                    </div>
-                    <div class="partner__item">
-                        <img src="<?php echo base_url("public/assets/images/partner/partner_wooribank.png")?>" alt="" class="partner__img">
-                    </div>
-                    </ul>
                 </div>
             </div>
-        </section>
-        <!-- Partner ends -->
+        </div>
+    </div>
+</section>
+<!-- Introduction ends -->
+
+<!-- Partner -->
+<section class="section partner">
+    <div class="container-70 " data-trigger="animation" data-animation="fadeInUp">
+        <div class="partner__slider partner__slider--fixed-height owlcarousel">
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_abbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_acb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_agribank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_bacabank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_baovietbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_bidv.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_dongabank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_eximbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_gpbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_hdbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_industrialbankofkorean.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_ivb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_kienlongbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_lienvietpostbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_mb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_msb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_namabank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_ncb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_nganhangbanviet.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_ocb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_oceanbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_pgb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_publicbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_pvcombank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_sacombank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_saigonbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_scb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_seabank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_shb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_shinhanbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_standardchartered.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_techcombank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_tpbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_uob.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_vib.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_vietabank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_vietcombank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_vietinbank.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_vpbank.png") ?>" alt="" class="partner__img">
+
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_vrb.png") ?>" alt="" class="partner__img">
+            </div>
+            <div class="partner__item">
+                <img src="<?php echo base_url("public/assets/images/partner/partner_wooribank.png") ?>" alt="" class="partner__img">
+            </div>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- Partner ends -->

@@ -27,11 +27,12 @@
             </h2>
             <div class="info__content">
                 <!-- Lastest news -->
-                <ul class="news__list news__list--vertical">
+                <ul class="news__list news__list--vertical" data-trigger="animation" data-animation="fadeInUp">
                     <?php if (!empty($data['hot_post_list'])) {
-                        foreach ($data['hot_post_list'] as $post) {
+                        for($i = 0; $i < 3; $i++) {
+                            $post = $data['hot_post_list'][$i];
                     ?>
-                            <li class="news__item" data-trigger="animation" data-animation="fadeInUp">
+                            <li class="news__item">
                                 <div class="news__content">
                                     <div class="news__date">
                                         <p class="news__day txt-title txt-weight-bold"><?php echo date('d', $post->pos_date) ?></p>
@@ -46,9 +47,7 @@
                                         </p>
                                     </a>
                                 </div>
-                                <div class="news__img">
-                                    <img src="<?php echo ORIGIN_IMG_URL . $post->pos_image; ?>">
-                                </div>
+                                <img src="<?php echo ORIGIN_IMG_URL . $post->pos_image; ?>" alt="">
                             </li>
                     <?php
                         }
@@ -59,16 +58,16 @@
 
                 <!-- Feature News -->
                 <div class="d-flex" data-trigger="animation" data-animation="fadeInUp">
-                    <?php if (!empty($data['feature_post_list'])) {
-                        if (!empty($data['feature_post_list'][0])) $first_post = $data['feature_post_list'][0];
-                        if (!empty($data['feature_post_list'][1])) $second_post = $data['feature_post_list'][1];
-                        if (!empty($data['feature_post_list'][2])) $third_post = $data['feature_post_list'][2];
-                        if (!empty($data['feature_post_list'][3])) $fourth_post = $data['feature_post_list'][3];
+                    <?php if (!empty($data['hot_post_list'])) {
+                        if (!empty($data['hot_post_list'][3])) $first_post = $data['hot_post_list'][3];
+                        if (!empty($data['hot_post_list'][4])) $second_post = $data['hot_post_list'][4];
+                        if (!empty($data['hot_post_list'][5])) $third_post = $data['hot_post_list'][5];
+                        if (!empty($data['hot_post_list'][6])) $fourth_post = $data['hot_post_list'][6];
                     ?>
                         <?php if (!empty($first_post)) { ?>
                             <div class="flex-50">
                                 <div class="news__gallery">
-                                    <img src="<?php echo ORIGIN_IMG_URL . $first_post->pos_image; ?>" alt="" class="news__img image-cover">
+                                    <img src="<?php echo ORIGIN_IMG_URL . $first_post->pos_image; ?>" alt="">
                                     <a href="<?php echo base_url("news/detail/" . $first_post->pos_id . "-" . $first_post->pos_alias) ?>" class="news__overlink">
                                         <h3 class="news__photo txt-title txt-weight-500">
                                             <?php echo $first_post->pos_title ?>
@@ -84,7 +83,7 @@
                             <?php if (!empty($second_post)) { ?>
                                 <div class="flex-100">
                                     <div class="news__gallery">
-                                        <img src="<?php echo ORIGIN_IMG_URL . $second_post->pos_image; ?>" alt="" class="news__img image-contain">
+                                        <img src="<?php echo ORIGIN_IMG_URL . $second_post->pos_image; ?>" alt="">
                                         <a href="<?php echo base_url("news/detail/" . $second_post->pos_id . "-" . $second_post->pos_alias) ?>" class="news__overlink">
                                             <h3 class="news__photo txt-title txt-weight-500"><?php echo $second_post->pos_title ?></h3>
                                             <p class="news__date txt-default"><?php echo date('d F Y', $second_post->pos_date) ?></p>
@@ -96,7 +95,7 @@
                                 <?php if (!empty($third_post)) { ?>
                                     <div class="flex-half-width">
                                         <div class="news__gallery">
-                                            <img src="<?php echo ORIGIN_IMG_URL . $third_post->pos_image; ?>" alt="" class="news__img image-contain">
+                                            <img src="<?php echo ORIGIN_IMG_URL . $third_post->pos_image; ?>" alt="">
                                             <a href="<?php echo base_url("news/detail/" . $third_post->pos_id . "-" . $third_post->pos_alias) ?>" class="news__overlink">
                                                 <h3 class="news__photo txt-title txt-weight-500"><?php echo $third_post->pos_title ?></h3>
                                                 <p class="news__date txt-default"><?php echo date('d F Y', $third_post->pos_date) ?></p>
@@ -107,8 +106,8 @@
                                 <?php if (!empty($fourth_post)) { ?>
                                     <div class="flex-half-width">
                                         <div class="news__gallery">
-                                            <img src="<?php echo ORIGIN_IMG_URL . $fourth_post->pos_image; ?>" alt="" class="news__img image-cover">
-                                            <a href="<?php echo base_url("news/detail/" . $fourth_post->pos_id . "-" . $fourth_postt->pos_alias) ?>" class="news__overlink">
+                                            <img src="<?php echo ORIGIN_IMG_URL . $fourth_post->pos_image; ?>" alt="">
+                                            <a href="<?php echo base_url("news/detail/" . $fourth_post->pos_id . "-" . $fourth_post->pos_alias) ?>" class="news__overlink">
                                                 <h3 class="news__photo txt-title txt-weight-500"><?php echo $fourth_post->pos_title ?></h3>
                                                 <p class="news__date txt-default"><?php echo date('d F Y', $fourth_post->pos_date) ?></p>
                                             </a>

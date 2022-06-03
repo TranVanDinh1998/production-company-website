@@ -26,27 +26,22 @@ class News extends Public_Controller {
 	public function index()
 	{
 		$data = [];
+		$get = [];
 
+		$get = $this->input->get();
+		
 		$params = [
-			'limit'=> 3,
+			'limit'=> 7,
 			'where' => [
 				'active'=>1
-			]
-		];
-		$data['hot_post_list'] = $this->post->getList($params);
-
-
-		$params = [
-			'limit'=> 4,
-			'where' => [
-				'active' => 1,
 			],
 			'sort' => [
 				'pos_hot' => 'DESC',
+				'pos_id' => 'DESC',
 				'pos_date' => 'DESC',
 			]
 		];
-		$data['feature_post_list'] = $this->post->getList($params);
+		$data['hot_post_list'] = $this->post->getList($params);
 
 		$config["base_url"] = base_url('news');
 		$this->config->load('pagination', TRUE);
@@ -62,6 +57,7 @@ class News extends Public_Controller {
 				'active'=>1
 			],
 			'sort' => [
+				'pos_id' => 'DESC',
 				'post_date'=> 'DESC'
 			]
 		];
@@ -78,6 +74,9 @@ class News extends Public_Controller {
 	public function detail($alias)
 	{
         $data = [];
+		$get = [];
+
+		$get = $this->input->get();
 
 		$aliasArr = explode('-', $alias);
 		$post_id = $aliasArr[0];
@@ -86,12 +85,12 @@ class News extends Public_Controller {
 			'limit' => 1,
 			'where' => [
 				'active'=>1,
-				'post_id' => $post_id,
+				'pos_id' => $post_id,
 			],
 		];
 		$data['post'] = $this->post->getList($params)[0];
 
-		$config["base_url"] = base_url('news');
+		$config["base_url"] = base_url("news/detail/" . $data['post']->pos_id . "-" . $data['post']->pos_alias);
 		$this->config->load('pagination', TRUE);
 		$page = !empty($get['page']) ? (int)($get['page']) : 1;
 		$limit = 6;
@@ -105,7 +104,8 @@ class News extends Public_Controller {
 				'active'=>1
 			],
 			'sort' => [
-				'post_date'=> 'DESC'
+				'pos_id' => 'DESC', 
+				'pos_date'=> 'DESC'
 			]
 		];
 		$data['old_post_list'] = $this->post->getList($params);
@@ -115,7 +115,8 @@ class News extends Public_Controller {
 		$this->pagination->initialize($config);
 
 		$data['header_class'] = "header__pc--white";
+		$title = 'News';
 		$content = 'news/detail';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
 	}
 }
