@@ -69,6 +69,8 @@ class News extends Public_Controller {
 
         $data['header_class'] = "header__pc--white";
 		$content = 'news/index';
+		if ($page != 1) 
+			$data['scroll_old_news'] = true;
 		$this->setData($data)->setContent($content)->render();
 	}
 	public function detail($alias)
@@ -117,6 +119,9 @@ class News extends Public_Controller {
 		$data['header_class'] = "header__pc--white";
 		$title = 'News';
 		$content = 'news/detail';
+		if ($page != 1) 
+			$data['scroll_old_news'] = true;
+		
 		$this->setTitle($title)->setData($data)->setContent($content)->render();
 	}
 }

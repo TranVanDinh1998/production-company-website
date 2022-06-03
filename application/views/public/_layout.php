@@ -62,7 +62,7 @@
             rederer: 'svg',
             loop: true,
             autoplay: true,
-            path: '<?php echo base_url("public/assets/js/data2.json") ?>'
+            path: '<?php echo base_url("public/assets/js/data.json") ?>'
         });
     </script>
 
@@ -176,26 +176,26 @@
                     responsive: [{
                         breakpoint: 1440,
                         settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 5,
+                        }
+                    }, {
+                        breakpoint: 1024,
+                        settings: {
                             slidesToShow: 4,
                             slidesToScroll: 4,
                         }
                     }, {
-                        breakpoint: 1024,
+                        breakpoint: 790,
                         settings: {
                             slidesToShow: 3,
                             slidesToScroll: 3,
                         }
                     }, {
-                        breakpoint: 790,
+                        breakpoint: 300,
                         settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2,
-                        }
-                    }, {
-                        breakpoint: 490,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2
+                            slidesToShow: 3,
+                            slidesToScroll: 3
                         }
                     }]
                 });
@@ -263,12 +263,16 @@
                     newsWidth = $(newsItem).width() / 2;
                 } else if ($(window).width() > 1024) {
                     newsWidth = $(newsItem).width() / 1.5;
-                } else if ($(window).width() > 410) {
-                    newsWidth = $(newsItem).width();
+                } else {
+                    newsWidth = $(newsItem).width() / 1.5;
                 }
                 $(".pagination").css({
                     'width': newsWidth + "px",
                 });
+            }
+            let scrollOldNews = <?php if (!empty($data['scroll_old_news'])) echo true; else echo false; ?>;
+            if (scrollOldNews) {
+                window.scrollTo(0,Math.round($('#old-news').find(".pagination").offset().top-200));
             }
         });
     </script>

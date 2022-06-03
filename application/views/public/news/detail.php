@@ -66,7 +66,7 @@
 <!-- Blog ends -->
 
 <!-- Old news -->
-<section class="section news__old">
+<section class="section news__old" id="old-news">
     <div class="news__old__content container-60">
         <div class="custom-grid">
             <div class="row">

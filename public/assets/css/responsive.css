@@ -21,7 +21,6 @@
         width: 40px;
         height: 40px;
         font-size: 1.6rem;
-        @media screen {}
     }
     /* ====================Text==================== */
     .txt-12,
@@ -174,8 +173,7 @@
         line-height: 4.6rem;
     }
     .txt-55,
-    .goal__vision p {
-    }
+    .goal__vision p {}
     .txt-60,
     .info__title.info__title--quote {
         font-size: 4.8rem;
@@ -219,8 +217,7 @@
         max-width: 180px;
     }
     /* ===========================NavBar============================== */
-    .navbar__item+.navbar__item {
-    }
+    .navbar__item+.navbar__item {}
     .navbar__link {
         font-size: 2.0rem;
         line-height: 2.4rem;
@@ -337,8 +334,7 @@
         padding-top: 70px;
         padding-bottom: 100px;
     }
-    .method {
-    }
+    .method {}
     .method__img {
         width: 80px;
         height: 80px;
@@ -991,15 +987,12 @@
     }
     /* =========================Goal ends========================= */
     /* =========================Timeline========================= */
-    .timeline {
-    }
+    .timeline {}
     .timeline__info {}
-    .timeline__item:before {
-    }
+    .timeline__item:before {}
     .timeline__item:after {
         height: 62px;
     }
-  
     /* =========================Timeline ends========================= */
     /* =========================Question========================= */
     .question {
@@ -1196,11 +1189,13 @@
 
 
 /* Laptop: 1024px <= width <= 1439px */
+
+
 /* General */
+
 .timeline {
     height: 800px;
 }
-
 
 @media screen and (min-width: 1025px) and (max-width:1440px) {
     .section {
@@ -1336,7 +1331,6 @@
         font-size: 2.0rem;
         line-height: 2.4rem;
     }
-
     .txt-18,
     .info__summary,
     .service__title,
@@ -2318,8 +2312,7 @@
     .timeline {
         height: 650px;
     }
-    .timeline__info {
-    }
+    .timeline__info {}
     .timeline__item:before {
         width: 60px;
         height: 60px;
@@ -2576,12 +2569,10 @@
     .firmbanking.banner__content .info__content {
         margin-top: 5px;
     }
-
     .deposit.banner__content {
         padding-top: 15%;
     }
-    .deposit.banner__content .banner__info {
-    }
+    .deposit.banner__content .banner__info {}
     .deposit.banner__content .info__content {
         margin-top: 5px;
     }
@@ -2759,7 +2750,7 @@
     .home.banner .home.banner__content .banner__info {
         top: 15%;
     }
-    .home .achievement { 
+    .home .achievement {
         margin-left: 5%;
     }
     .achievement--box ul li {
@@ -2817,8 +2808,7 @@
     }
     /* =========================About us ends========================= */
     /* =========================MGP========================= */
-    .megapay.banner__content .banner__info {
-    }
+    .megapay.banner__content .banner__info {}
     .megapay.banner__content .decoration__list .decoration__item .decoration__staff {
         right: 0;
         height: 80%;
@@ -3068,8 +3058,7 @@
 @media screen and (max-width: 740px) {
     /* ============================== Buttons and Banner ===========================*/
     .contain {}
-    .section {
-    }
+    .section {}
     .info__more {
         width: 90px;
         padding: 5px 5px;
@@ -4035,8 +4024,7 @@
     .mc-md.banner__content .banner__info {
         width: 80%;
     }
-    .mc.advantage .info__title {
-    }
+    .mc.advantage .info__title {}
     .mc.advantage .advantage__item {
         margin-left: 20px;
         margin-right: 20px;
@@ -4115,6 +4103,7 @@
     }
     .news__list--vertical {
         width: 100%;
+        margin-left: 0;
     }
     .news__item {
         flex-direction: column;
@@ -4450,13 +4439,16 @@
         display: flex;
     }
     /* ==============================Footer ends============================== */
+    /* Service */
+    .section.service>div {
+        max-width: 90%;
+    }
+    /* Service ends*/
 }
 
 @media screen and (max-width:1024px) {
     .header__pc--white .navbar__link {
         color: var(--header-txt-color);
-    }
-    .menu__list {
     }
     /* ===========================Header============================== */
     .header__pc {
@@ -4507,6 +4499,7 @@
     }
     .navbar__item+.navbar__item {
         margin-left: 0;
+        margin-top: 10px;
     }
     .navbar__link {
         padding: 10px 5%;
@@ -4521,18 +4514,35 @@
         width: 100%;
         position: unset;
         transform: unset;
+        padding-top: 0;
+        padding-bottom: 0;
+        box-shadow: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
     }
     .navbar__menu--category {
         flex-direction: column;
+    }
+    .menu {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .navbar__menu.navbar__menu--category .menu {
+        -webkit-flex: 1;
+        flex: 1;
+    }
+    .menu+.menu {
+        padding-top: 10px;
     }
     .menu:nth-child(even) {
         padding-left: 0;
     }
     .navbar__menu--category .menu:first-child {
-        padding-top: 0px;
+        padding-top: 0;
     }
     .navbar__menu--category .menu:first-child+.menu {
-        padding-top: 26px;
+        padding-top: 10px;
     }
     .navbar__item .navbar__link::after,
     .navbar__item .navbar__link--menu::after {
@@ -4543,6 +4553,18 @@
     .navbar__item.show .navbar__link--menu::after {
         transform: unset;
     }
+    .menu__list {
+        width: 100%;
+    }
+    .menu__link {
+        display: block;
+        width: 100%;
+    }
     /* ---------------------------Navbar ends------------------------------ */
     /* ===========================Header ends============================== */
+    /* news */
+    .section.news>div {
+        max-width: 90%;
+    }
+    /* news ends */
 }

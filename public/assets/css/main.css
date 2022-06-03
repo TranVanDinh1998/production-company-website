@@ -2,6 +2,7 @@
 
 #wrapper {
     overflow: hidden;
+    position: relative;
 }
 
 .section {
@@ -14,10 +15,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .bg-fit {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 /* =================Header======================= */
 
@@ -246,16 +249,17 @@
     -moz-transform: scale(0);
     -ms-transform: scale(0);
     -o-transform: scale(0);
-    transition: transform 0.3s ease-in-out;
-    -webkit-transition: transform 0.3s ease-in-out;
-    -moz-transition: transform 0.3s ease-in-out;
-    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, height 0.3s linear;
+    -webkit-transition: transform 0.3s ease-in-out, height 0.3s linear;
+    -moz-transition: transform 0.3s ease-in-out, height 0.3s linear;
+    -o-transition: transform 0.3s ease-in-out, height 0.3s linear;
     transform-origin: 10px 0%;
     -webkit-transform-origin: 10px 0%;
     -moz-transform-origin: 10px 0%;
     -ms-transform-origin: 10px 0%;
     -o-transform-origin: 10px 0%;
     z-index: 20;
+    overflow: hidden;
 }
 
 
@@ -1190,6 +1194,7 @@
     -moz-animation: bg-pan-right 12s ease infinite alternate both;
     -o-animation: bg-pan-right 12s ease infinite alternate both;
 }
+
 .banner.megapay .info__content p {
     max-width: 70%;
 }
@@ -1317,14 +1322,17 @@
 .mc-md.banner__content .banner__info .info {
     max-width: 55%;
 }
+
 .mc-md.banner__content img {
     bottom: 0;
     height: 90%;
     margin-left: 55%;
 }
+
 .mc-md.banner__content {
     position: unset;
 }
+
 .shipantoan.banner__content {
     padding-top: 10%;
     background-position: center;
@@ -1334,6 +1342,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
 .shipantoan.banner .general__content .info {
     max-width: 60%;
 }
@@ -2395,8 +2404,7 @@
     justify-content: space-between;
 }
 
-.general__content .info {
-}
+.general__content .info {}
 
 .general__content--vertical .info {
     max-width: 80%;
@@ -3236,6 +3244,7 @@
 }
 
 .shipantoan.advantage .info__title {}
+
 .shipantoan.img {
     min-width: 500px;
 }
@@ -3374,7 +3383,8 @@
 .topup.procedure .info img {
     width: 100%;
 }
-.topup.general .general__content--vertical .info{
+
+.topup.general .general__content--vertical .info {
     max-width: 100%;
 }
 
@@ -4813,6 +4823,7 @@
 .timeline__item:nth-child(even):after {
     top: 35%;
 }
+
 .timeline__info {
     display: block;
     width: auto;
@@ -4877,6 +4888,7 @@
     /* font-size: 1.6rem;
     line-height: 2.2rem; */
 }
+
 
 /* =========================Timeline ends============================== */
 

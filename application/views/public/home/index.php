@@ -24,34 +24,34 @@
         <div class="achievement achievement--box counter-section">
             <ul>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="40" data-step="4"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="40"></span></span>
                     </h3>
                     <p class="achievement__description">Ngân hàng đối tác</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="10000" data-step="1000"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="10000"></span></span>
                     </h3>
                     <p class="achievement__description">Điểm liên kết tại 63 tỉnh thành</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="30000" data-step="3000"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="30000"></span></span>
                     </h3>
                     <p class="achievement__description">Khách hàng</p>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="70000" data-step="7000"></span></span> nghìn tỉ
+                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="70000"></span></span> nghìn tỉ
                     </h3>
                     <p class="achievement__description">Sản lượng giao dịch</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">Top <span id="value" class="achievement__number"><span class="number" data-start="500" data-end="334" data-step="6"></span></span>
+                    <h3 class="achievement__record txt-primary">Top <span id="value" class="achievement__number"><span class="number" data-start="500" data-end="334"></span></span>
                     </h3>
                     <p class="achievement__description">trong top 500 công ty VNR500</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="100" data-step="5"></span> triệu
+                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="100"></span> triệu
                     </h3>
                     <p class="achievement__description">Giao dịch xử lý hằng năm</p>
                 </li>

@@ -24,33 +24,33 @@ $(document).ready(function() {
     }
 
     // scroll xuống thì hiện ra FadeIn animate.style
- 
-      let elements = $("[data-trigger='animation']");
+
+    let elements = $("[data-trigger='animation']");
     //   console.log(elements);
-      $(elements).each(function(){
+    $(elements).each(function() {
         let element = $(this);
         let animationName = $(element).attr("data-animation");
         $(element).css({
-            "opacity" : 0
+            "opacity": 0
         });
         if (($(element).closest(".section").position().top - 500) < 0) {
             $(element).css({
-                "animation-name" : animationName,
-                "animation-duration" : 1+"s",
-                "animation-fill-mode" : "forwards",
+                "animation-name": animationName,
+                "animation-duration": 1 + "s",
+                "animation-fill-mode": "forwards",
             })
         }
         $(window).scroll(function() {
             if ($(this).scrollTop() > $(element).closest(".section").position().top - 500) {
                 $(element).css({
-                    "animation-name" : animationName,
-                    "animation-duration" : 1+"s",
-                    "animation-fill-mode" : "forwards",
+                    "animation-name": animationName,
+                    "animation-duration": 1 + "s",
+                    "animation-fill-mode": "forwards",
                 })
             }
         });
-        
-      });
+
+    });
 
 
 
@@ -174,7 +174,7 @@ $(document).ready(function() {
                         delay += 200;
                     });
                 }
-                }        
+            }
         }
         if ($(timeline).length) {
             if ($(this).scrollTop() < (Math.abs($(timeline).position().top - ($(window).height() / 2)))) {
@@ -188,16 +188,16 @@ $(document).ready(function() {
                         $(item).find(".timeline__info").css({
                             "--delay-time": `${delay}ms`
                         });
-                            $(item).css({
-                                "--after-animation-name": "scale-in-ver-bottom",
-                            });
-                            $(item).find(".timeline__info").css({
-                                "animation-name": "slide-in-right",
-                            });
+                        $(item).css({
+                            "--after-animation-name": "scale-in-ver-bottom",
+                        });
+                        $(item).find(".timeline__info").css({
+                            "animation-name": "slide-in-right",
+                        });
                         delay += 200;
                     });
                 }
-                }        
+            }
         }
 
         // hiện nút quay về đầu
@@ -210,7 +210,7 @@ $(document).ready(function() {
         } else {
             $("#wrapper #return").css({ "bottom": "" });
         }
-        
+
 
         // gán giá trị của scroll mouse trước đó;
         preScroll = $(this).scrollTop();
@@ -343,15 +343,18 @@ function rippleButton() {
 
     initMobileMenu();
     initSubMenu();
-    if ($(window).width() <= 1024 || $(window).resize() <= 1024) {
+    // if ($(window).width() <= 1024 || $(window).resize() <= 1024) {
+    // initMobileMenu();
+    $(window).on("resize", function() {
         initMobileMenu();
-        $(toggleBtn).on("click", function(e) {
-            showNav = !showNav;
-            initMobileMenu();
-            $(toggleBtn).find(".toggle__default").toggle();
-            $(toggleBtn).find(".toggle__close").toggle();
-        });
-    }
+    });
+    $(toggleBtn).on("click", function(e) {
+        showNav = !showNav;
+        initMobileMenu();
+        $(toggleBtn).find(".toggle__default").toggle();
+        $(toggleBtn).find(".toggle__close").toggle();
+    });
+    // }
 
     function initMobileMenu() {
         if (showNav) {
@@ -366,6 +369,7 @@ function rippleButton() {
         $(navbarItems).each(function(index, item) {
             showMenu[index] = false;
             let subMenu = $(item).find(".navbar__menu");
+            let originHeight = $(subMenu).outerHeight(true);
             if ($(window).width() >= 1024) {
                 $(item).on("touchstart mouseenter", function() {
                     if (!$(this).hasClass("show")) $(this).addClass("show");
@@ -373,27 +377,26 @@ function rippleButton() {
                 $(item).on("mouseleave touchmove", function() {
                     if ($(this).hasClass("show")) $(this).removeClass("show");
                 });
-            }
-            if ($(window).width() <= 739) {
+            } else {
                 if (subMenu.length > 0) {
                     if (showMenu[index]) {
-                        $(this).addClass("show");
-                        $(subMenu).show(300);
+                        $(item).addClass("show");
+                        $(subMenu).css({ 'height': originHeight + 'px' });
                     } else {
-                        $(this).removeClass("show");
-                        $(subMenu).hide(300);
+                        $(item).removeClass("show");
+                        $(subMenu).css({ 'height': 0 });
                     }
                 }
                 $(item).on("click", function(e) {
                     if (subMenu.length > 0) {
                         if (!showMenu[index]) {
-                            $(this).addClass("show");
-                            $(subMenu).show(300);
+                            $(item).addClass("show");
                             showMenu[index] = true;
+                            $(subMenu).css({ 'height': originHeight + 'px' });
                         } else {
-                            $(this).removeClass("show");
-                            $(subMenu).hide(300);
+                            $(item).removeClass("show");
                             showMenu[index] = false;
+                            $(subMenu).css({ 'height': 0 });
                         }
                     }
                 });
