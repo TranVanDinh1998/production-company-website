@@ -24,34 +24,34 @@
         <div class="achievement achievement--box counter-section">
             <ul>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-number="40"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="40" data-step="4"></span></span>
                     </h3>
                     <p class="achievement__description">Ngân hàng đối tác</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-number="10000"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="10000" data-step="1000"></span></span>
                     </h3>
                     <p class="achievement__description">Điểm liên kết tại 63 tỉnh thành</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-number="30000"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="30000" data-step="3000"></span></span>
                     </h3>
                     <p class="achievement__description">Khách hàng</p>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-number="70000"></span></span> nghìn tỉ
+                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="70000" data-step="7000"></span></span> nghìn tỉ
                     </h3>
                     <p class="achievement__description">Sản lượng giao dịch</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">Top <span id="value" class="achievement__number"><span class="number" data-number="334"></span></span>
+                    <h3 class="achievement__record txt-primary">Top <span id="value" class="achievement__number"><span class="number" data-start="500" data-end="334" data-step="6"></span></span>
                     </h3>
                     <p class="achievement__description">trong top 500 công ty VNR500</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-number="100"></span> triệu
+                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="100" data-step="5"></span> triệu
                     </h3>
                     <p class="achievement__description">Giao dịch xử lý hằng năm</p>
                 </li>
@@ -77,10 +77,10 @@
 <section class="section intro">
 <div class="intro bg-fit" id="particles" style="background-image: url('<?php echo base_url("public/assets/images/home/bg-home.png") ?>');">
     <div class="intro__wrap">
-        <video class="intro__video" controls muted autoplay>
-            <source src="<?php echo base_url("public/assets/images/home/homepage-video.mp4") ?>" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <div class="intro__video">
+            <!-- <iframe  src="https://www.youtube.com/embed/b5xcstMpQmc?autoplay=1" title="VNPTEPAY Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" scrolling="no" allowfullscreen></iframe> -->
+            <iframe src="https://www.youtube.com/embed/b5xcstMpQmc?autoplay=1&mute=1" title="VNPTEPAY Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" scrolling="no" allowfullscreen></iframe>
+        </div>
         <div class="info intro info--right">
             <h3 class="info__title" data-trigger="animation" data-animation="fadeInRight">Giới thiệu VNPT EPAY</h3>
             <div class="info__content" data-trigger="animation" data-animation="fadeInRight">
@@ -257,7 +257,7 @@
                 </div>
             </div>
         </div>
-        <div class="partner__slider  partner__slider--fixed-height owlcarousel" data-trigger="animation" data-animation="fadeInRight">
+        <div class="partner__slider  partner__slider--fixed-height" data-trigger="animation" data-animation="fadeInRight">
             <div class="partner__item">
                 <img src="<?php echo base_url("public/assets/images/partner/partner_abbank.png") ?>" alt="" class="partner__img">
             </div>
@@ -395,38 +395,65 @@
         <div class="info info--center">
             <h3 class="info__title delay-02" data-trigger="animation" data-animation="fadeInUp">Tin tức</h3>
             <div class="info__content">
-                <div class="custom-grid">
-                    <div class="news__list row">
-                        <?php if (!empty($data['post_list'])) {
-                            foreach ($data['post_list'] as $post) {
-                        ?>
-                                <div class="news__item col l-4 m-4 c-12">
-                                    <div class="news__content">
-                                        <a href="<?php echo base_url("news/detail/" . $post->pos_id . "-" . $post->pos_alias) ?>" class="news__link">
-                                            <img class="news__img image-contain" src="<?php echo ORIGIN_IMG_URL . $post->pos_image; ?>" alt="">
-                                            <p class="news__title txt-title txt-weight-500"><?php echo $post->pos_title; ?>
-                                            </p>
-                                        </a>
-                                        <div class="news__info">
-                                            <p class="news__summary txt-default"><?php echo $post->pos_summary; ?></p>
-                                            <div class="news__origin">
-                                                <p class="news__time"><?php echo date('d/m/Y', $post->pos_date) ?></p>
-                                                <p class="news__author">By VNPT EPAY</p>
+                <div class="news__area slick">
+                    <?php
+                    if (!empty($data['page']) && !empty($data['per_page']) && !empty($data['post_list'])) {
+                        $n = 0;
+                        for ($page = 1; $page <= $data['page']; $page++) {
+                            $offset = ($page - 1) * $data['per_page'];
+                    ?>
+                            <div class="news__list">
+                                <div class="custom-grid">
+                                    <div class="row">
+                                        <?php
+                                        for ($limit = 0; $limit < $data['per_page']; $limit++) {
+                                            if (isset($data['post_list'][$offset + $limit]))
+                                                $post = $data['post_list'][$offset + $limit];
+                                            else break;
+                                        ?>
+                                            <div class="news__item col l-4 m-4 c-12">
+                                                <div class="news__content">
+                                                    <div class="news__img" style="background-image: url(' <?php echo ORIGIN_IMG_URL . $post->pos_image ?>"></div>
+                                                    <a href="<?php echo base_url("news/detail/" . $post->pos_id . "-" . $post->pos_alias) ?>" class="news__link" style="">
+                                                        <p class="news__title txt-title txt-weight-500"><?php echo $post->pos_title;?></p>
+                                                    </a>
+                                                    <div class="news__info">
+                                                        <p class="news__summary txt-default"><?php echo $post->pos_summary; ?></p>
+                                                        <div class="news__origin">
+                                                            <p class="news__time"><?php echo date('d/m/Y', $post->pos_date); ?></p>
+                                                            <p class="news__author">By VNPT EPAY</p>
+                                                        </div>
+                                                    </div>
+                                                    <a href="<?php echo base_url("news/detail/" . $post->pos_id . "-" . $post->pos_alias); ?>" class="news__more">
+                                                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                                    </a>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <a href="<?php echo base_url("news/detail/" . $post->pos_id . "-" . $post->pos_alias) ?>" class="news__more">
-                                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
-                                        </a>
+                                        <?php
+                                        }
+                                        ?>
                                     </div>
                                 </div>
+                            </div>
+                    <?php
+                        }
+                    }
+                    ?>
+                </div>
+                <div class="pagination">
+                    <ul class="pagination__list slick">
                         <?php
-                            }
+                        for ($i = 1; $i <= $data['page']; $i++) {
+                        ?>
+                            <li class="pagination__item">
+                                <div class="pagination_wrap">
+                                    <a href="javascript:void(0);"><?php echo $i; ?></a>
+                                </div>
+                            </li>
+                        <?php
                         }
                         ?>
-                    </div>
-                    <?php
-                         echo $this->pagination->create_links();
-                    ?>
+                    </ul>
                 </div>
             </div>
         </div>
