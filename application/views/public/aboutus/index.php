@@ -66,113 +66,194 @@
 </section>
 <!-- Achievement ends -->
 
-<!-- Goal -->
-<section class="section aboutus goal">
-    <div class="container container-80">
-        <div class="goal__wrapper txt-white">
-            <div class="goal__vision">
-                <h3 class="goal__heading txt-weight-bold txt-upper">Tầm nhìn</h3>
-                <ul class="goal__list">
-                    <li class="goal__item">
-                        <p class="goal__description">VNPT EPAY là tập đoàn thanh toán điện tử hàng đầu tại Việt Nam</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="goal__mission">
-                <div class="goal__illustrations owl-carousel">
-                    <div class="goal__illustration" style="background-image:linear-gradient(0deg, rgba(35, 35, 35, 0.62), rgba(35, 35, 35, 0.62)),url('<?php echo base_url("public/assets/images/goal/goal_slider.png") ?>');"></div>
-                    <div class="goal__illustration" style="background-image:linear-gradient(0deg, rgba(35, 35, 35, 0.62), rgba(35, 35, 35, 0.62)),url('<?php echo base_url("public/assets/images/goal/goal_slider.png") ?>');"></div>
-                    <div class="goal__illustration" style="background-image:linear-gradient(0deg, rgba(35, 35, 35, 0.62), rgba(35, 35, 35, 0.62)),url('<?php echo base_url("public/assets/images/goal/goal_slider.png") ?>');"></div>
-                    <div class="goal__illustration" style="background-image:linear-gradient(0deg, rgba(35, 35, 35, 0.62), rgba(35, 35, 35, 0.62)),url('<?php echo base_url("public/assets/images/goal/goal_slider.png") ?>');"></div>
+        <!-- Goal -->
+        <section class="section aboutus goal">
+            <div class="container container-80">
+                <div class="goal__wrapper txt-white">
+                    <div class="goal__vision">
+                        <h3 class="goal__heading txt-weight-bold txt-upper">Tầm nhìn</h3>
+                        <ul class="goal__list">
+                            <li class="goal__item">
+                                <p class="goal__description">VNPT EPAY sẽ là tập đoàn thanh toán điện tử hàng đầu tại Việt Nam</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="goal__mission">
+                        <div class="goal__illustrations owl-carousel">
+                            <div class="goal__illustration" style="background-image:linear-gradient(0deg, rgba(35, 35, 35, 0.62), rgba(35, 35, 35, 0.62)),url('<?php echo base_url("public/assets/images/goal/goal_slider.png")?>');"></div>
+                            <div class="goal__illustration" style="background-image:linear-gradient(0deg, rgba(35, 35, 35, 0.62), rgba(35, 35, 35, 0.62)),url('<?php echo base_url("public/assets/images/goal/goal_slider.png")?>');"></div>
+                            <div class="goal__illustration" style="background-image:linear-gradient(0deg, rgba(35, 35, 35, 0.62), rgba(35, 35, 35, 0.62)),url('<?php echo base_url("public/assets/images/goal/goal_slider.png")?>');"></div>
+                            <div class="goal__illustration" style="background-image:linear-gradient(0deg, rgba(35, 35, 35, 0.62), rgba(35, 35, 35, 0.62)),url('<?php echo base_url("public/assets/images/goal/goal_slider.png")?>');"></div>
+                        </div>
+                        <div class="goal__content">
+                            <h3 class="goal__heading txt-weight-bold txt-upper">Sứ mệnh</h3>
+                            <ul class="goal__list owl-carousel">
+                                <li class="goal__item">
+                                    <h2 class="goal__title txt-weight-bold-500 txt-upper">Đối với xã hội</h2>
+                                    <p class="goal__description">Góp phần thực hiện chủ trương của Chính phủ về chuyển đổi số và thanh toán không dùng tiền mặt</p>
+                                </li>
+                                <li class="goal__item">
+                                    <h2 class="goal__title txt-weight-bold-500 txt-upper">Đối với Khách hàng</h2>
+                                    <p class="goal__description">Cung cấp dịch vụ tin cậy, hợp tác bền vững, luôn đồng hành cùng khách hàng</p>
+                                </li>
+                                <li class="goal__item">
+                                    <h2 class="goal__title txt-weight-bold-500 txt-upper">Đối với Người dùng cuối</h2>
+                                    <p class="goal__description">Cung cấp phương tiện thanh toán ở mọi nơi, mọi lúc và trên mọi thiết bị</p>
+                                </li>
+                                <li class="goal__item">
+                                    <h2 class="goal__title txt-weight-bold-500 txt-upper">Đối với Đối tác</h2>
+                                    <p class="goal__description">Trở thành Đối tác tin cậy</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="goal__content">
-                    <h3 class="goal__heading txt-weight-bold txt-upper">Sứ mệnh</h3>
-                    <ul class="goal__list owl-carousel">
-                        <li class="goal__item">
-                            <h2 class="goal__title txt-weight-bold-500 txt-upper">Đối với xã hội</h2>
-                            <p class="goal__description">Góp phần thực hiện chủ trương của Chính phủ về chuyển đổi số và thanh toán không dùng tiền mặt</p>
-                        </li>
-                        <li class="goal__item">
-                            <h2 class="goal__title txt-weight-bold-500 txt-upper">Đối với Khách hàng</h2>
-                            <p class="goal__description">Cung cấp dịch vụ tin cậy, hợp tác bền vững, luôn đồng hành cùng khách hàng</p>
-                        </li>
-                        <li class="goal__item">
-                            <h2 class="goal__title txt-weight-bold-500 txt-upper">Đối với Người dùng cuối</h2>
-                            <p class="goal__description">Cung cấp phương tiện thanh toán ở mọi nơi, mọi lúc và trên mọi thiết bị</p>
-                        </li>
-                        <li class="goal__item">
-                            <h2 class="goal__title txt-weight-bold-500 txt-upper">Đối với Đối tác</h2>
-                            <p class="goal__description">Trở thành Đối tác tin cậy</p>
-                        </li>
-                    </ul>
+            </div>
+        </section>
+
+
+        <!-- Timeline -->
+        <section class="section timeline">
+            <ul class="timeline__list">
+                <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2014.png')">
+                    <div class="timeline__info">
+                        <h3 class="timeline__year txt-default txt-weight-bold">2014</h3>
+                        <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">VỮNG MẠNH</h4>
+                        <p class="timeline__summary txt-default">
+                        Doanh thu 2.100 tỷ đồng, lợi nhuận trước thuế tăng 40%
+                        </p>
+                        <p class="timeline__summary txt-default">
+                        Chiếm thị phần số 1 trong dịch vụ Topup cung cấp tính năng nạp thẻ điện thoại và mua bán thẻ game
+                        </p>
+                        
+                    </div>
+                </li>
+                <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2015.png')">
+                    <div class="timeline__info">
+                        <h3 class="timeline__year txt-default txt-weight-bold">2015</h3>
+                        <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">Khẳng định</h4>
+                        <p class="timeline__summary txt-default">
+                        Doanh thu: 3,800 tỷ đồng. Lợi nhuận trước thuế tăng 40%
+                        </p>
+                        <p class="timeline__summary txt-default">
+                        Triển khai dịch vụ Shipantoan
+                        </p>
+                    </div>
+                </li>
+                <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2016.png')">
+                    <div class="timeline__info">
+                        <h3 class="timeline__year txt-default txt-weight-bold">2016</h3>
+                        <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">GIẤY PHÉP CHÍNH THỨC CỦA NGÂN HÀNG NHÀ NƯỚC
+                        </h4>
+                        <p class="timeline__summary txt-default">
+                            Được Ngân hàng nhà nước cấp giấy phép chính thức về Trung gian thanh toán
+                        </p>
+                        <p class="timeline__summary txt-default">
+                        Ra mắt dịch vụ Thu hộ tiền mặt tại điểm
+                        </p>
+                    </div>
+                </li>
+                <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2017.png')">
+                    <div class="timeline__info">
+                        <h3 class="timeline__year txt-default txt-weight-bold">2017</h3>
+                        <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">NHẬN VỐN ĐẦU TƯ NƯỚC NGOÀI</h4>
+                        <p class="timeline__summary txt-default">
+                        Global Payment Service và UTC Investment mua cổ phần và trở thành cổ đông lớn nhất
+                        </p>
+                        <p class="timeline__summary txt-default">
+                        Ra mắt dịch vụ Chi hộ tiền mặt tại điểm
+                        </p>
+                    </div>
+                </li>
+                <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2018.png')">
+                    <div class="timeline__info">
+                        <h3 class="timeline__year txt-default txt-weight-bold">2018</h3>
+                        <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">ĐỔI MỚI</h4>
+                        <p class="timeline__summary txt-default">
+                            Xây dựng đội ngũ quản lý Hàn Quốc và tái cơ cấu toàn bộ dịch vụ TGTT
+                        </p>
+                        <p class="timeline__summary txt-default">
+                            Triển khai dịch vụ Mã nộp tiền (DepositCode) và dịch vụ chi tiền nhanh liên ngân hàng(Firm Banking), Ra mắt dịch vụ Thu hồ sơ
+                        </p>
+                    </div>
+                </li>
+                <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2019.png')">
+                    <div class="timeline__info">
+                        <h3 class="timeline__year txt-default txt-weight-bold">2019</h3>
+                        <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">LỚN MẠNH</h4>
+                        <p class="timeline__summary txt-default">Ra mắt Cổng thanh toán trực tuyến Megapay
+                        </p>
+                        <p class="timeline__summary txt-default">Triển khai tính năng thanh toán đơn giản (Tokenization) với thẻATM (40 ngân hàng)
+                        </p>
+                       
+                    </div>
+                </li>
+                <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2015.png')">
+                    <div class="timeline__info">
+                        <h3 class="timeline__year txt-default txt-weight-bold">2020</h3>
+                        <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">TĂNG TRƯỞNG ĐỘT PHÁ</h4>
+                        <p class="timeline__summary txt-default">Nhận giải thưởng “Top 20 Thương hiệu Vàng Việt Nam 2020”
+                        </p>
+                        <p class="timeline__summary txt-default">Triển khai dịch vụ thanh toán qua ZaloPay, MoMo, trả góp. Ra mắt website Esan.vn
+                        </p>
+
+                    </div>
+                </li>
+                <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2014.png')">
+                    <div class="timeline__info">
+                        <h3 class="timeline__year txt-default txt-weight-bold">2021</h3>
+                        <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">MỤC TIÊU TĂNG TRƯỞNG</h4>
+                        <p class="timeline__summary txt-default">Nhận giải thưởng “Top Dịch vụ hoàn hảo quyền lợi của người tiêu dùng 2021”
+                        </p>
+                        <p class="timeline__summary txt-default">Ra mắt dự án Ví B2B2E
+                        </p>
+                        <p class="timeline__summary txt-default">Top 500 doanh nghiệp lớn nhất Việt Nam
+                        </p>
+                    </div>
+                </li>
+               
+            </ul>
+        </section>
+        <!-- Timeline ends-->
+
+        <!-- Introduction -->
+        <section class="section intro">
+            <div class="container-80">
+            <div class="info__content">
+                    <p class="info__description" data-trigger="animation" data-animation="fadeInUp">
+                    Thành lập năm 2008, VNPT EPAY có hơn 14 năm kinh nghiệm triển khai các giải pháp thanh toán điện tử và giải pháp tài chính VNPT EPAY đã đạt được nhiều thành tựu đáng tự hào:
+                    </p>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Goal ends -->
-
-<!-- Timeline -->
-<section class="section timeline">
-    <ul class="timeline__list">
-        <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2014.png')">
-            <div class="timeline__info">
-                <h3 class="timeline__year txt-default txt-weight-bold">2008 - 2012</h3>
-                <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">Hình thành</h4>
-                <p class="timeline__summary txt-default txt-justify">Thành lập công ty và bắt đầu xây dựng dịch vụ trung gian thanh toán </p>
-                <p class="timeline__summary txt-default txt-justify">Ra mắt và triển khai dịch vụ Topup</p>
-                <p class="timeline__summary txt-default txt-justify">Nhận giấy phép thí điểm trung tâm thanh toán</p>
-            </div>
-        </li>
-        <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2015.png')">
-            <div class="timeline__info">
-                <h3 class="timeline__year txt-default txt-weight-bold">2012 - 2015</h3>
-                <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">Phát triển</h4>
-                <p class="timeline__summary txt-default txt-justify">Chiếm thị phần số 1 thị trường trò chơi trực tuyến</p>
-                <p class="timeline__summary txt-default txt-justify">Chiến thị phần số 1 dịch vụ Topup nạp thẻ điện thoại và thẻ game</p>
-            </div>
-        </li>
-        <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2016.png')">
-            <div class="timeline__info">
-                <h3 class="timeline__year txt-default txt-weight-bold">2015 - 2018</h3>
-                <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">Chuyển đổi
-                </h4>
-                <p class="timeline__summary txt-default txt-justify">Được Ngân hàng nhà nước cấp giấy phép chính thức về Trung gian thanh toán</p>
-                <p class="timeline__summary txt-default txt-justify">Triển khai dịch vụ Shipantoan, Thu/chi hộ tại điểm, Deposit code, Firm Banking</p>
-                <p class="timeline__summary txt-default txt-justify">Xây dựng đội ngũ quản lý Hàn Quốc và tái cơ cấu toàn bộ dịch vụ trung gian thanh toán</p>
-            </div>
-        </li>
-        <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2017.png')">
-            <div class="timeline__info">
-                <h3 class="timeline__year txt-default txt-weight-bold">2019</h3>
-                <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">Bứt phá</h4>
-                <p class="timeline__summary txt-default txt-justify">Ra mắt Cổng thanh toán trực tuyến tích hợp tiêu chuẩn Hàn Quốc MEGAPAY</p>
-                <p class="timeline__summary txt-default txt-justify">Triển khai tính năng thanh toán Tokenization với thẻ NAPAS
-            </div>
-        </li>
-        <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2018.png')">
-            <div class="timeline__info">
-                <h3 class="timeline__year txt-default txt-weight-bold">2020</h3>
-                <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">Top 20 Thương hiệu vàng</h4>
-                <p class="timeline__summary txt-default txt-justify">Nhận giải thưởng Top 20 Thương hiệu Vàng Việt Nam 2020</p>
-                <p class="timeline__summary txt-default txt-justify">Triển khai tính năng Tokenization với thẻ tín dụng, thanh toán qua ví ZaloPay, Momo, trả góp thẻ tín dụng</p>
-                <p class="timeline__summary txt-default txt-justify">Ra mắt dịch vụ Topup B2C website esan.vn</p>
-            </div>
-        </li>
-        <li class="timeline__item" style="--background-img: url('../images/timeline/timeline_2019.png')">
-            <div class="timeline__info">
-                <h3 class="timeline__year txt-default txt-weight-bold">2021</h3>
-                <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">Top 334 Doanh nghiệp lớn nhất Viẹt Nam</h4>
-                <p class="timeline__summary txt-default txt-justify">Nhận giải thưởng Top 20 Dịch vụ hoàn hảo năm 2021
-                </p>
-                <p class="timeline__summary txt-default txt-justify">Ra mắt dự án Ví B2B2E MegaV, dịch vụ EPAYLink, thanh toán trả góp qua 23 ngân hàng, thanh toán hoá đơn Billpayment, Portal thu học phí trường học
-                </p>
-                <p class="timeline__summary txt-default txt-justify">Lọt top 500 doanh nghiệp lớn nhất Việt Nam (top 334) do VNR500 bình chọn
-                </p>
-            </div>
-        </li>
-
-    </ul>
+                <div class="custom-grid">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12" data-trigger="animation" data-animation="fadeInLeft">
+                            <div class="intro__content intro__content--left owl-carousel">
+                                <div class="info">
+                                    <h3 class="info__title">Sản lượng giao dịch qua hệ thống đạt trên 7,000 tỉ giao dịch</h3>
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3 class="info__title">Hơn 100 triệu giao dịch được xử lí mỗi năm</h3>
+                                    
+                                </div>
+                                <div class="info">                                 
+                                    <h3 class="info__title">Nhận giải thưởng “Top 20 Thương hiệu Vàng Việt Nam 2020”</h3>
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3 class="info__title">Nhận giải thưởng “Top 20 Dịch vụ hoàn hảo vì quyền lợi của người tiêu dùng năm 2021”</h3>
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3 class="info__title">Lọt Top 500 doanh nghiệp lớn nhất Việt Nam</h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+              </div>
+              </div>
+          </div>
 </section>
 <!-- Timeline ends-->
 
@@ -184,10 +265,8 @@
                 <div class="col l-6 m-12 c-12">
                     <div class="intro__content intro__content--left owl-carousel">
                         <div class="info" data-trigger="animation" data-animation="fadeInLeft">
-
                             <h3 class="info__title">Nhận giải thưởng “Top 20 Dịch vụ hoàn hảo vì quyền lợi của người tiêu dùng" năm 2021 và 2022.</h3>
                             <div class="info__content">
-
                             </div>
                         </div>
                         <div class="info">

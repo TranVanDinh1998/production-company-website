@@ -60,12 +60,14 @@
         </div>
         <!-- Achievement ends -->
         <!-- Decoration -->
-        <ul class="decoration__list ">
-            <li class="decoration__item">
-                <div id="decoration__mgp" class="animate__animated animate__fadeInRight"></div>
-            </li>
+        <div class="decoration__list ">
+            <div class="decoration__item">
+                <div id="decoration__mgp" class="animate__animated animate__fadeInRight delay-04">
+                    <!-- <img src="<?php echo base_url("public/assets/images/home/iphone-2.gif")?>" > -->
+                </div>
+            </div>
 
-        </ul>
+        </div>
         <!-- Decoration ends-->
     </div>
 </section>
@@ -73,6 +75,7 @@
 
 <!-- Introduction -->
 <section class="section intro">
+<div class="intro bg-fit" id="particles" style="background-image: url('<?php echo base_url("public/assets/images/home/bg-home.png") ?>');">
     <div class="intro__wrap">
         <div class="intro__video">
             <!-- <iframe  src="https://www.youtube.com/embed/b5xcstMpQmc?autoplay=1" title="VNPTEPAY Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" scrolling="no" allowfullscreen></iframe> -->
@@ -91,6 +94,7 @@
             </div>
         </div>
     </div>
+</div>    
 </section>
 <!-- Introduction ends -->
 

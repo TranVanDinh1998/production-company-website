@@ -14,7 +14,10 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.bg-fit {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* =================Header======================= */
 
@@ -101,7 +104,7 @@
 .navbar__item {}
 
 .navbar__item+.navbar__item {
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .navbar__link {
@@ -654,7 +657,7 @@
 
 .home.banner__content {
     background: bottom / cover no-repeat;
-    background-position-y: 90%;
+    background-position-y: 94%;
     background-position-x: 5%;
 }
 
@@ -712,7 +715,7 @@
     color: #ffffff;
 }
 
-.banner__content .decoration__list .decoration__item {
+.megapay.banner__content .decoration__list .decoration__item {
     position: unset;
 }
 
@@ -737,10 +740,8 @@
 }
 
 .home.banner__content .decoration__list .decoration__item #decoration__mgp {
-    top: 15%;
-    left: 60%;
-    width: 26.25%;
-    height: 85%;
+    bottom: -1%;
+    left: 63%;
     display: block;
     position: absolute;
 }
@@ -1189,11 +1190,14 @@
     -moz-animation: bg-pan-right 12s ease infinite alternate both;
     -o-animation: bg-pan-right 12s ease infinite alternate both;
 }
+.banner.megapay .info__content p {
+    max-width: 70%;
+}
 
 .megapay.banner__content .banner__info {}
 
 .megapay.banner__content .decoration__list .decoration__item .decoration__staff {
-    height: 79.4676%;
+    height: 90%;
     width: auto;
     bottom: 0;
     right: 7.1875%;
@@ -1310,8 +1314,17 @@
     -o-background-size: cover;
 }
 
-.mc-md.banner__content .banner__info {}
-
+.mc-md.banner__content .banner__info .info {
+    max-width: 55%;
+}
+.mc-md.banner__content img {
+    bottom: 0;
+    height: 90%;
+    margin-left: 55%;
+}
+.mc-md.banner__content {
+    position: unset;
+}
 .shipantoan.banner__content {
     padding-top: 10%;
     background-position: center;
@@ -1320,6 +1333,9 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+.shipantoan.banner .general__content .info {
+    max-width: 60%;
 }
 
 .shipantoan.banner__content .banner__info {
@@ -1380,8 +1396,8 @@
 }
 
 .topup.banner__content img {
-    bottom: -45%;
-    width: 40%;
+    bottom: 0;
+    width: 25%;
     margin-left: 10%;
 }
 
@@ -1572,7 +1588,6 @@
 
 .info__title {
     margin-bottom: 20px;
-    margin-top: 20px;
     display: block;
     font-weight: bold;
     width: 100%;
@@ -1771,7 +1786,6 @@
     /* font-size: 2.4rem;
     line-height: 2.9rem; */
     font-weight: 400;
-    text-align: justify;
 }
 
 .info__summary+.info__summary {
@@ -2217,7 +2231,7 @@
 }
 
 .feature__item:first-child {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .feature__icon {
@@ -2382,8 +2396,6 @@
 }
 
 .general__content .info {
-    margin-right: 0;
-    margin-left: auto;
 }
 
 .general__content--vertical .info {
@@ -2414,11 +2426,11 @@
 
 .general__img {
     display: block;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .general__content--vertical .general__img {
-    margin-top: 0;
+    margin-top: 10%;
     max-width: 36.4583%;
     height: 100%;
     position: relative;
@@ -2456,6 +2468,7 @@
     display: block;
     width: 100%;
     position: relative;
+    margin-top: 20px;
 }
 
 .deposit .general__content p {
@@ -3211,7 +3224,7 @@
 }
 
 .shipantoan.general .info__description {
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .ship-address .info__title {}
@@ -3223,6 +3236,9 @@
 }
 
 .shipantoan.advantage .info__title {}
+.shipantoan.img {
+    min-width: 500px;
+}
 
 .shipantoan .feature__list {
     display: flex;
@@ -3357,6 +3373,9 @@
 
 .topup.procedure .info img {
     width: 100%;
+}
+.topup.general .general__content--vertical .info{
+    max-width: 100%;
 }
 
 .topup.procedure {
@@ -4397,6 +4416,7 @@
 .home .achievement {
     margin-left: 10%;
     margin-top: 2%;
+    margin-bottom: 5%;
     width: 50%;
 }
 
@@ -4542,8 +4562,7 @@
 
 .goal__mission {
     display: block;
-    height: 100%;
-    min-height: 100%;
+    min-height: 80%;
     flex: 1 1 64.393%;
     -webkit-flex: 1 1 64.393%;
     -moz-flex: 1 1 64.393%;
@@ -4679,10 +4698,10 @@
 .timeline {
     display: block;
     width: 100%;
-    height: 950px;
+    height: 680px;
     background: url("../images/timeline/timeline_background.png") center/ cover no-repeat;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 50px;
+    padding-right: 150px;
     position: relative;
 }
 
@@ -4719,10 +4738,10 @@
 }
 
 .timeline__item:last-child {
-    flex: 2;
-    -webkit-flex: 2;
-    -ms-flex: 2;
-    -moz-flex: 2;
+    flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    -moz-flex: 1;
 }
 
 .timeline__item:before {
@@ -4794,12 +4813,10 @@
 .timeline__item:nth-child(even):after {
     top: 35%;
 }
-
 .timeline__info {
     display: block;
     width: auto;
-    min-width: 260px;
-    max-width: 300px;
+    min-width: 150%;
     height: auto;
     position: absolute;
     animation-duration: 1s;
@@ -4855,12 +4872,11 @@
 
 .timeline__summary {
     display: block;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 0;
     /* font-size: 1.6rem;
     line-height: 2.2rem; */
 }
-
 
 /* =========================Timeline ends============================== */
 
@@ -4878,7 +4894,7 @@
 }
 
 .question__target {
-    max-width: 325px;
+    max-width: 25%;
 }
 
 .question .tab__item {
@@ -5111,7 +5127,7 @@
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
-    max-width: 68.4210%;
+    max-width: 80%;
 }
 
 .order__item {
@@ -5996,7 +6012,6 @@
     -moz-justify-content: center; */
     display: block;
     width: 252px;
-    height: 100%;
     background: #EDEDED;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -6026,6 +6041,7 @@
     width: auto;
     height: auto;
     object-fit: contain;
+    align-content: center;
 }
 
 .box img:hover {
@@ -6861,6 +6877,12 @@ textarea.form__control {
 }
 
 .txt-16,
+.timeline__summary {
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+}
+
+.txt-18,
 .blog h3,
 .service-menu__link,
 .navbar__link,
@@ -6941,7 +6963,6 @@ textarea.form__control {
 .share__label,
 .share__item,
 .goal__title,
-.timeline__goal,
 .tab__link,
 .order__list--classic .order__item::before,
 .order__list--box p,
@@ -6960,6 +6981,7 @@ textarea.form__control {
 .contact__info h3,
 .hiring__title,
 .footer__title,
+.timeline__goal,
 .social__link {
     font-size: 2.4rem;
     line-height: 2.9rem;
@@ -6973,6 +6995,7 @@ textarea.form__control {
 }
 
 .txt-30,
+.timeline__year,
 .deposit .advantage__sub {
     font-size: 3.0rem;
     line-height: 3.8rem;
@@ -7008,10 +7031,10 @@ textarea.form__control {
     line-height: 5.9rem;
 }
 
-.txt-55,
+.txt-30,
 .goal__vision p {
-    font-size: 5.5rem;
-    line-height: 5.9rem;
+    font-size: 4.5rem;
+    line-height: 4.8rem;
 }
 
 .txt-60,
@@ -7034,7 +7057,6 @@ textarea.form__control {
 
 .txt-78,
 .megapay .feature__title,
-.timeline__year,
 .question__heading {
     font-size: 7.8rem;
     line-height: 9.5rem;

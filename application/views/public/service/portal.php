@@ -27,6 +27,9 @@
                         </li>
                     </ul>
                     </div>
+                    <div class="info__content">
+                            <a href="https://uuviet.ecollect.vn/auth/login" target="_blank" class="info__more info__more--primary">Truy cập</a>
+                        </div>
                 </div>
             </div>
         </section>

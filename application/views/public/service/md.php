@@ -1,4 +1,4 @@
-        <section class="sectio md introduction">
+        <section class="section md introduction">
             <div class="md__info">
                 <div class="info animate__animated animate__fadeInRight">
                     <h2 class="info__title">
@@ -33,7 +33,7 @@
                                 <li class="order__item">
                                     <div class="order__info">
                                         <p class="txt-weight-500 txt-justify">
-                                            Chuỗi kênh chi hộ có độ phủ rộng và khả năng nhận diện cao với trên 5,000 điểm trài dài khắp 63 tỉnh thành phố
+                                            Chuỗi kênh chi hộ có độ phủ rộng và khả năng nhận diện cao với trên 5,000 điểm trải dài khắp 63 tỉnh thành phố
                                         </p>
                                     </div>
                                 </li>

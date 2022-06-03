@@ -171,7 +171,7 @@ $(document).ready(function() {
                                 "animation-name": "slide-in-top",
                             });
                         }
-                        delay += 1000;
+                        delay += 200;
                     });
                 }
                 }        
