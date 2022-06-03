@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VNPT EPAY</title>
+    <!-- Meta tags -->
+    <?php $this->load->view('public/_block/meta'); ?>
+    <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="<?php echo base_url("public/assets/css/reset.css") ?>">
     <link rel="stylesheet" href="<?php echo base_url("public/assets/icons/fontawesome/css/all.css") ?>">
     <link rel="stylesheet" href="<?php echo base_url("public/assets/css/custom-grid.css") ?>">
@@ -60,28 +62,13 @@
             rederer: 'svg',
             loop: true,
             autoplay: true,
-            path: '<?php echo base_url("public/assets/js/data.json") ?>'
+            path: '<?php echo base_url("public/assets/js/data2.json") ?>'
         });
     </script>
 
     <script src="<?php echo base_url("public/assets/js/frontend.js") ?><?php echo "?v="; ?>"></script>
     <script>
         $(document).ready(function() {
-            /**
-             * Sub slider - partner
-             */
-            $(".partner__slider").slick({
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 3000,
-                slidesToShow: 5,
-                slidesToScroll: 5,
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-
             $(".position__slider").slick({
                 infinite: true,
                 autoplay: true,
@@ -115,143 +102,174 @@
             /**
              * Goal slider 
              */
-            $(".goal__illustrations.owl-carousel").owlCarousel({
-                items: 1,
-                loop: true,
-                nav: true,
-                dots: false,
-                touchDrag: false,
-                mouseDrag: false,
-            });
-
-            $('.goal__illustrations.owl-carousel .owl-nav .owl-next').click(function() {
-                $(".goal__list.owl-carousel .owl-nav .owl-next").click();
-            });
-            $('.goal__illustrations.owl-carousel .owl-nav .owl-prev').click(function() {
-                $(".goal__list.owl-carousel .owl-nav .owl-prev").click();
-            });
-
-            $(".goal__list.owl-carousel").owlCarousel({
-                items: 1,
-                loop: true,
-                nav: false,
-                dots: false,
-                touchDrag: false,
-                mouseDrag: false,
-                margin: 10,
-                animateOut: "animate__lightSpeedOutLeft",
-                animateIn: "animate__lightSpeedInRight",
-            });
+            if ($(".goal").length > 0) {
+                $(".goal__illustrations.owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    nav: true,
+                    dots: false,
+                    touchDrag: false,
+                    mouseDrag: false,
+                });
+                $('.goal__illustrations.owl-carousel .owl-nav .owl-next').click(function() {
+                    $(".goal__list.owl-carousel .owl-nav .owl-next").click();
+                });
+                $('.goal__illustrations.owl-carousel .owl-nav .owl-prev').click(function() {
+                    $(".goal__list.owl-carousel .owl-nav .owl-prev").click();
+                });
+                $(".goal__list.owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    nav: false,
+                    dots: false,
+                    touchDrag: false,
+                    mouseDrag: false,
+                    margin: 10,
+                    animateOut: "animate__lightSpeedOutLeft",
+                    animateIn: "animate__lightSpeedInRight",
+                });
+            }
 
             /**
              * Introduction slider
              */
-            $(".intro__slider.owl-carousel").owlCarousel({
-                items: 1,
-                loop: true,
-                nav: true,
-                dots: false,
-                touchDrag: false,
-                mouseDrag: false,
-                navText: ['<i class="fas fa-long-arrow-alt-left"></i>', '<i class="fas fa-long-arrow-alt-right"></i>'],
-            });
-            $(".intro__content.owl-carousel").owlCarousel({
-                items: 1,
-                loop: true,
-                nav: false,
-                dots: false,
-                margin: 20,
-                touchDrag: false,
-                mouseDrag: false,
-                smartSpeed: 600,
-                animateIn: "animate__backInDown",
-                animateOut: "animate__backOutDown",
-            });
-
-            $('.intro__slider.owl-carousel .owl-nav .owl-next').click(function() {
-                $(".intro__content.owl-carousel .owl-nav .owl-next").click();
-            });
-            $('.intro__slider.owl-carousel .owl-nav .owl-prev').click(function() {
-                $(".intro__content.owl-carousel .owl-nav .owl-prev").click();
-            });
-
+            if ($(".intro").length > 0) {
+                $(".intro__slider.owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    nav: true,
+                    dots: false,
+                    touchDrag: false,
+                    mouseDrag: false,
+                    navText: ['<i class="fas fa-long-arrow-alt-left"></i>', '<i class="fas fa-long-arrow-alt-right"></i>'],
+                });
+                $(".intro__content.owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    nav: false,
+                    dots: false,
+                    margin: 20,
+                    touchDrag: false,
+                    mouseDrag: false,
+                    smartSpeed: 600,
+                    animateIn: "animate__backInDown",
+                    animateOut: "animate__backOutDown",
+                });
+                $('.intro__slider.owl-carousel .owl-nav .owl-next').click(function() {
+                    $(".intro__content.owl-carousel .owl-nav .owl-next").click();
+                });
+                $('.intro__slider.owl-carousel .owl-nav .owl-prev').click(function() {
+                    $(".intro__content.owl-carousel .owl-nav .owl-prev").click();
+                });
+            }
 
             /**
              * Sub slider - partner
              */
-            $(".partner__slider").slick({
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 3000,
-                slidesToShow: 5,
-                slidesToScroll: 5,
-                responsive: [{
-                    breakpoint: 1440,
-                    settings: {
-                        slidesToShow: 4,
-                        slidesToScroll: 4,
-                    }
-                }, {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                    }
-                }, {
-                    breakpoint: 790,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                    }
-                }, {
-                    breakpoint: 490,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                }]
-            });
+            if ($(".partner__slider").length > 0) {
+                $(".partner__slider").slick({
+                    infinite: true,
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
+                    responsive: [{
+                        breakpoint: 1440,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4,
+                        }
+                    }, {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                        }
+                    }, {
+                        breakpoint: 790,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        }
+                    }, {
+                        breakpoint: 490,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    }]
+                });
+            }
 
         });
     </script>
 
     <!-- JS begin -->
     <!-- Js Huyen added -->
-
-
     <script src="<?php echo base_url("public/assets/js/jquery.waypoints.min.js") ?>"></script>
-
-    <script src="<?php echo base_url("public/assets/js/jquery.animateNumber.min.js") ?>"></script>
-
+    <script src="<?php echo base_url("public/assets/js/countUp.min.js") ?>"></script>
     <script>
         $(document).ready(function() {
             var counterInit = function() {
-                if ($('.counter-section').length > 0) {
-                    $('.counter-section').waypoint(function(direction) {
-                        console.log(this);
-                        console.log(this.e);
-                        if (direction === 'down' && !$(this.element).hasClass('animated')) {
-
-                            var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
-                            $('.number').each(function() {
+                let counterSection = $('.counter-section');
+                if ($(counterSection).length > 0) {
+                    $(counterSection).waypoint(function(direction) {
+                        if (direction === 'down') {
+                            $(counterSection).find('.number').each(function() {
                                 var $this = $(this),
-                                    num = $this.data('number');
-                                $this.animateNumber({
-                                    number: num,
-                                    numberStep: comma_separator_number_step
-                                }, 5000);
+                                    start = $this.data('start'),
+                                    end = $this.data('end'),
+                                    step = $this.data('step');
+                                var counter = new CountUp(this, start, end, 0, 5, {
+                                    useEasing: false,
+                                    useGrouping: true,
+                                    separator: ',',
+                                });
+                                counter.start();
                             });
-
                         }
 
                     }, {
                         offset: '95%'
                     });
                 }
-
             }
-
             counterInit();
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            if ($(".news__area.slick").length > 0 && $(".pagination__list.slick").length) {
+                $(".news__area.slick").slick({
+                    slidesToShow: 1,
+                    autoplay: false,
+                    arrows: false,
+                    dots: false,
+                    asNavFor: '.pagination__list.slick'
+                });
+                $(".pagination__list.slick").slick({
+                    slidesToShow: 6,
+                    // slidesToScroll: 1,
+                    autoplay: false,
+                    arrows: true,
+                    dots: false,
+                    asNavFor: '.news__area.slick',
+                    focusOnSelect: true,
+                });
+                let newsItem = $(".news__item")[0];
+                let newsWidth = 0;
+                if ($(window).width() > 1240) {
+                    newsWidth = $(newsItem).width() / 2;
+                } else if ($(window).width() > 1024) {
+                    newsWidth = $(newsItem).width() / 1.5;
+                } else if ($(window).width() > 410) {
+                    newsWidth = $(newsItem).width();
+                }
+                $(".pagination").css({
+                    'width': newsWidth + "px",
+                });
+            }
         });
     </script>
 

@@ -883,6 +883,9 @@
         width: 20px;
         height: 20px;
     }
+    .news__illustration .news__list.news__list--vertical img {
+        max-width: 260px;
+    }
     .news__address {
         margin-top: 20px;
         margin-bottom: 12px;
@@ -2188,6 +2191,9 @@
     .news__list--vertical .news__content::before {
         width: 14px;
         height: 14px;
+    }
+    .news__illustration .news__list.news__list--vertical img {
+        max-width: 200px;
     }
     .news__content {}
     .news__address {

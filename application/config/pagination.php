@@ -31,7 +31,7 @@ $config['total_rows'] = 0;
  * the currently viewed page.
  * @var	int
  */
-$config['num_links'] = 8;
+$config['num_links'] = 5;
 
 /**
  * Items per page
@@ -56,7 +56,8 @@ $config['use_page_numbers'] = TRUE;
  * First link
  * @var	string
  */
-$config['first_link'] = '&lsaquo; First';
+$config['first_link'] = false;
+// $config['first_link'] = 'First';
 /**
  * Next link
  * @var	string
@@ -73,7 +74,8 @@ $config['prev_link'] = '<i class="fa-solid fa-arrow-left-long"></i>';
  * Last link
  * @var	string
  */
-$config['last_link'] = 'Last &rsaquo;';
+// $config['last_link'] = 'Last';
+$config['last_link'] = false;
 
 /**
  * URI Segment
@@ -97,7 +99,7 @@ $config['full_tag_close'] = '</ul></div>';
  * First tag open
  * @var	string
  */
-$config['first_tag_open'] = '<li class="pagination__item">';
+$config['first_tag_open'] = '<li class="pagination__item first">';
 
 /**
  * First tag close
@@ -109,7 +111,7 @@ $config['first_tag_close'] = '</li>';
  * Last tag open
  * @var	string
  */
-$config['last_tag_open'] = '<li class="pagination__item">';
+$config['last_tag_open'] = '<li class="pagination__item last">';
 
 /**
  * Last tag close

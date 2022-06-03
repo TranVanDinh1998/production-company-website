@@ -39,7 +39,11 @@
             <?php echo $data['post']->pos_title; ?>
         </h2>
         <div class="info__blog container-60">
-            <?php echo $data['post']->pos_detail; ?>
+            <?php
+            $detail = str_replace('http://vnptepay.com.vn:81', ORIGIN_IMG_URL, $data['post']->pos_detail); 
+            $detail = str_replace('../../..', ORIGIN_IMG_URL, $detail); 
+            echo $detail;
+            ?>
         </div>
     </div>
     <div class="blog__suggest d-flex align-items-end justify-content-between">
