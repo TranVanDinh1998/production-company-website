@@ -3924,6 +3924,9 @@ left: 28.38%;
 .blog {
     position: relative;
 }
+.section.blog .info__title {
+    max-width: 60%;
+}
 
 .blog h1,
 .blog h2,

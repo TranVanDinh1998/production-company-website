@@ -4324,6 +4324,9 @@ left: 79.38%;
     .blog>.share .share__item {
         margin-top: 15px;
     }
+    .section.blog .info__title {
+        max-width: 100%;
+    }
     .blog .share {
         position: absolute;
         left: -8%;
