@@ -30,7 +30,7 @@ class Home extends Public_Controller
 		$data = [];
 		$get = [];
 
-		$page = 8;
+		$page = 3;
 		$per_page = 3;
 		$limit = $page * $per_page;
 
@@ -49,10 +49,6 @@ class Home extends Public_Controller
 
 		$data['post_list'] = $this->post->getList($params);
 		$data['page'] = count($data['post_list']) / $per_page;
-		log_message('error',count($data['post_list']));
-		log_message('error',json_encode($data['post_list']));
-		log_message('error',$data['page']);
-		log_message('error',$per_page);
 		$data['per_page'] = $per_page;
 
 		$title = 'Welcome to VNPT EPAY';

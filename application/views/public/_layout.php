@@ -270,14 +270,28 @@
                     'width': newsWidth + "px",
                 });
             }
-            let scrollOldNews = <?php if (!empty($data['scroll_old_news'])) echo true; else echo false; ?>;
+            let scrollOldNews = false;
+            <?php if (!empty($data['scroll_old_news'])) echo 'scrollOldNews = true';
+            else echo 'scrollOldNews = false'; ?>;
             if (scrollOldNews) {
-                window.scrollTo(0,Math.round($('#old-news').find(".pagination").offset().top-200));
+                window.scrollTo(0, Math.round($('#old-news').find(".pagination").offset().top - 200));
             }
         });
     </script>
 
     <!-- JS end -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src=https://www.googletagmanager.com/gtag/js?id=G-Q27TDGNL33></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-Q27TDGNL33');
+    </script>
 </body>
 
 </html>

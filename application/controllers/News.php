@@ -68,10 +68,11 @@ class News extends Public_Controller {
 		$this->pagination->initialize($config);
 
         $data['header_class'] = "header__pc--white";
+		$title = 'News';
 		$content = 'news/index';
 		if ($page != 1) 
 			$data['scroll_old_news'] = true;
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
 	}
 	public function detail($alias)
 	{

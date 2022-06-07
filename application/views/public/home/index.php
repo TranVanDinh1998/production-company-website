@@ -78,7 +78,6 @@
 <div class="intro bg-fit" id="particles" style="background-image: url('<?php echo base_url("public/assets/images/home/bg-home.png") ?>');">
     <div class="intro__wrap">
         <div class="intro__video">
-            <!-- <iframe  src="https://www.youtube.com/embed/b5xcstMpQmc?autoplay=1" title="VNPTEPAY Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" scrolling="no" allowfullscreen></iframe> -->
             <iframe src="https://www.youtube.com/embed/b5xcstMpQmc?autoplay=1&mute=1" title="VNPTEPAY Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" scrolling="no" allowfullscreen></iframe>
         </div>
         <div class="info intro info--right">
