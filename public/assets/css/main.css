@@ -1407,7 +1407,7 @@
 .topup.banner__content img {
     bottom: 0;
     width: 25%;
-    margin-left: 10%;
+    margin-left: 17%;
 }
 
 .helper.banner__content {
@@ -1619,7 +1619,6 @@
 }
 
 .info.intro .info__title {
-    text-align: right;
 }
 
 .info__title::after {
@@ -1972,9 +1971,9 @@
     width: 100%;
     min-height: 68px;
     background: #FFFFFF;
-    box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
-    -webkit-box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -webkit-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -moz-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1993,9 +1992,9 @@
 .service__link:hover {
     color: var(--white-color);
     background: var(--primary-color);
-    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
 .service__title {
@@ -2029,10 +2028,9 @@
 
 .method {
     display: block;
-    width: 41.6666%;
-    height: 55.0584%;
-    background: url("../images/home/Circle.gif") top center / cover no-repeat;
     position: absolute;
+    width: 45%;
+    height: 65%;
     left: 3.125%;
     bottom: 8.6717%;
 }
@@ -2040,7 +2038,7 @@
 .method__list {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 
 .method__item {
@@ -2050,44 +2048,60 @@
 }
 
 #method_zalopay {
-    top: 7%;
-    left: 42.375%;
-}
-
+    top: 9%;
+    left: 33.38%;
+    }
 #method_mastercard {
-    top: 31.75%;
-    left: 9.25%;
+top: 32.75%;
+left: 10.25%;
 }
-
 #method_va {
-    top: 27.625%;
-    left: 41%;
-}
-
+    top: 31.63%;
+    left: 33%;
+    }
 #method_momo {
-    top: 24.125%;
-    left: 75%;
+top: 13.13%;
+left: 65%;
 }
-
 #method_is {
-    top: 45.625%;
-    left: 60.125%;
-}
-
+    top: 52.63%;
+    left: 63.13%;
+    }
 #method_napas {
-    top: 54.75%;
-    left: 32.125%;
+top: 54.75%;
+left: 26.13%;
 }
-
 #method_visa {
-    top: 72.25%;
-    left: 20.625%;
-}
-
+    top: 66.25%;
+    left: 10.63%;
+    }
 #method_jcb {
-    top: 69.25%;
-    left: 70.375%;
+top: 69.25%;
+left: 45.38%;
 }
+#method_vnpayqr {
+    top: 86.25%;
+    left: 57.38%;
+    }
+#method_viettelmoney {
+top: 30.25%;
+left: 55.38%;
+}
+#method_vietqr {
+    top: 64.25%;
+    left: 79.38%;
+    }
+#method_moca {
+top: 86.25%;
+left: 28.38%;
+}
+#method_shopeepay {
+    top: 35.25%;
+    left: 79.38%;
+    }
+
+
+
 
 .method__img {
     display: flex;
@@ -2404,10 +2418,10 @@
     justify-content: space-between;
 }
 
-.general__content .info {}
+.general__content .info {
+}
 
 .general__content--vertical .info {
-    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-right: 0;
@@ -2429,7 +2443,6 @@
 
 .general__content--vertical .info__content {
     display: block;
-    max-width: 500px;
 }
 
 .general__img {
@@ -2924,11 +2937,10 @@
 .firmbanking .owl-carousel .owl-item p {
     display: block;
     max-width: 380px;
-    height: 262px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    padding: 72px 48px 0 48px;
+    padding: 30px 48px 30px 48px;
     /* font-size: 2.4rem;
     line-height: 2.9rem; */
     position: absolute;
@@ -3258,6 +3270,10 @@
     max-width: 500px;
 }
 
+.section.shipantoan.advantage .general__img::before{
+    display: none;
+}
+
 .shipantoan .feature__list--center {
     margin-left: auto;
     margin-right: auto;
@@ -3325,7 +3341,9 @@
 
 /* ====================Esan==================== */
 
-.esan.section {}
+.esan.section {
+    padding-bottom: 10px;
+}
 
 .esan.feature__esan {
     min-height: unset;
@@ -3335,16 +3353,18 @@
     color: var(--white-color) !important;
 }
 
-.esan.feature__esan .feature__list__esan {}
+.esan.feature__esan .feature__list__esan {
+    margin-top: 10px;
+}
 
 .esan.feature__esan .feature__item__esan {
     padding: 10px 20px;
     max-width: 500px;
-    height: 360px;
+    height: 280px;
     background: #FFFFFF;
-    box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
-    -webkit-box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -webkit-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -moz-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -3378,14 +3398,14 @@
 /* ===========================Esan ends==================== */
 
 
-/* ===========================Popup==================== */
-
+/* ===========================Topup==================== */
+.topup.general .general__img {
+    display: none;
+}
 .topup.procedure .info img {
     width: 100%;
 }
-
-.topup.general .general__content--vertical .info {
-    max-width: 100%;
+.topup.general .general__content--vertical .info{
 }
 
 .topup.procedure {
@@ -3444,7 +3464,9 @@
     flex-direction: column;
     height: 200px;
 }
-
+.ewallet.feature {
+    background: unset;
+}
 .ewallet.feature .row {}
 
 .ewallet.feature .feature__item {
@@ -3888,7 +3910,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 42px 26px;
+    padding: 20px 30px;
     background: #C4C4C4;
     opacity: 0.58;
 }
@@ -3913,6 +3935,9 @@
 
 .blog {
     position: relative;
+}
+.section.blog .info__title {
+    max-width: 60%;
 }
 
 .blog h1,
@@ -6172,12 +6197,12 @@
 .custom-form {
     display: block;
     background: var(--white-color);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -webkit-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    -moz-box-shadow: 0px 2px 14px rgba(42, 42, 42, 0.24);
+    border-radius: 3px;
     padding: 20px 25px;
     margin-bottom: 20px;
-    border: 1px solid #E1E1E1;
 }
 
 .form__group {
@@ -6409,7 +6434,9 @@ textarea.form__control {
 
 /* ========================Contact================ */
 
-.contact {}
+.section.contact {
+    padding-top: 10px;
+}
 
 .contact__title {
     /* font-size: 3.6rem;

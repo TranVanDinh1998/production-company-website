@@ -176,26 +176,26 @@
                     responsive: [{
                         breakpoint: 1440,
                         settings: {
-                            slidesToShow: 5,
-                            slidesToScroll: 5,
-                        }
-                    }, {
-                        breakpoint: 1024,
-                        settings: {
                             slidesToShow: 4,
                             slidesToScroll: 4,
                         }
                     }, {
-                        breakpoint: 790,
+                        breakpoint: 1024,
                         settings: {
                             slidesToShow: 3,
                             slidesToScroll: 3,
                         }
                     }, {
-                        breakpoint: 300,
+                        breakpoint: 790,
                         settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 3
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        }
+                    }, {
+                        breakpoint: 490,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
                         }
                     }]
                 });
@@ -263,18 +263,12 @@
                     newsWidth = $(newsItem).width() / 2;
                 } else if ($(window).width() > 1024) {
                     newsWidth = $(newsItem).width() / 1.5;
-                } else {
-                    newsWidth = $(newsItem).width() / 1.5;
+                } else if ($(window).width() > 410) {
+                    newsWidth = $(newsItem).width();
                 }
                 $(".pagination").css({
                     'width': newsWidth + "px",
                 });
-            }
-            let scrollOldNews = false;
-            <?php if (!empty($data['scroll_old_news'])) echo 'scrollOldNews = true';
-            else echo 'scrollOldNews = false'; ?>;
-            if (scrollOldNews) {
-                window.scrollTo(0, Math.round($('#old-news').find(".pagination").offset().top - 200));
             }
         });
     </script>

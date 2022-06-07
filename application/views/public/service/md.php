@@ -12,9 +12,7 @@
                             VNPT EPAY cung cấp kết nối API giữa Nhà cung cấp dịch vụ và Đơn vị chi hộ để thực hiện dịch vụ này.
                         </p>
                     </div>
-                    <div class="info__content">
-                        <a href="https://esan.vn" target="_blank" class="info__more info__more--primary">Truy cập</a>
-                    </div>
+                    
                 </div>
             </div>
         </section>

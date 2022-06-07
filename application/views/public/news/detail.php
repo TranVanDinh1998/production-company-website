@@ -20,20 +20,6 @@
 
 <!-- Blog -->
 <section class="section blog container-80">
-    <div class="share" data-trigger="animation" data-animation="fadeInUp">
-        <ul class="share__list">
-            <li class="share__item">
-                <a href="<?php echo base_url("#") ?>" class="share__link">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </li>
-            <li class="share__item">
-                <a href="<?php echo base_url("#") ?>" class="share__link">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
     <div class="info" data-trigger="animation" data-animation="fadeInLeft">
         <h2 class="info__title info__title--primary">
             <?php echo $data['post']->pos_title; ?>
@@ -46,27 +32,11 @@
             ?>
         </div>
     </div>
-    <div class="blog__suggest d-flex align-items-end justify-content-between">
-        <div class="share">
-            <ul class="share__list">
-                <li class="share__item">
-                    <a href="<?php echo base_url("#") ?>" class="share__link">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                </li>
-                <li class="share__item">
-                    <a href="<?php echo base_url("#") ?>" class="share__link">
-                        <i class="fab fa-invision"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
 </section>
 <!-- Blog ends -->
 
 <!-- Old news -->
-<section class="section news__old" id="old-news">
+<section class="section news__old">
     <div class="news__old__content container-60">
         <div class="custom-grid">
             <div class="row">

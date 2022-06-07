@@ -12,7 +12,7 @@
                     </p>
                 </div>
                 <div class="info__content">
-                    <a href="<?php echo base_url("aboutus/contact") ?>" target="_blank" class="info__more info__more--primary">Liên hệ</a>
+                    <a href="<?php echo base_url("home/contact") ?>" target="_blank" class="info__more info__more--primary">Liên hệ</a>
                 </div>
             </div>
             <div class="decoration__list">
@@ -27,14 +27,14 @@
 <!-- Banner ends -->
 
 <!-- General info -->
-<section class="topup general">
+<section class="section topup general">
     <div class="content">
-        <div class="general__content general__content--vertical">
+        <div class="general__content general__content--vertical" data-trigger="animation" data-animation="fadeInUp">
             <div class="info">
-                <h2 class="info__title info__title--primary" data-trigger="animation" data-animation="fadeInLeft">
+                <h2 class="info__title info__title--primary">
                     Giới thiệu chung
                 </h2>
-                <div class="info__content" data-trigger="animation" data-animation="fadeInRight">
+                <div class="info__content">
                     <p class="info__description">
                         Bán hàng Softpin là tính năng cho phép quý đối tác cung cấp mã thẻ điện tử (là dãy số bí mật được thay thế cho thẻ cào tương ứng với mệnh giá phát hành của nhà mạng) tới khách hàng. Mã thẻ điện tử gồm 20 sản phẩm chia làm 3 nhóm: Thẻ viễn thông, Game và Thẻ Data.
                     </p>
