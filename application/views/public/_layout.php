@@ -62,7 +62,7 @@
             rederer: 'svg',
             loop: true,
             autoplay: true,
-            path: '<?php echo base_url("public/assets/js/data2.json") ?>'
+            path: '<?php echo base_url("public/assets/js/data.json") ?>'
         });
     </script>
 

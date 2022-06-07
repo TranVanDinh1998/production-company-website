@@ -41,14 +41,14 @@
             </ul>
             <ul>
                 <li>
-                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="70000" data-step="7000"></span></span> nghìn tỉ
+                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="70000" data-step="7000"></span></span> tỉ
                     </h3>
                     <p class="achievement__description">Sản lượng giao dịch</p>
                 </li>
                 <li>
                     <h3 class="achievement__record txt-primary">Top <span id="value" class="achievement__number"><span class="number" data-start="500" data-end="334" data-step="6"></span></span>
                     </h3>
-                    <p class="achievement__description">trong top 500 công ty VNR500</p>
+                    <p class="achievement__description">Top 500 công ty VNR500</p>
                 </li>
                 <li>
                     <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="100" data-step="5"></span> triệu
@@ -77,11 +77,11 @@
 <section class="section intro">
 <div class="intro bg-fit" id="particles" style="background-image: url('<?php echo base_url("public/assets/images/home/bg-home.png") ?>');">
     <div class="intro__wrap">
-        <div class="intro__video">
+        <div class="intro__video delay-04" data-trigger="animation" data-animation="fadeInLeft">
             <!-- <iframe  src="https://www.youtube.com/embed/b5xcstMpQmc?autoplay=1" title="VNPTEPAY Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" scrolling="no" allowfullscreen></iframe> -->
             <iframe src="https://www.youtube.com/embed/b5xcstMpQmc?autoplay=1&mute=1" title="VNPTEPAY Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" scrolling="no" allowfullscreen></iframe>
         </div>
-        <div class="info intro info--right">
+        <div class="info intro info--left">
             <h3 class="info__title" data-trigger="animation" data-animation="fadeInRight">Giới thiệu VNPT EPAY</h3>
             <div class="info__content" data-trigger="animation" data-animation="fadeInRight">
                 <p class="info__summary">
@@ -126,10 +126,6 @@
                                 <li class="service__item">
                                     <a href="<?php echo base_url("service/depositcode") ?>" class="service__link">Dịch vụ mã nộp tiền (Deposit
                                         code)</a>
-                                </li>
-                                <li class="service__item">
-                                    <a href="<?php echo base_url("service/epaypos") ?>" class="service__link">Dịch vụ thanh toán POS di động
-                                        (EPAYPOS)</a>
                                 </li>
                                 <li class="service__item">
                                     <a href="<?php echo base_url("service/portal") ?>" class="service__link">Dịch vụ Portal thu phí</a>
@@ -195,7 +191,7 @@
             </div>
         </div>
     </div>
-    <div class="method">
+    <div class="method" data-trigger="animation" data-animation="fadeInUp" style="background: url('<?php echo base_url("public/assets/images/home/circle.gif")?>'); top center / cover no-repeat; background-size: cover;">
         <ul class="method__list">
             <li class="method__item" id="method_zalopay">
                 <div class="method__img">
@@ -235,6 +231,31 @@
             <li class="method__item" id="method_jcb">
                 <div class="method__img">
                     <img src="<?php echo base_url("public/assets/images/home/method_jcb.png") ?>" alt="">
+                </div>
+            </li>
+            <li class="method__item" id="method_vnpayqr">
+                <div class="method__img">
+                    <img src="<?php echo base_url("public/assets/images/home/method_vnpayqr.png") ?>" alt="">
+                </div>
+            </li>
+            <li class="method__item" id="method_viettelmoney">
+                <div class="method__img">
+                    <img src="<?php echo base_url("public/assets/images/home/method_viettelmoney.png") ?>" alt="">
+                </div>
+            </li>
+            <li class="method__item" id="method_vietqr">
+                <div class="method__img">
+                    <img src="<?php echo base_url("public/assets/images/home/method_vietqr.png") ?>" alt="">
+                </div>
+            </li>
+            <li class="method__item" id="method_moca">
+                <div class="method__img">
+                    <img src="<?php echo base_url("public/assets/images/home/method_moca.png") ?>" alt="">
+                </div>
+            </li>
+            <li class="method__item" id="method_shopeepay">
+                <div class="method__img">
+                    <img src="<?php echo base_url("public/assets/images/home/method_shopeepay.png") ?>" alt="">
                 </div>
             </li>
         </ul>

@@ -9,19 +9,7 @@
                 <h3 class="footer__heading footer__title txt-upper"> Công ty cổ phần thanh toán điện tử VNPT EPAY</h3>
                 </div>
                 <!-- Footer logo ends -->
-                          <!-- Footer service -->
-                          <div class="col l-6 m-6 d-flex justify-content-between align-items-center">
-                                        <a href="https://esan.vn" class="footer__link">
-                                            <img class="image-contain" src="<?php echo base_url("public/assets/images/service_logo_1.png")?>" alt="">
-                                        </a>
-                                        <a href="https://thanhtoan247.net.vn" class="footer__link">
-                                            <img class="image-contain" src="<?php echo base_url("public/assets/images/service_logo_2.png")?>" alt="">
-                                        </a>
-                                        <a href="https://shipantoan.vn/" class="footer__link">
-                                            <img class="image-contain" src="<?php echo base_url("public/assets/images/service_logo_3.png")?>" alt="">
-                                        </a>
-                            </div>
-                            <!-- Footer service ends -->
+                         
                 </div>      
                 </div>      
                 <!-- Footer content -->
@@ -74,8 +62,22 @@
                             <!-- Footer column ends -->
                             <!-- Footer column -->
                             <li class="footer__content-item col l-4 m-12 c-12">
+                                 <!-- Footer service -->
+                          <div class="d-flex justify-content-between align-items-center">
+                                        <a target="_blank" href="https://esan.vn" class="footer__link">
+                                            <img class="image-contain" src="<?php echo base_url("public/assets/images/service_logo_1.png")?>" alt="">
+                                        </a>
+                                        <a target="_blank" href="https://thanhtoan247.net.vn" class="footer__link">
+                                            <img class="image-contain" src="<?php echo base_url("public/assets/images/service_logo_2.png")?>" alt="">
+                                        </a>
+                                        <a target="_blank" href="https://shipantoan.vn/" class="footer__link">
+                                            <img class="image-contain" src="<?php echo base_url("public/assets/images/service_logo_3.png")?>" alt="">
+                                        </a>
+                            </div>
+                            <!-- Footer service ends -->
                                 <div class="bottom footer__info">
                                     <div class="footer__info">
+                                        
                                         <div class="footer__heading">
                                             <h3 class="footer__title txt-upper">Hotline </h3>
                                             <h3 class="footer__title txt-upper txt-primary"> 19006470</h3>
@@ -86,10 +88,10 @@
                                         <!-- Footer social -->
                                         <ul class="social__list">
                                             <li class="social__item">
-                                                <a href="https://www.facebook.com/vnptepay" class="social__link"><i class="fab fa-facebook"></i></a>
+                                                <a target="_blank" href="https://www.facebook.com/vnptepay" class="social__link"><i class="fab fa-facebook"></i></a>
                                             </li>
                                             <li class="social__item">
-                                                <a href="https://www.linkedin.com/company/vnpt-epay" class="social__link"><i class="fab fa-linkedin"></i></a>
+                                                <a target="_blank" href="https://www.linkedin.com/company/vnpt-epay" class="social__link"><i class="fab fa-linkedin"></i></a>
                                             </li>
                                             
                                         </ul>

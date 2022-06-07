@@ -31,32 +31,32 @@
         <div class="achievement achievement--box">
             <ul>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-number="40"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="40" data-step="4"></span></span>
                     </h3>
                     <p class="achievement__description">Ngân hàng đối tác</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span class="achievement__number"><span class="number" data-number="10000"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span class="achievement__number"><span class="number" data-start="0" data-end="10000" data-step="1000"></span></span>
                     </h3>
                     <p class="achievement__description">Điểm liên kết tại 63 tỉnh thành</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span class="achievement__number"><span class="number" data-number="30000"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span class="achievement__number"><span class="number" data-start="0" data-end="30000" data-step="3000"></span></span>
                     </h3>
                     <p class="achievement__description">Khách hàng</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary"><span class="achievement__number"><span class="number" data-number="70"></span></span> nghìn tỉ
+                    <h3 class="achievement__record txt-primary"><span class="achievement__number"><span class="number" data-start="0" data-end="70000" data-step="7000"></span></span> tỉ
                     </h3>
                     <p class="achievement__description">Sản lượng giao dịch</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">Top <span class="achievement__number"><span class="number" data-number="334"></span></span>
+                    <h3 class="achievement__record txt-primary">Top <span class="achievement__number"><span class="number" data-start="500" data-end="334" data-step="6"></span></span>
                     </h3>
                     <p class="achievement__description">Top 500 công ty VNR500</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary"><span class="achievement__number"><span class="number" data-number="100"></span></span> triệu
+                    <h3 class="achievement__record txt-primary"><span class="achievement__number"><span class="number" data-start="0" data-end="100" data-step="5"></span></span> triệu
                     </h3>
                     <p class="achievement__description">Giao dịch xử lý hằng năm</p>
                 </li>
@@ -217,87 +217,40 @@
         <!-- Timeline ends-->
 
         <!-- Introduction -->
-        <section class="section intro">
-            <div class="container-80">
-            <div class="info__content">
-                    <p class="info__description" data-trigger="animation" data-animation="fadeInUp">
+        <section class="section firmbanking advantage">
+            <div class="info info--center" data-trigger="animation" data-animation="fadeInUp">
+                <h2 class="info__title">Ưu điểm</h2>
+                <p class="info__description" data-trigger="animation" data-animation="fadeInUp">
                     Thành lập năm 2008, VNPT EPAY có hơn 14 năm kinh nghiệm triển khai các giải pháp thanh toán điện tử và giải pháp tài chính VNPT EPAY đã đạt được nhiều thành tựu đáng tự hào:
                     </p>
-                </div>
-                <div class="custom-grid">
-                    <div class="row">
-                        <div class="col l-6 m-12 c-12" data-trigger="animation" data-animation="fadeInLeft">
-                            <div class="intro__content intro__content--left owl-carousel">
-                                <div class="info">
-                                    <h3 class="info__title">Sản lượng giao dịch qua hệ thống đạt trên 7,000 tỉ giao dịch</h3>
-                                    
-                                </div>
-                                <div class="info">
-                                    <h3 class="info__title">Hơn 100 triệu giao dịch được xử lí mỗi năm</h3>
-                                    
-                                </div>
-                                <div class="info">                                 
-                                    <h3 class="info__title">Nhận giải thưởng “Top 20 Thương hiệu Vàng Việt Nam 2020”</h3>
-                                    
-                                </div>
-                                <div class="info">
-                                    <h3 class="info__title">Nhận giải thưởng “Top 20 Dịch vụ hoàn hảo vì quyền lợi của người tiêu dùng năm 2021”</h3>
-                                    
-                                </div>
-                                <div class="info">
-                                    <h3 class="info__title">Lọt Top 500 doanh nghiệp lớn nhất Việt Nam</h3>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                  </div>
-              </div>
-              </div>
-          </div>
-</section>
-<!-- Timeline ends-->
-
-<!-- Introduction -->
-<section class="section intro">
-    <div class="container-80">
-        <div class="custom-grid">
-            <div class="row">
-                <div class="col l-6 m-12 c-12">
-                    <div class="intro__content intro__content--left owl-carousel">
-                        <div class="info" data-trigger="animation" data-animation="fadeInLeft">
-                            <h3 class="info__title">Nhận giải thưởng “Top 20 Dịch vụ hoàn hảo vì quyền lợi của người tiêu dùng" năm 2021 và 2022.</h3>
-                            <div class="info__content">
-                            </div>
-                        </div>
-                        <div class="info">
-                            <h3 class="info__title">VNPT EPAY lọt Top 500 doanh nghiệp lớn nhất Việt Nam (Vị trí 334 - Nguồn: https://vnr500.com.vn)</h3>
-                            <div class="info__content">
-
-                            </div>
-                        </div>
-                        <div class="info">
-                            <h3 class="info__title">Chiếm thị phần số 1 trong dịch vụ Topup cung cấp tính năng nạp thẻ điện thoại và mua bán thẻ game</h3>
-                            <div class="info__content">
-
-                            </div>
-                        </div>
+                <div class="info__content">
+                    <div class="advantage">
+                        <ul class="advantage__list owl-carousel">
+                            <li class="advantage__item">
+                                <img src="<?php echo base_url("public/assets/images/service/firmbanking/advantage-1.png")?>" alt="">
+                                <p class="txt-white txt-weight-500">Sản lượng giao dịch đạt trên 7,000 tỉ </p>
+                            </li>
+                            <li class="advantage__item">
+                                <img src="<?php echo base_url("public/assets/images/service/firmbanking/advantage-2.png")?>" alt="">
+                                <p class="txt-white txt-weight-500">Trên 100 triệu giao dịch được xử lí mỗi năm</p>
+                            </li>
+                            <li class="advantage__item">
+                                <img src="<?php echo base_url("public/assets/images/advantage-3.png")?>" alt="">
+                                <p class="txt-white txt-weight-500">Nhận giải thưởng “Top 20 Thương hiệu Vàng Việt Nam 2020”</p>
+                            </li>
+                            <li class="advantage__item">
+                                <img src="<?php echo base_url("public/assets/images/advantage-4.jpg")?>" alt="">
+                                <p class="txt-white txt-weight-500">Nhận giải thưởng “Top 20 Dịch vụ hoàn hảo vì quyền lợi của người tiêu dùng năm 2021”</p>
+                            </li>
+                            <li class="advantage__item">
+                                <img src="<?php echo base_url("public/assets/images/advantage-5.jpg")?>" alt="">
+                                <p class="txt-white txt-weight-500">Lọt Top 500 doanh nghiệp lớn nhất Việt Nam</p>
+                            </li>
+                            
+                        </ul>
                     </div>
                 </div>
-                <div class="col l-6 m-12 c-12" data-trigger="animation" data-animation="fadeInRight">
-                    <div class="intro__slider owl-carousel">
-                        <div class="intro__illustration" style="background-image: url('<?php echo base_url("public/assets/images/giai\ thuong\ 1.jpg") ?>')">
-                        </div>
-                        <div class="intro__illustration" style="background-image: url('<?php echo base_url("public/assets/images/giai\ thuong\ 2.jpg") ?>')">
-                        </div>
-                        <div class="intro__illustration" style="background-image: url('<?php echo base_url("public/assets/images/giai\ thuong\ 3.png") ?>')">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Introduction ends -->
+        <!-- Advantage ends -->
 
 <!-- Partner -->
 <section class="section partner">
