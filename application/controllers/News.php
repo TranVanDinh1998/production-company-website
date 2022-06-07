@@ -31,13 +31,25 @@ class News extends Public_Controller {
 		$get = $this->input->get();
 		
 		$params = [
-			'limit'=> 7,
+			'limit'=> 3,
 			'where' => [
 				'active'=>1
 			],
 			'sort' => [
-				'pos_hot' => 'DESC',
 				'pos_id' => 'DESC',
+				'pos_date' => 'DESC',
+			]
+		];
+		$data['newest_post_list'] = $this->post->getList($params);
+
+		$params = [
+			'limit'=> 4,
+			'where' => [
+				'active'=>1
+			],
+			'sort' => [
+				'pos_id' => 'DESC',
+				'pos_hot' => 'DESC',
 				'pos_date' => 'DESC',
 			]
 		];
