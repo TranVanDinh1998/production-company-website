@@ -56,7 +56,7 @@
                 </ul>
                 <!-- Lastest news ends-->
 
-                <!-- Feature News -->
+                <!-- Feature News
                 <div class="d-flex" data-trigger="animation" data-animation="fadeInUp">
                     <?php if (!empty($data['hot_post_list'])) {
                         if (!empty($data['hot_post_list'][3])) $first_post = $data['hot_post_list'][3];
@@ -121,7 +121,7 @@
                     ?>
                 </div>
 
-                <!-- Feature News ends-->
+                Feature News ends-->
             </div>
         </div>
     </div>

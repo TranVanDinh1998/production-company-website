@@ -231,11 +231,11 @@
 
          <!-- Quytrinh -->
          <section class="section firmbanking procedure">
-            <div class="info__content info--center container-80" data-trigger="animation" data-animation="fadeInUp">
+            <div class="info__content info--center" data-trigger="animation" data-animation="fadeInUp">
                 <h2 class="info__title info__title--primary">
                     Quy trình dịch vụ
                 </h2>
-                <img src="<?php echo base_url("public/assets/images/service/firmbanking/firmbanking@10x-8.png")?>" alt="">
+                <img class="container-70" src="<?php echo base_url("public/assets/images/service/firmbanking/firmbanking@10x-8.png")?>" alt="">
             </div>     
         </section>
         <!-- Quytrinh ends -->

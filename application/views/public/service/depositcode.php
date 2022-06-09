@@ -44,7 +44,7 @@
                             Dịch vụ thu hộ bằng Mã nộp tiền (Deposit code) do VNPT EPAY cung cấp là dịch vụ cho phép khách hàng thanh toán hóa đơn và chi phí thông qua hệ thống Mã nộp tiền mà không cần có thẻ/tài khoản ngân hàng và doanh nghiệp sử dụng dịch vụ được báo có ngay lập tức sau khi khách hàng thực hiện thanh toán mà không cần phải kiểm tra với ngân hàng.
                         </p>
                         <p class="info__description">
-                            Khách hàng có thể sử dụng toàn bộ các kênh thanh toán của Ngân hàng gồm: quầy giao dịch, Internetbanking, Mobile banking, cây ATM và các Ví điện tử: Momo, Zalopay, Viettelpay… để thực hiện chuyển tiền vào Mã nộp tiền được cấp.
+                            Khách hàng có thể sử dụng toàn bộ các kênh thanh toán của Ngân hàng gồm: quầy giao dịch, Internetbanking, Mobile banking, cây ATM và các Ví điện tử: Momo, ZaloPay, Viettel Money… để thực hiện chuyển tiền vào Mã nộp tiền được cấp.
                         </p>
                         
                     </div>

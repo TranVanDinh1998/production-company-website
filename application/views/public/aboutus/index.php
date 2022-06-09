@@ -219,7 +219,7 @@
         <!-- Introduction -->
         <section class="section firmbanking advantage">
             <div class="info info--center" data-trigger="animation" data-animation="fadeInUp">
-                <h2 class="info__title">Ưu điểm</h2>
+                <h2 class="info__title">Thành tựu</h2>
                 <p class="info__description" data-trigger="animation" data-animation="fadeInUp">
                     Thành lập năm 2008, VNPT EPAY có hơn 14 năm kinh nghiệm triển khai các giải pháp thanh toán điện tử và giải pháp tài chính VNPT EPAY đã đạt được nhiều thành tựu đáng tự hào:
                     </p>

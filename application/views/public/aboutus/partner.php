@@ -8,7 +8,7 @@
                         </h2>
                         <div class="info__content">
                             <p class="info__summary">
-                                Hơn 50 doanh nghiệp lớn tại Việt Nam đang sử dụng dịch vụ của chúng tôi
+                            Nhiều doanh nghiệp lớn tại Việt Nam đang sử dụng dịch vụ của chúng tôi
                             </p>
                         </div>
                     </div>

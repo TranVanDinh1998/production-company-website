@@ -61,7 +61,7 @@
                                             tiền (Deposit code)</a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="<?php echo base_url("service/portal")?>" class="menu__link">Dịch vụ Portal thu phí</a>
+                                        <a href="<?php echo base_url("service/portal")?>" class="menu__link">Dịch vụ Portal thu hộ</a>
                                     </li>
                                     
                                 </ul>
@@ -116,7 +116,7 @@
                         <a href="<?php echo base_url("home/contact")?>" class="navbar__link">Liên hệ</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="https://demo.megapay.vn" target="_blank" class="navbar__link txt-primary">Demo</a>
+                        <a href="https://demo.megapay.vn" target="_blank" class="navbar__link">Demo</a>
                     </li>
                 </ul>
             </nav>

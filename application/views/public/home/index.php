@@ -128,7 +128,7 @@
                                         code)</a>
                                 </li>
                                 <li class="service__item">
-                                    <a href="<?php echo base_url("service/portal") ?>" class="service__link">Dịch vụ Portal thu phí</a>
+                                    <a href="<?php echo base_url("service/portal") ?>" class="service__link">Dịch vụ Portal thu hộ</a>
                                 </li>
                                 <li class="service__item">
                                     <a href="<?php echo base_url("service/firmbanking") ?>" class="service__link">Dịch vụ chuyển tiền nhanh liên
@@ -395,7 +395,6 @@
             </div>
             <div class="partner__item">
                 <img src="<?php echo base_url("public/assets/images/partner/partner_vpbank.png") ?>" alt="" class="partner__img">
-
             </div>
             <div class="partner__item">
                 <img src="<?php echo base_url("public/assets/images/partner/partner_vrb.png") ?>" alt="" class="partner__img">

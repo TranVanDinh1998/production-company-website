@@ -192,7 +192,7 @@
                                                 <h3 class="feature__name feature__name--bottom-border txt-title txt-weight-500 txt-upper">Tích hợp nhanh chóng
                                                 </h3>
                                                 <p class="feature__summary txt-justify txt-default">
-                                                    Hỗ trợ kỹ thuật trực tiếp từ VNPTEPAY với nhiều ngôn ngữ, nền tảng lập trình. Hoàn thành kết nối tối đa trong 3 ngày
+                                                    Hỗ trợ kỹ thuật trực tiếp từ VNPT EPAY với nhiều ngôn ngữ, nền tảng lập trình. Hoàn thành kết nối tối đa trong 3 ngày
                                                 </p>
                                             </div>
                                         </li>
