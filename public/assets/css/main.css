@@ -6717,8 +6717,6 @@ textarea.form__control {
 
 .footer__heading {
     display: flex;
-    align-items: center;
-    -webkit-align-items: center;
     margin-bottom: 20px;
     margin-top: 20px;
     flex-wrap: wrap;
@@ -6732,17 +6730,13 @@ textarea.form__control {
     line-height: 2.9rem; */
 }
 
-.footer__info p {
-    /* font-size: 1.6rem;
-    line-height: 2.2rem; */
+.footer__info .address {
+    min-height: 90px;
     color: var(--text-color);
 }
 
 .footer__contact {
     display: flex;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    -moz-justify-content: space-between;
     margin-top: 20px;
 }
 
@@ -6750,6 +6744,9 @@ textarea.form__control {
     display: flex;
     align-items: center;
     -webkit-align-items: center;
+}
+.footer__contact li {
+    margin-right: 30px;
 }
 
 .social__link {
@@ -6877,14 +6874,14 @@ textarea.form__control {
     margin-left: 28px;
 }
 .footer__content-item img {
-    height: 80px;
 }
 .certificate {
     display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
 }
 .certificate img {
-    width: unset;
-    height: 80px;
 }
 
 /* ====================Footer ends========================= */
