@@ -80,7 +80,6 @@
     }
     .txt-18,
     .service__description,
-    .footer__info p,
     .service__outlink,
     .deposit .advantage__info p {
         font-size: 1.6rem;
@@ -1145,21 +1144,19 @@
     }
     .footer__list {}
     .footer__heading {
-        margin-bottom: 15px;
     }
 
     .footer__contact {
-        margin-top: 15px;
+        /* margin-top: 15px;
         flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
         -moz-flex-wrap: wrap;
         align-items: center;
-        -webkit-align-items: center;
+        -webkit-align-items: center; */
     }
     .footer__contact p {
     }
     .footer__contact li {
-        margin-bottom: 8px;
     }
     .social__link {}
     .footer__form {
@@ -1216,6 +1213,7 @@
     }
     .txt-12,
     .define__description,
+    .footer__info p,
     .deposit .advantage__info p,
     .mc .advantage__item p,
     .service__link,
@@ -1259,7 +1257,6 @@
     .custom-button,
     .contact__info p,
     .hiring__list p,
-    .footer__info p,
     .footer__form input,
     .footer__form button,
     .footer__copyright p,
@@ -2481,19 +2478,15 @@
         margin-bottom: 15px;
     }
     .footer__heading {
-        margin-bottom: 8px;
-        margin-top: 8px;
     }
     .footer__title {}
     .footer__info {}
     .footer__contact {
-        flex-direction: column;
     }
     .footer__contact li+li {
         margin-left: 0px;
     }
     .footer__contact li {
-        margin-bottom: 8px;
     }
     .footer__contact p {}
     .social__link {}
@@ -2863,11 +2856,11 @@
         top: 95%;
     }
     .firmbanking .owl-carousel .owl-item.active.center img {
-        transform: scale(2.5);
-        -webkit-transform: scale(2.5);
-        -ms-transform: scale(2.5);
-        -moz-transform: scale(2.5);
-        -o-transform: scale(2.5);
+        transform: scale(3.5);
+        -webkit-transform: scale(3.5);
+        -ms-transform: scale(3.5);
+        -moz-transform: scale(3.5);
+        -o-transform: scale(3.5);
     }
     /* =========================Firmbanking ends========================= */
     /* =========================Deposit========================= */
@@ -3284,7 +3277,8 @@
     .tab__link,
     .unorder__list--horizontal .unorder__item p,
     .unorder__list--circle .unorder__item p,
-    .unorder__title {
+    .unorder__title,
+    .footer__info p {
         font-size: 1.4rem;
         line-height: 1.8rem;
     }
@@ -3304,7 +3298,7 @@
     .feature__name,
     .footer__logotittle,
     .footer__title,
-    .footer__info p,
+    .footer__heading__logo,
     .navbar__link {
         font-size: 1.8rem;
         line-height: 2.2rem;
@@ -3343,7 +3337,6 @@
         -moz-border-radius: 10px;
     }
     .section.firmbanking.advantage {
-        display: none;
     }
     .firmbanking.addition {
         margin-bottom: 50px;
@@ -3551,9 +3544,17 @@ left: 79.38%;
     .intro__slider.owl-carousel .owl-nav .owl-next {
         font-size: 20px;
     }
+    .firmbanking .owl-carousel .owl-item.active.center img {
+        transform: scale(5.5);
+        -webkit-transform: scale(5.5);
+        -ms-transform: scale(5.5);
+        -moz-transform: scale(5.5);
+        -o-transform: scale(5.5);
+    }
     .partner__logo {
         height: 50px;
     }
+
     /* ==============================About us end============================== */
     /* ==============================MGP============================== */
     .megapay .feature__title {
@@ -3686,8 +3687,8 @@ left: 79.38%;
         height: 30px;
     }
     .firmbanking .owl-carousel .owl-item p {
-        padding: 5px 5px 0 5px;
-        height: 100px;
+        padding: 5px 5px 5px 5px;
+        width: 130px;
     }
     .firmbanking.field {
         background: none;
@@ -4427,8 +4428,6 @@ left: 79.38%;
     }
     /* ==============================Hiring ends============================== */
     /* ==============================Footer============================== */
-    /* ==============================Footer============================== */
-    /* ==============================Footer============================== */
     .footer__logo {
         margin-bottom: 10px;
     }
@@ -4451,8 +4450,12 @@ left: 79.38%;
         margin: auto;
     }
     .footer__heading {
-        margin-top: 30px;
+        margin-top: 20px;
     }
+
+.footer__heading__logo {
+    text-align: center;
+}
     .footer__contact {
         flex-direction: column;
     }

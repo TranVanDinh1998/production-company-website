@@ -6687,6 +6687,15 @@ textarea.form__control {
 
 
 /* ====================Footer========================= */
+.facebook-icon {
+    color: #4267b2;
+}
+.linkedin-icon {
+    color: #0077b5;
+}
+.youtube-icon {
+    color: #E62117;
+}
 
 .footer {
     display: block;
@@ -6707,37 +6716,52 @@ textarea.form__control {
     object-fit: contain;
 }
 
-.footer__list {}
+.footer__list.row {
+    margin-bottom: 25px;
+}
 
-.footer__info {}
+.footer__info {
+}
 
 .footer__info {
     max-width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer__heading {
     display: flex;
-    margin-bottom: 20px;
-    margin-top: 20px;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
 }
 
+.footer__heading__logo {
+    margin-top: 20px;
+}
+
+.footer__heading__service {
+}
+
 .footer__title {
+    margin-bottom: 15px;
     margin-right: 20px;
     /* font-size: 2.4rem;
     line-height: 2.9rem; */
 }
+.footer__item {
+    margin-bottom: 1px;
+}
 
 .footer__info .address {
-    min-height: 90px;
     color: var(--text-color);
 }
 
 .footer__contact {
     display: flex;
-    margin-top: 20px;
+    justify-content: space-between;
 }
 
 .social__list {
@@ -6746,14 +6770,12 @@ textarea.form__control {
     -webkit-align-items: center;
 }
 .footer__contact li {
-    margin-right: 30px;
 }
 
 .social__link {
     display: block;
-    color: var(--primary-color);
     font-weight: 700;
-    margin-left: 20px;
+    margin-right: 20px;
     /* font-size: 2.4rem;
     line-height: 2.9rem; */
     transition: all 0.3s ease;
@@ -6854,7 +6876,7 @@ textarea.form__control {
 }
 
 .footer__copyright {
-    padding: 10px 5%;
+    padding: 10px 0;
     border-top: 1px solid #CACACA;
 }
 
@@ -6875,11 +6897,16 @@ textarea.form__control {
 }
 .footer__content-item img {
 }
+.footer li {
+    list-style: none;
+}
 .certificate {
+    justify-content: space-between;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 25px;
 }
 .certificate img {
 }
@@ -6894,6 +6921,11 @@ textarea.form__control {
     font-size: 1.2rem;
     line-height: 1.6rem;
 }
+.txt-13,
+.footer__contact {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
 
 .txt-14,
 .feature__note,
@@ -6907,7 +6939,8 @@ textarea.form__control {
 }
 
 .txt-16,
-.timeline__summary {
+.timeline__summary,
+.footer__info .address {
     font-size: 1.6rem;
     line-height: 2.0rem;
 }
@@ -6949,7 +6982,6 @@ textarea.form__control {
 .custom-button,
 .contact__info p,
 .hiring__list p,
-.footer__info p,
 .footer__form input,
 .footer__form button,
 .footer__copyright p {
@@ -7012,7 +7044,8 @@ textarea.form__control {
 .hiring__title,
 .footer__title,
 .timeline__goal,
-.social__link {
+.social__link,
+.footer__heading__logo {
     font-size: 2.4rem;
     line-height: 2.9rem;
 }
