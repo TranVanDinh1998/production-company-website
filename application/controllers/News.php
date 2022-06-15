@@ -31,13 +31,25 @@ class News extends Public_Controller {
 		$get = $this->input->get();
 		
 		$params = [
-			'limit'=> 7,
+			'limit'=> 3,
 			'where' => [
 				'active'=>1
 			],
 			'sort' => [
-				'pos_hot' => 'DESC',
 				'pos_id' => 'DESC',
+				'pos_date' => 'DESC',
+			]
+		];
+		$data['newest_post_list'] = $this->post->getList($params);
+
+		$params = [
+			'limit'=> 4,
+			'where' => [
+				'active'=>1
+			],
+			'sort' => [
+				'pos_id' => 'DESC',
+				'pos_hot' => 'DESC',
 				'pos_date' => 'DESC',
 			]
 		];
@@ -68,8 +80,11 @@ class News extends Public_Controller {
 		$this->pagination->initialize($config);
 
         $data['header_class'] = "header__pc--white";
+		$title = 'News';
 		$content = 'news/index';
-		$this->setData($data)->setContent($content)->render();
+		if ($page != 1) 
+			$data['scroll_old_news'] = true;
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
 	}
 	public function detail($alias)
 	{
@@ -117,6 +132,9 @@ class News extends Public_Controller {
 		$data['header_class'] = "header__pc--white";
 		$title = 'News';
 		$content = 'news/detail';
+		if ($page != 1) 
+			$data['scroll_old_news'] = true;
+		
 		$this->setTitle($title)->setData($data)->setContent($content)->render();
 	}
 }

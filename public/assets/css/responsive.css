@@ -2852,7 +2852,6 @@
     }
     .firmbanking .owl-carousel .owl-item p {
         padding: 30px 30px 30px 30px;
-        height: 120%;
         top: 95%;
     }
     .firmbanking .owl-carousel .owl-item.active.center img {
@@ -3327,6 +3326,87 @@
         line-height: 5.4rem;
     }
     /* ==============================Text ends============================== */
+    /* ---------------------------Navbar----------------------------------- */
+    .navbar {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 100%;
+        background: var(--white-color);
+        overflow: hidden;
+    }
+    .navbar__list {
+        flex-direction: column;
+    }
+    .navbar__item {
+        border-bottom: 1px solid var(--label-color);
+    }
+    .navbar__item+.navbar__item {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .navbar__link {
+        padding: 10px 5%;
+    }
+    .navbar__menu.navbar__menu--category .navbar__link {
+        padding: 10px 0;
+    }
+    .navbar__link i {
+        display: block;
+    }
+    .navbar__menu {
+        width: 100%;
+        position: unset;
+        transform: unset;
+        padding-top: 0;
+        padding-bottom: 0;
+        box-shadow: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+    }
+    .navbar__menu--category {
+        flex-direction: column;
+    }
+    .menu {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .navbar__menu.navbar__menu--category .menu {
+        -webkit-flex: 1;
+        flex: 1;
+    }
+    .menu+.menu {
+        padding-top: 10px;
+    }
+    .menu:nth-child(even) {
+        padding-left: 0;
+    }
+    .navbar__menu--category .menu:first-child {
+        padding-top: 0;
+    }
+    .navbar__menu--category .menu:first-child+.menu {
+        padding-top: 10px;
+    }
+    .navbar__item .navbar__link::after,
+    .navbar__item .navbar__link--menu::after {
+        left: 0;
+        border-width: 1px;
+    }
+    .navbar__item.show .navbar__link::after,
+    .navbar__item.show .navbar__link--menu::after {
+        transform: unset;
+    }
+    .menu__list {
+        width: 100%;
+    }
+    .menu__link {
+        display: block;
+        width: 100%;
+    }
+    /* ---------------------------Navbar ends------------------------------ */
     /* ==============================Homepage ============================== */
     .home.banner__content .decoration__list .decoration__item #decoration__mgp {
         top:40%;
@@ -3501,7 +3581,7 @@ left: 79.38%;
     .timeline {
         padding-left: 30px;
         padding-right: 30px;
-        height: 1200px;
+        height: 100%;
     }
     .timeline__list {
         flex-direction: column;
@@ -3513,7 +3593,8 @@ left: 79.38%;
         top: 25%
     }
     .timeline__item {
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         display: flex;
     }
     .timeline__item:before {
@@ -3530,7 +3611,7 @@ left: 79.38%;
         display: none;
     }
     .timeline__info {
-        padding-left: 8%;
+        padding-left: 5%;
         position: unset;
         max-width: 100%;
         min-width: unset;
@@ -3545,11 +3626,13 @@ left: 79.38%;
         font-size: 20px;
     }
     .firmbanking .owl-carousel .owl-item.active.center img {
-        transform: scale(5.5);
-        -webkit-transform: scale(5.5);
-        -ms-transform: scale(5.5);
-        -moz-transform: scale(5.5);
-        -o-transform: scale(5.5);
+        /* transform: scale(230);
+        -webkit-transform: scale(230);
+        -ms-transform: scale(230);
+        -moz-transform: scale(230);
+        -o-transform: scale(230); */
+        width: 230px;
+        transform: translate(-50%);
     }
     .partner__logo {
         height: 50px;

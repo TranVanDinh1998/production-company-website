@@ -7,43 +7,30 @@
  */
 if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-// title
-$lang['login'] = 'Đăng nhập %s';
-$lang['register'] = 'Đăng ký';
-$lang['sign_in'] = 'Đăng nhập';
-$lang['sign_up'] = 'Đăng ký';
-$lang['otp'] = 'Xác thực OTP';
-$lang['change_password'] = 'Thay đổi mật khẩu';
-$lang['reset_password'] = 'Cài lại mật khẩu';
-// label
-$lang['username'] = 'Tài khoản';
-$lang['identity'] = 'Mã định danh';
-$lang['password'] = 'Mật khẩu';
-$lang['password_new'] = 'Mật khẩu mới';
-$lang['password_re'] = 'Xác nhận mật khẩu';
-$lang['email'] = 'Địa chỉ email';
-$lang['phone'] = 'Số điện thoại';
-$lang['birth'] = 'Ngày sinh';
-$lang['age'] = 'Độ tuổi';
-$lang['gender'] = 'Giới tính';
-$lang['male'] = 'Nam';
-$lang['female'] = 'Nữ';
-$lang['otp'] = 'OTP';
-$lang['otp_expire'] = 'OTP hết hiệu lực trong';
-$lang['remember'] = 'Nhớ mật khẩu';
-// button
-$lang['btn_login'] = 'Đăng nhập';
-$lang['btn_register'] = 'Đăng ký';
-$lang['btn_save'] = 'Lưu';
-$lang['btn_reset'] = 'Cài lại';
-$lang['forgot_password'] = 'Quên mật khẩu';
-$lang['btn_continue'] = 'Tiếp tục';
-$lang['btn_cancel'] = 'Hủy';
-$lang['btn_close'] = 'Đóng';
-// message
-$lang['login_success'] = 'Đăng nhập thành công';
-$lang['login_fail'] = 'Đăng nhập thất bại. Tài khoản hoặc mật khẩu không chính xác';
-$lang['register_success'] = 'Đăng ký thành công';
-$lang['register_fail'] = 'Đăng ký thất bại. Vui lòng thử lại';
-$lang['validate_success'] = 'Xác thực thông tin thành công';
-$lang['validate_fail'] = 'Xác thực thông tin thất bại. Vui lòng kiểm tra lại';
+// navbar
+$lang['nav1']                     = 'Trang chủ';
+$lang['nav2']                        = 'Về chúng tôi';
+$lang['nav21']                = 'Giới thiệu';
+$lang['nav22']              = 'Khách hàng & Đối tác';
+$lang['nav23']                 = 'Hỏi đáp';
+$lang['nav24']              = 'Tuyển dụng';
+$lang['nav3']      = 'Dịch vụ';
+$lang['nav31']      = 'Dịch vụ Payment Gate';
+$lang['nav311']        = 'Cổng thanh toán trực tuyến MEGAPAY';
+$lang['nav312']         = 'Chuyển tiền nhanh liên ngân hàng Firm Banking';
+$lang['nav313']              = 'Portal thu hộ';
+$lang['nav314']        = 'Mã nộp tiền Deposit Code';
+$lang['nav32']            = 'Dịch vụ thu/chi hộ';
+$lang['nav321']            = 'Thu hộ và Thanh toán hoá đơn';
+$lang['nav322']              = 'Dịch vụ chi hộ tiền mặt';
+$lang['nav33']        = 'Không tìm thấy kỳ phí theo paymentId';
+$lang['nav331']               = 'Không tìm thấy thông tin theo requestId';
+$lang['nav332']        = 'Không tìm thấy thông tin chi tiết theo requestId';
+$lang['nav333']             = 'Không tìm thấy thông tin học sinh';
+$lang['nav34']            = 'Ký dữ liệu lỗi!';
+$lang['nav341']                  = 'Địa chỉ IP không hợp lệ';
+$lang['uuviet_invalid_date']                = 'Ngày yêu cầu không hợp lệ';
+$lang['uuviet_system_maintain']             = 'Hệ thống đang bảo trì (từ 23h30 đến 1h30 hằng đêm)';
+$lang['uuviet_timeout']                     = 'Lỗi timeout';
+$lang['uuviet_exception']                   = 'Lỗi ngoại lệ…';
+$lang['uuviet_unknow']                      = 'Lỗi không xác định';

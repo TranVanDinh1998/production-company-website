@@ -28,9 +28,9 @@
             <div class="info__content">
                 <!-- Lastest news -->
                 <ul class="news__list news__list--vertical" data-trigger="animation" data-animation="fadeInUp">
-                    <?php if (!empty($data['hot_post_list'])) {
+                    <?php if (!empty($data['newest_post_list'])) {
                         for($i = 0; $i < 3; $i++) {
-                            $post = $data['hot_post_list'][$i];
+                            $post = $data['newest_post_list'][$i];
                     ?>
                             <li class="news__item">
                                 <div class="news__content">
@@ -56,13 +56,13 @@
                 </ul>
                 <!-- Lastest news ends-->
 
-                <!-- Feature News
-                <div class="d-flex" data-trigger="animation" data-animation="fadeInUp">
+                <!-- Feature News -->
+                <!-- <div class="d-flex" data-trigger="animation" data-animation="fadeInUp">
                     <?php if (!empty($data['hot_post_list'])) {
-                        if (!empty($data['hot_post_list'][3])) $first_post = $data['hot_post_list'][3];
-                        if (!empty($data['hot_post_list'][4])) $second_post = $data['hot_post_list'][4];
-                        if (!empty($data['hot_post_list'][5])) $third_post = $data['hot_post_list'][5];
-                        if (!empty($data['hot_post_list'][6])) $fourth_post = $data['hot_post_list'][6];
+                        if (!empty($data['hot_post_list'][0])) $first_post = $data['hot_post_list'][0];
+                        if (!empty($data['hot_post_list'][1])) $second_post = $data['hot_post_list'][1];
+                        if (!empty($data['hot_post_list'][2])) $third_post = $data['hot_post_list'][2];
+                        if (!empty($data['hot_post_list'][3])) $fourth_post = $data['hot_post_list'][3];
                     ?>
                         <?php if (!empty($first_post)) { ?>
                             <div class="flex-50">
@@ -119,9 +119,9 @@
                     <?php
                     }
                     ?>
-                </div>
+                </div> -->
 
-                Feature News ends-->
+                <!-- Feature News ends-->
             </div>
         </div>
     </div>
@@ -129,7 +129,7 @@
 <!-- Illustration ends -->
 
 <!-- Old news -->
-<section class="section news__old">
+<section class="section news__old" id="old-news">
     <div class="news__old__content container-60">
         <div class="custom-grid">
             <div class="row">
@@ -160,3 +160,4 @@
     </div>
 </section>
 <!-- Old news ends -->
+

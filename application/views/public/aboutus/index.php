@@ -173,7 +173,7 @@
                             Xây dựng đội ngũ quản lý Hàn Quốc và tái cơ cấu toàn bộ dịch vụ TGTT
                         </p>
                         <p class="timeline__summary txt-default">
-                            Triển khai dịch vụ Mã nộp tiền (DepositCode) và dịch vụ chi tiền nhanh liên ngân hàng(Firm Banking), Ra mắt dịch vụ Thu hồ sơ
+                            Triển khai dịch vụ Mã nộp tiền (Deposit Code) và dịch vụ chi tiền nhanh liên ngân hàng(Firm Banking), Ra mắt dịch vụ Thu hồ sơ
                         </p>
                     </div>
                 </li>
@@ -183,7 +183,7 @@
                         <h4 class="timeline__goal txt-default txt-weight-500 txt-upper">LỚN MẠNH</h4>
                         <p class="timeline__summary txt-default">Ra mắt Cổng thanh toán trực tuyến Megapay
                         </p>
-                        <p class="timeline__summary txt-default">Triển khai tính năng thanh toán đơn giản (Tokenization) với thẻATM (40 ngân hàng)
+                        <p class="timeline__summary txt-default">Triển khai tính năng thanh toán đơn giản (Tokenization) với thẻ ATM (40 ngân hàng)
                         </p>
                        
                     </div>
@@ -221,7 +221,7 @@
             <div class="info info--center" data-trigger="animation" data-animation="fadeInUp">
                 <h2 class="info__title">Thành tựu</h2>
                 <p class="info__description" data-trigger="animation" data-animation="fadeInUp">
-                    Thành lập năm 2008, VNPT EPAY có hơn 14 năm kinh nghiệm triển khai các giải pháp thanh toán điện tử và giải pháp tài chính VNPT EPAY đã đạt được nhiều thành tựu đáng tự hào:
+                Thành lập năm 2008, với hơn 14 năm kinh nghiệm triển khai các giải pháp thanh toán điện tử và giải pháp tài chính, VNPT EPAY đã đạt được nhiều thành tựu đáng tự hào:
                     </p>
                 <div class="info__content">
                     <div class="advantage">

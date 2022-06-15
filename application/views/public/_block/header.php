@@ -50,32 +50,32 @@
                                 <ul class="menu__list">
                                     <li class="menu__item">
                                         <a href="<?php echo base_url("service/index")?>" class="menu__link">Cổng thanh toán trực
-                                            tuyến (MegaPay)</a>
+                                            tuyến MegaPay</a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="<?php echo base_url("service/firmbanking")?>" class="menu__link">Dịch vụ chuyển
-                                            tiền nhanh liên ngân hàng (Firm Banking)</a>
+                                        <a href="<?php echo base_url("service/firmbanking")?>" class="menu__link">Chuyển
+                                            tiền nhanh liên ngân hàng Firm Banking</a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="<?php echo base_url("service/depositcode")?>" class="menu__link">Dịch vụ mã nộp
-                                            tiền (Deposit code)</a>
+                                        <a href="<?php echo base_url("service/depositcode")?>" class="menu__link">Mã nộp
+                                            tiền Deposit code</a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="<?php echo base_url("service/portal")?>" class="menu__link">Dịch vụ Portal thu hộ</a>
+                                        <a href="<?php echo base_url("service/portal")?>" class="menu__link">Portal thu hộ</a>
                                     </li>
                                     
                                 </ul>
                             </div>
                             <div class="menu">
-                                <h3 class="service-menu__link">Dịch vụ thu / chi hộ
+                                <h3 class="service-menu__link">Dịch vụ thu/chi hộ
                                 </h3>
                                 <ul class="menu__list">
                                     <li class="menu__item">
-                                        <a href="<?php echo base_url("service/mc")?>" class="menu__link">Dịch vụ thu hộ thanh toán hoá đơn
+                                        <a href="<?php echo base_url("service/mc")?>" class="menu__link">Thu hộ thanh toán hoá đơn
                                             </a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="<?php echo base_url("service/md")?>" class="menu__link">Dịch vụ chi hộ tiền
+                                        <a href="<?php echo base_url("service/md")?>" class="menu__link">Chi hộ tiền
                                             mặt</a>
                                     </li>
                                     
@@ -103,7 +103,7 @@
                                 </h3>
                                 <ul class="menu__list">
                                     <li class="menu__item">
-                                        <a href="<?php echo base_url("service/ewallet")?>" class="menu__link">Ví điện tử E-WALLET</a>
+                                        <a href="<?php echo base_url("service/ewallet")?>" class="menu__link">Ví điện MegaV</a>
                                     </li>
                                 </ul>
                             </div>

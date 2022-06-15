@@ -23,23 +23,27 @@ class Aboutus extends Public_Controller {
 	public function index()
 	{
 		$data['header_class'] = "header__pc--white";
+		$title = 'About us';
 		$content = 'aboutus/index';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
 	}
     public function partner() {
 		$data['header_class'] = "header__pc--white";
+		$title = 'Customer and partner';
 		$content = 'aboutus/partner';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
     public function helper() {
 		$data['header_class'] = "header__pc--white";
+		$title = 'Question and answers';
 		$content = 'aboutus/helper';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
     public function hiring() {
 		$data['header_class'] = "header__pc--white";
+		$title = 'Hiring';
 		$content = 'aboutus/hiring';
-		$this->setData($data)->setContent($content)->render();
+		$this->setTitle($title)->setData($data)->setContent($content)->render();
     }
 
 }

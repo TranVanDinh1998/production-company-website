@@ -53,7 +53,7 @@
                 <li>
                     <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="100" data-step="5"></span> triệu
                     </h3>
-                    <p class="achievement__description">Giao dịch xử lý hằng năm</p>
+                    <p class="achievement__description">Giao dịch xử lý hàng năm</p>
                 </li>
             </ul>
 
@@ -121,19 +121,19 @@
                             <ul class="service__list">
                                 <li class="service__item">
                                     <a href="<?php echo base_url("service/index") ?>" class="service__link">Cổng thanh toán trực tuyến
-                                        (MegaPay)</a>
+                                        MegaPay</a>
                                 </li>
                                 <li class="service__item">
-                                    <a href="<?php echo base_url("service/depositcode") ?>" class="service__link">Dịch vụ mã nộp tiền (Deposit
-                                        code)</a>
+                                    <a href="<?php echo base_url("service/depositcode") ?>" class="service__link">Mã nộp tiền Deposit
+                                        code</a>
                                 </li>
                                 <li class="service__item">
-                                    <a href="<?php echo base_url("service/portal") ?>" class="service__link">Dịch vụ Portal thu hộ</a>
+                                    <a href="<?php echo base_url("service/portal") ?>" class="service__link">Portal thu hộ</a>
                                 </li>
                                 <li class="service__item">
-                                    <a href="<?php echo base_url("service/firmbanking") ?>" class="service__link">Dịch vụ chuyển tiền nhanh liên
+                                    <a href="<?php echo base_url("service/firmbanking") ?>" class="service__link">Chuyển tiền nhanh liên
                                         ngân hàng
-                                        (FirmBanking)</a>
+                                        Firm Banking</a>
                                 </li>
                             </ul>
                         </div>
@@ -142,7 +142,7 @@
                             <h3 class="service__title">Dịch vụ ví điện tử</h3>
                             <ul class="service__list">
                                 <li class="service__item">
-                                    <a href="<?php echo base_url("service/ewallet") ?>" class="service__link">Ví điện tử B2B2E</a>
+                                    <a href="<?php echo base_url("service/ewallet") ?>" class="service__link">Ví điện tử MegaV</a>
                                 </li>
                                 <li class="service__item">
                                     <a href="<?php echo base_url("service/ewallet") ?>" class="service__link">Shopping Mall ưu đãi cho nhân
@@ -160,13 +160,13 @@
                     <div class="service__wrap">
                         <div class="service__info">
                             <img src="<?php echo base_url("public/assets/images/home/Coins.gif") ?>" alt="" class="service__img">
-                            <h3 class="service__title">Dịch vụ Thu/Chi Hộ</h3>
+                            <h3 class="service__title">Dịch vụ thu/chi hộ</h3>
                             <ul class="service__list">
                                 <li class="service__item">
-                                    <a href="<?php echo base_url("service/mc") ?>" class="service__link">Dịch vụ thu hộ và thanh toán hoá đơn</a>
+                                    <a href="<?php echo base_url("service/mc") ?>" class="service__link">Thu hộ và Thanh toán hoá đơn</a>
                                 </li>
                                 <li class="service__item">
-                                    <a href="<?php echo base_url("service/md") ?>" class="service__link">Dịch vụ chi hộ tiền mặt</a>
+                                    <a href="<?php echo base_url("service/md") ?>" class="service__link">Chi hộ tiền mặt</a>
                                 </li>
 
                             </ul>

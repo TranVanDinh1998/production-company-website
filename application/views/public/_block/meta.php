@@ -1,3 +1,4 @@
+<link type="text/css" href="<?php echo base_url('public/assets/images/favicon.png'); ?>" rel="Shortcut Icon">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://vnptepay.com.vn">
 <meta property="og:title" content="VNPT EPAY">

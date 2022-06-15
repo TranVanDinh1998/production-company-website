@@ -113,7 +113,7 @@
                                             QUẢN LÝ BÁO CÁO VÀ ĐỐI SOÁT
                                         </h3>
                                         <p class="feature__summary txt-justify txt-default">
-                                            - Hỗ trợ hệ thống quản lý báo cáo, đối soát rõ ràng, dễ sử dụng và tiện lợi.
+                                            Hỗ trợ hệ thống quản lý báo cáo, đối soát rõ ràng, dễ sử dụng và tiện lợi.
                                         </p>
                                     </div>
                                 </li>
