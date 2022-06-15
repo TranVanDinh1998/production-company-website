@@ -14,7 +14,7 @@
                     <div class="info__button delay-02 animate__animated animate__fadeInUp">
 
                         <a href="https://uat.megapay.vn" target="_blank" class="info__more delay-0 animate__animated animate__fadeInUp info__more--primary">Demo</a>
-                        <a href="<?php echo base_url("aboutus/index") ?>" class="info__more delay-02 animate__animated animate__fadeInUp">Tìm hiểu</a>
+                        <a href="<?php echo base_url("aboutus/index") ?>" class="info__more delay-02 animate__animated animate__fadeInUp"><?= lang('more_info'); ?></a>
                     </div>
                 </div>
             </div>
@@ -24,34 +24,34 @@
         <div class="achievement achievement--box counter-section">
             <ul>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="40"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="40" data-step="4"></span></span>
                     </h3>
                     <p class="achievement__description">Ngân hàng đối tác</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="10000"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="10000" data-step="1000"></span></span>
                     </h3>
                     <p class="achievement__description">Điểm liên kết tại 63 tỉnh thành</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="30000"></span></span>
+                    <h3 class="achievement__record txt-primary">+<span id="value" class="achievement__number"><span class="number" data-start="0" data-end="30000" data-step="3000"></span></span>
                     </h3>
                     <p class="achievement__description">Khách hàng</p>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="70000"></span></span> nghìn tỉ
+                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="70000" data-step="7000"></span></span> tỉ
                     </h3>
                     <p class="achievement__description">Sản lượng giao dịch</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary">Top <span id="value" class="achievement__number"><span class="number" data-start="500" data-end="334"></span></span>
+                    <h3 class="achievement__record txt-primary">Top <span id="value" class="achievement__number"><span class="number" data-start="500" data-end="334" data-step="6"></span></span>
                     </h3>
-                    <p class="achievement__description">trong top 500 công ty VNR500</p>
+                    <p class="achievement__description">Top 500 công ty VNR500</p>
                 </li>
                 <li>
-                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="100"></span> triệu
+                    <h3 class="achievement__record txt-primary"><span id="value" class="achievement__number"><span class="number" data-start="0" data-end="100" data-step="5"></span> triệu
                     </h3>
                     <p class="achievement__description">Giao dịch xử lý hằng năm</p>
                 </li>
@@ -128,7 +128,7 @@
                                         code)</a>
                                 </li>
                                 <li class="service__item">
-                                    <a href="<?php echo base_url("service/portal") ?>" class="service__link">Dịch vụ Portal thu phí</a>
+                                    <a href="<?php echo base_url("service/portal") ?>" class="service__link">Dịch vụ Portal thu hộ</a>
                                 </li>
                                 <li class="service__item">
                                     <a href="<?php echo base_url("service/firmbanking") ?>" class="service__link">Dịch vụ chuyển tiền nhanh liên
@@ -395,7 +395,6 @@
             </div>
             <div class="partner__item">
                 <img src="<?php echo base_url("public/assets/images/partner/partner_vpbank.png") ?>" alt="" class="partner__img">
-
             </div>
             <div class="partner__item">
                 <img src="<?php echo base_url("public/assets/images/partner/partner_vrb.png") ?>" alt="" class="partner__img">

@@ -136,7 +136,7 @@
                 <h2 class="info__title info__title--primary">
                     Quy trình dịch vụ
                 </h2>
-                <img src="<?php echo base_url("public/assets/images/service/popup/popup@10x-8.png") ?>" alt="">
+                <img class="container-80" src="<?php echo base_url("public/assets/images/service/popup/popup@10x-8.png") ?>" alt="">
             </div>
         </div>
     </div>

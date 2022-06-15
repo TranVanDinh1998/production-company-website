@@ -23,6 +23,7 @@ class Home extends Public_Controller
 	{
 		parent::__construct();
 		$this->load->model('post_model');
+		$this->load->language(array('frontend'), $this->_language);
 		$this->post = New Post_model();
 	}
 	public function index()

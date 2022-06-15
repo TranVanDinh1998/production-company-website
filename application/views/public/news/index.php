@@ -57,7 +57,7 @@
                 <!-- Lastest news ends-->
 
                 <!-- Feature News -->
-                <div class="d-flex" data-trigger="animation" data-animation="fadeInUp">
+                <!-- <div class="d-flex" data-trigger="animation" data-animation="fadeInUp">
                     <?php if (!empty($data['hot_post_list'])) {
                         if (!empty($data['hot_post_list'][0])) $first_post = $data['hot_post_list'][0];
                         if (!empty($data['hot_post_list'][1])) $second_post = $data['hot_post_list'][1];
@@ -119,7 +119,7 @@
                     <?php
                     }
                     ?>
-                </div>
+                </div> -->
 
                 <!-- Feature News ends-->
             </div>

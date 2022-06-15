@@ -21,6 +21,7 @@
         width: 40px;
         height: 40px;
         font-size: 1.6rem;
+        @media screen {}
     }
     /* ====================Text==================== */
     .txt-12,
@@ -70,7 +71,6 @@
     .custom-button,
     .contact__info p,
     .hiring__list p,
-    .footer__info p,
     .footer__form input,
     .footer__form button,
     .footer__copyright p,
@@ -80,6 +80,7 @@
     }
     .txt-18,
     .service__description,
+    .footer__info p,
     .service__outlink,
     .deposit .advantage__info p {
         font-size: 1.6rem;
@@ -130,7 +131,6 @@
     .contact__info h3,
     .hiring__title,
     .footer__title,
-    .social__link,
     .tab__link h3 {
         font-size: 2.0rem;
         line-height: 2.4rem;
@@ -408,14 +408,12 @@
     .feature__info {
         margin-left: 18px;
     }
-    .feature__name {
-    }
+    .feature__name {}
     .feature__summary {}
     .advantage--with-bg {
         padding: 50px 0;
     }
-    .advantage h3 {
-    }
+    .advantage h3 {}
     /* =========================Megapay service ends========================= */
     /* =========================Deposit code========================= */
     .deposit.procedure {
@@ -498,8 +496,7 @@
         margin-top: 36px;
         max-width: 100%;
     }
-    .general__content--vertical .info__content {
-    }
+    .general__content--vertical .info__content {}
     .firmbanking.definition {}
     .define__item:nth-child(1) {
         left: 22.5%;
@@ -982,11 +979,9 @@
     }
     /* =========================Goal ends========================= */
     /* =========================Timeline========================= */
-    .timeline {
-    }
+    .timeline {}
     .timeline__info {}
-    .timeline__item:before {
-    }
+    .timeline__item:before {}
     .timeline__item:after {
         height: 62px;
     }
@@ -1143,9 +1138,6 @@
     .footer__heading {
         margin-bottom: 15px;
     }
-    .footer__title {}
-    .footer__info {}
-    .footer__info p {}
     .footer__heading+p {
         min-height: 54px;
     }
@@ -1157,10 +1149,7 @@
         align-items: center;
         -webkit-align-items: center;
     }
-    .footer__contact p {
-        font-size: 1.2rem;
-        line-height: 1.4rem;
-    }
+    .footer__contact p {}
     .footer__contact li {
         margin-bottom: 8px;
     }
@@ -1177,9 +1166,7 @@
         height: 34px;
         padding: 8px;
     }
-    .footer__copyright {
-        min-height: 80px;
-    }
+    .footer__copyright {}
     .footer__copyright p {}
     /* ==============================Footer ends============================== */
 }
@@ -1189,7 +1176,6 @@
 
 
 /* General */
-
 
 @media screen and (min-width: 1025px) and (max-width:1440px) {
     .section {
@@ -1504,8 +1490,12 @@
     .header__language {
         margin-left: 16px;
     }
-    /* ==============================Header language ends============================== */
-    /* ==============================Header ends============================== */
+    /* ==============================Home============================== */
+    .home.banner__content .decoration__list .decoration__item #decoration__mgp {
+        height: 90%;
+        width: 23%;
+    }
+    /* ==============================Home ends============================== */
     /* =========================Banner========================= */
     .banner.owl-carousel .owl-nav .owl-prev,
     .banner.owl-carousel .owl-nav .owl-next {
@@ -1740,8 +1730,7 @@
         margin-top: 26px;
         max-width: 100%;
     }
-    .general__content--vertical .info__content {
-    }
+    .general__content--vertical .info__content {}
     .epaypos .general__content--vertical .info {}
     .firmbanking.banner__content .banner__info {}
     .firmbanking.definition {}
@@ -2305,8 +2294,7 @@
     .timeline {
         height: 650px;
     }
-    .timeline__info {
-    }
+    .timeline__info {}
     .timeline__item:before {
         width: 60px;
         height: 60px;
@@ -2566,8 +2554,7 @@
     .deposit.banner__content {
         padding-top: 15%;
     }
-    .deposit.banner__content .banner__info {
-    }
+    .deposit.banner__content .banner__info {}
     .deposit.banner__content .info__content {
         margin-top: 5px;
     }
@@ -2764,8 +2751,7 @@
         margin-right: 0;
         width: 40%;
     }
-    .intro .intro__wrap {
-    }
+    .intro .intro__wrap {}
     .section.service {
         padding-top: 0;
         padding-bottom: 0;
@@ -2804,8 +2790,7 @@
     }
     /* =========================About us ends========================= */
     /* =========================MGP========================= */
-    .megapay.banner__content .banner__info {
-    }
+    .megapay.banner__content .banner__info {}
     .megapay.banner__content .decoration__list .decoration__item .decoration__staff {
         right: 0;
         height: 80%;
@@ -2970,12 +2955,8 @@
     }
     /* =========================Epaypos ends========================= */
     /* =========================Topup========================= */
-    .topup.general .general__content {
-        margin-left: 5%;
-        width: 90%;
-    }
-    .topup.general .general__content--vertical .info {
-    }
+    .topup.general .general__content {}
+    .topup.general .general__content--vertical .info {}
     .topup.procedure .general__content--vertical {
         max-width: 100%;
     }
@@ -3036,9 +3017,7 @@
 
 /* =========================Footer========================= */
 
-.footer__info {
-    max-width: 80%;
-}
+.footer__info {}
 
 .bottom.footer__info {
     max-width: 100%;
@@ -3345,7 +3324,7 @@
     /* ==============================Text ends============================== */
     /* ==============================Homepage ============================== */
     .home.banner__content .decoration__list .decoration__item #decoration__mgp {
-        top:40%;
+        top: 40%;
     }
     .achievement--box ul li {
         border-radius: 10px;
@@ -3393,59 +3372,58 @@
         position: unset;
         width: 100%
     }
-#method_zalopay {
-    top: 9%;
-    left: 33.38%;
-}
-#method_mastercard {
-    top: 16.75%;
-    left: 9.25%;
-}
-#method_va {
-    top: 35.63%;
-    left: 6%;
-}
-#method_momo {
-    top: -22.87%;
-    left: 65%;
-}
-#method_is {
-    top: -4.37%;
-    left: 83.13%;
-}
-#method_napas {
-    top: 23.75%;
-    left: 20.13%;
+    #method_zalopay {
+        top: 9%;
+        left: 33.38%;
     }
-#method_visa {
-top: 16.25%;
-left: 53.63%;
-}
-#method_jcb {
-    top: -40.75%;
-    left: 24.38%;
+    #method_mastercard {
+        top: 16.75%;
+        left: 9.25%;
     }
-#method_vnpayqr {
-top: -31.75%;
-left: 59.38%;
-}
-#method_viettelmoney {
-    top: -81.75%;
-    left: 44.38%;
+    #method_va {
+        top: 35.63%;
+        left: 6%;
     }
-#method_vietqr {
-top: -78.75%;
-left: 64.38%;
-}
-#method_moca {
-    top: -66.75%;
-    left: 32.38%;
+    #method_momo {
+        top: -22.87%;
+        left: 65%;
     }
-#method_shopeepay {
-top: -74.75%;
-left: 79.38%;
-}
-
+    #method_is {
+        top: -4.37%;
+        left: 83.13%;
+    }
+    #method_napas {
+        top: 23.75%;
+        left: 20.13%;
+    }
+    #method_visa {
+        top: 16.25%;
+        left: 53.63%;
+    }
+    #method_jcb {
+        top: -40.75%;
+        left: 24.38%;
+    }
+    #method_vnpayqr {
+        top: -31.75%;
+        left: 59.38%;
+    }
+    #method_viettelmoney {
+        top: -81.75%;
+        left: 44.38%;
+    }
+    #method_vietqr {
+        top: -78.75%;
+        left: 64.38%;
+    }
+    #method_moca {
+        top: -66.75%;
+        left: 32.38%;
+    }
+    #method_shopeepay {
+        top: -74.75%;
+        left: 79.38%;
+    }
     .method__item {
         position: relative;
     }
@@ -3453,7 +3431,6 @@ left: 79.38%;
         width: 45px;
         height: 45px;
     }
-
     .news__list {
         margin-bottom: 15px;
     }
@@ -3599,8 +3576,7 @@ left: 79.38%;
     .megapay .feature__illustration img {
         display: none;
     }
-    .megapay.advantage--with-bg {
-    }
+    .megapay.advantage--with-bg {}
     .advantage--with-bg .info {
         max-width: 100%;
     }
@@ -4057,8 +4033,7 @@ left: 79.38%;
     .mc-md.banner__content .banner__info {
         width: 80%;
     }
-    .mc.advantage .info__title {
-    }
+    .mc.advantage .info__title {}
     .mc.advantage .advantage__item {
         margin-left: 20px;
         margin-right: 20px;
@@ -4222,7 +4197,6 @@ left: 79.38%;
         width: 80px;
         min-height: 50px;
     }
-  
     /* ==============================Esan ends============================== */
     /* ==============================Topup============================== */
     .topup.banner__content {
@@ -4260,8 +4234,7 @@ left: 79.38%;
     .ewallet.banner .banner__info {
         margin-top: 0;
     }
-    .ewallet.banner .banner__info h2 {
-    }
+    .ewallet.banner .banner__info h2 {}
     .ewallet.banner p {
         max-width: 100%;
     }
@@ -4482,8 +4455,7 @@ left: 79.38%;
     .header__pc--white .navbar__link {
         color: var(--header-txt-color);
     }
-    .menu__list {
-    }
+    .menu__list {}
     /* ===========================Header============================== */
     .header__pc {
         padding-top: 16px;

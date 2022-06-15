@@ -2,7 +2,6 @@
 
 #wrapper {
     overflow: hidden;
-    position: relative;
 }
 
 .section {
@@ -25,6 +24,8 @@
 /* =================Header======================= */
 
 .header {}
+
+.header__form {}
 
 .header__pc {
     display: flex;
@@ -460,7 +461,6 @@
 /* ====================Header form========================= */
 
 .header__form {
-    display: flex;
     align-items: center;
     -webkit-align-items: center;
     margin-left: 53px;
@@ -1618,8 +1618,7 @@
     width: fit-content;
 }
 
-.info.intro .info__title {
-}
+.info.intro .info__title {}
 
 .info__title::after {
     content: "";
@@ -2050,58 +2049,67 @@
 #method_zalopay {
     top: 9%;
     left: 33.38%;
-    }
-#method_mastercard {
-top: 32.75%;
-left: 10.25%;
 }
+
+#method_mastercard {
+    top: 32.75%;
+    left: 10.25%;
+}
+
 #method_va {
     top: 31.63%;
     left: 33%;
-    }
-#method_momo {
-top: 13.13%;
-left: 65%;
 }
+
+#method_momo {
+    top: 13.13%;
+    left: 65%;
+}
+
 #method_is {
     top: 52.63%;
     left: 63.13%;
-    }
-#method_napas {
-top: 54.75%;
-left: 26.13%;
 }
+
+#method_napas {
+    top: 54.75%;
+    left: 26.13%;
+}
+
 #method_visa {
     top: 66.25%;
     left: 10.63%;
-    }
-#method_jcb {
-top: 69.25%;
-left: 45.38%;
 }
+
+#method_jcb {
+    top: 69.25%;
+    left: 45.38%;
+}
+
 #method_vnpayqr {
     top: 86.25%;
     left: 57.38%;
-    }
-#method_viettelmoney {
-top: 30.25%;
-left: 55.38%;
 }
+
+#method_viettelmoney {
+    top: 30.25%;
+    left: 55.38%;
+}
+
 #method_vietqr {
     top: 64.25%;
     left: 79.38%;
-    }
-#method_moca {
-top: 86.25%;
-left: 28.38%;
 }
+
+#method_moca {
+    top: 86.25%;
+    left: 28.38%;
+}
+
 #method_shopeepay {
     top: 35.25%;
     left: 79.38%;
-    }
-
-
-
+}
 
 .method__img {
     display: flex;
@@ -2418,8 +2426,7 @@ left: 28.38%;
     justify-content: space-between;
 }
 
-.general__content .info {
-}
+.general__content .info {}
 
 .general__content--vertical .info {
     margin-left: auto;
@@ -3270,7 +3277,7 @@ left: 28.38%;
     max-width: 500px;
 }
 
-.section.shipantoan.advantage .general__img::before{
+.section.shipantoan.advantage .general__img::before {
     display: none;
 }
 
@@ -3399,14 +3406,16 @@ left: 28.38%;
 
 
 /* ===========================Topup==================== */
+
 .topup.general .general__img {
     display: none;
 }
+
 .topup.procedure .info img {
     width: 100%;
 }
-.topup.general .general__content--vertical .info{
-}
+
+.topup.general .general__content--vertical .info {}
 
 .topup.procedure {
     background: linear-gradient(169.05deg, rgba(255, 255, 255, 0) 54.56%, #F4F4F4 98.2%);
@@ -3464,9 +3473,11 @@ left: 28.38%;
     flex-direction: column;
     height: 200px;
 }
+
 .ewallet.feature {
     background: unset;
 }
+
 .ewallet.feature .row {}
 
 .ewallet.feature .feature__item {
@@ -3600,10 +3611,7 @@ left: 28.38%;
 
 .news__area {}
 
-.news__list {
-    margin-left: 16px;
-    margin-right: 16px;
-}
+.news__list {}
 
 .news__list--vertical {
     margin-bottom: 72px;
@@ -3936,6 +3944,7 @@ left: 28.38%;
 .blog {
     position: relative;
 }
+
 .section.blog .info__title {
     max-width: 60%;
 }
@@ -5051,9 +5060,7 @@ left: 28.38%;
     text-align: center;
 }
 
-.tab__list--horizontal .tab__link p {
-    text-align: left;
-}
+.tab__list--horizontal .tab__link p {}
 
 .tab__item.active .tab__link {
     color: var(--primary-color);
@@ -6726,7 +6733,7 @@ textarea.form__control {
 .footer__info {}
 
 .footer__info {
-    max-width: 60%;
+    max-width: 90%;
 }
 
 .footer__heading {
@@ -6872,7 +6879,6 @@ textarea.form__control {
 
 .footer__copyright {
     padding: 10px 5%;
-    min-height: 100px;
     border-top: 1px solid #CACACA;
 }
 
@@ -6883,13 +6889,26 @@ textarea.form__control {
 }
 
 .footer__copyright img {
-    width: auto;
-    max-height: 90%;
+    width: 100%;
+    max-height: 60px;
     object-fit: contain;
 }
 
 .footer__copyright img+img {
     margin-left: 28px;
+}
+
+.footer__content-item img {
+    height: 80px;
+}
+
+.certificate {
+    display: flex;
+}
+
+.certificate img {
+    width: unset;
+    height: 80px;
 }
 
 

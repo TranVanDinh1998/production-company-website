@@ -52,7 +52,7 @@
                                 <li class="order__item">
                                     <div class="order__info">
                                         <p class="txt-weight-500 txt-justify">
-                                            Hỗ trợ khách hàng chuyên nghiệp: Hỗ trợ khách hàng từ 8h30-22h tất cả các ngày trong tuần và các ngày nghỉ lễ
+                                        Chăm sóc khách hàng chuyên nghiệp: Thời gian hỗ trợ từ 8h30-22h tất cả các ngày trong tuần kể cả ngày nghỉ lễ (Tết)
                                         </p>
                                     </div>
                                 </li>
